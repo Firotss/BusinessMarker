@@ -2,8 +2,34 @@
   
 {% block content %}
 
-<div>
-    <h1>PROJECT 0</h1>
-</div>
+<div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Business<span>Marker</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Features</a></li>
+                <li><a href="#skills" class="menu-btn">Subscription</a></li>
+                <li><a href="#teams" class="menu-btn">Contact</a></li>
+                <li><a href="#contact" class="menu-btn">Sign up</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-2">Еxpand your business</div>
+                <div class="text-3">Research for <span class="typing"></span></div>
+                <a href="#">Get Started Now ►</a>
+            </div>
+        </div>
+    </section>
+    <script src="{% static 'js/script.js'%}"></script>
 
 {% endblock %}
