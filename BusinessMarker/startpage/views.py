@@ -9,3 +9,6 @@ def index(request):
 
 def phpmyadmin(request):
     return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")
+
+def login(request):
+    return render(request, 'login.html')
