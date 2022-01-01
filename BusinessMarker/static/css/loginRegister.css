@@ -115,10 +115,12 @@ form.sign-in-form {
   margin: 10px 0;
   cursor: pointer;
   transition: 0.5s;
+  border: 2px solid #d3a937;
 }
 
 .btn:hover {
-  background-color: #bb9222;
+  background: none;
+  color: #d3a937;
 }
 .panels-container {
   position: absolute;
