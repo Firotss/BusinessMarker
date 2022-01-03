@@ -5,6 +5,7 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
+
 def index(request):
     return render(request, 'index.html')
 
@@ -15,43 +16,37 @@ def profile(request):
     if request.user.is_authenticated:
         return render(request, 'user_profile.html')
     else:
-        return render(request, 'login.html')
+        return HttpResponse(request.user.is_authenticated)
     
 def login_view(request):
-    if request.user.is_authenticated:
-        return profile(request)
-    else:     
+    if request.user.is_authenticated is False:  
         return render(request, 'login.html')
+    else:
+        return redirect("/profile/")
 
 def login_check(request):
-    if request.user.is_authenticated:
-        return profile(request)
-    else:     
-        username = request.POST['username']
-        password = request.POST['password']
-        user = authenticate(request, username=username, password=password)
+    if request.user.is_authenticated is False:  
+        user = authenticate(request, username=request.POST['username'], password=request.POST['password'])
         if user is not None:
             login(request, user)
-            return render(request, 'user_profile.html')
-        else:
-            return render(request, 'login.html')
-    
+        return redirect("/login/")
+    else:
+        return redirect("/profile/")
 
 def registration(request):
-    if request.user.is_authenticated:
-        return profile(request)
-    else:     
+    if request.user.is_authenticated is False:  
         try:
-            username = request.POST['username']
-            password = request.POST['password']
-            email = request.POST['email']
-            user = User.objects.create_user(username, email, password)
+            user = User.objects.create_user(request.POST['username'], request.POST['email'], request.POST['password'])
             user.save()
-            return render(request, 'user_profile.html')
+            login(request, user)
+            return redirect("/profile/")
         except:
-            return render(request, 'login.html')
+            return redirect('/login/')
+    else:
+        return redirect("/profile/")
 
         
 def logout_view(request):
     logout(request)
-    return render(request, 'index.html')
+    return redirect('/')
+
