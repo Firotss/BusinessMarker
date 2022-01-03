@@ -24,16 +24,23 @@ def login_view(request):
         return render(request, 'login.html')
 
 def login_check(request):
-    username = request.POST['username']
-    password = request.POST['password']
-    user = authenticate(request, username=username, password=password)
-    if user is not None:
-        login(request, user)
-        return render(request, 'user_profile.html')
-    else:
-        return render(request, 'login.html')
+    if request.user.is_authenticated:
+        return profile(request)
+    else:     
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)
+            return render(request, 'user_profile.html')
+        else:
+            return render(request, 'login.html')
+    
 
 def registration(request):
+    if request.user.is_authenticated:
+        return profile(request)
+    else:     
         try:
             username = request.POST['username']
             password = request.POST['password']
@@ -44,6 +51,7 @@ def registration(request):
         except:
             return render(request, 'login.html')
 
+        
 def logout_view(request):
     logout(request)
     return render(request, 'index.html')
