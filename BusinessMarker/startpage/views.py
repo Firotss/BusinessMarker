@@ -17,14 +17,12 @@ def profile(request):
     else:
         return render(request, 'login.html')
     
-
-def loginn(request):
+def login_view(request):
     if request.user.is_authenticated:
         return profile(request)
     else:     
         return render(request, 'login.html')
 
-    
 def login_check(request):
     username = request.POST['username']
     password = request.POST['password']
@@ -33,10 +31,8 @@ def login_check(request):
         login(request, user)
         return render(request, 'user_profile.html')
     else:
-        return render(request, 'user_profile.html')
+        return render(request, 'login.html')
 
-        
-        
 def registration(request):
         try:
             username = request.POST['username']
@@ -46,7 +42,7 @@ def registration(request):
             user.save()
             return render(request, 'user_profile.html')
         except:
-            return HttpResponse('fail')
+            return render(request, 'login.html')
 
 def logout_view(request):
     logout(request)
