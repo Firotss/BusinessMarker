@@ -1,3 +1,4 @@
+from django.core.checks.messages import Error
 from django.shortcuts import render
 
 # Create your views here.
@@ -5,7 +6,9 @@ from django.http import HttpResponse, request
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
-from django.views.generic import TemplateView
+from django.core.mail import send_mail
+import random
+
 def index(request):
     return render(request, 'index.html')
 
@@ -24,19 +27,39 @@ def logout_view(request):
 
 def login_view(request):
         if request.user.is_authenticated is False: 
-                user = None
+                username = ""
+                password = ""
+                email = None
                 try:
-                    user = User.objects.create_user(request.POST['username'], request.POST['email'], request.POST['password'])
-                    user.save()
+                    username = request.POST['username']
+                    password = request.POST['password']
+                    email = request.POST['email']
                 except:
-                    user = authenticate(request, username=request.POST['username'], password=request.POST['password'])
-                finally:
+                    user = authenticate(request, username=username, password=password)
                     if user is not None:
                         login(request, user)
                         return redirect('/profile/')
-                    return render(request, 'login.html')
+                try: 
+                    user = User.objects.create_user(username, email, password)
+                    i = 6
+                    code = ""
+                    while i > 0:
+                        code+=(str)(random.randint(0,9))
+                        i-=1
+                    send_mail(
+                        'UR CODE:',
+                        code,
+                        '',
+                        [email],
+                        fail_silently=False,
+                    )
+                    print(code)
+                    user.save()
+                    return redirect('/profile/')
+                except:
+                    return render(request, 'login.html')   
+                
         else:
             return redirect('/profile/')
                 
 
-       
