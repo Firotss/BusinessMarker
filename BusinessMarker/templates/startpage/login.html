@@ -4,7 +4,7 @@
 <div class="container">
   <div class="forms-container">
     <div class="signin-signup">
-      <form method="POST" action="check" class="sign-in-form">
+      <form method="POST" action="" class="sign-in-form">
         {% csrf_token %}
         <h2 class="title">Login</h2>
         <div class="input-field">
@@ -18,7 +18,7 @@
         <input type="submit" value="Login" class="btn solid">
           <input type="hidden" name="action" value="login">
       </form>
-      <form method="POST" action="reg" class="sign-up-form">
+      <form method="POST" action="" class="sign-up-form">
         {% csrf_token %}
         <h2 class="title">Register</h2>
         <div class="input-field">
