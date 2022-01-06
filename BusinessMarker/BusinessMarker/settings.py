@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'captcha',
     'startpage.apps.StartpageConfig',
 ]
 
@@ -133,3 +134,5 @@ EMAIL_USE_TLS = True
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_HOST_USER='mymailtosend9@gmail.com'
 EMAIL_HOST_PASSWORD='jficbxzijnomxjgk'
+RECAPTCHA_PUBLIC_KEY = '6LdaMvUdAAAAAAotNeuws1-bgSxZujSGqayrTj5M'
+RECAPTCHA_PRIVATE_KEY = '6LdaMvUdAAAAACLZ9ORI-0Q1Nk4G5zzf_87rY4c9'

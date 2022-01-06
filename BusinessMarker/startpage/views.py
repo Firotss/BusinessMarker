@@ -8,6 +8,8 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.core.mail import send_mail
 import random
+
+from .forms import CaptchaForm
 from .models import Ref_Links
 
 def index(request):
@@ -28,9 +30,12 @@ def logout_view(request):
 
 def login_view(request):
         if request.user.is_authenticated is False: 
-                username = ""
-                password = ""
-                email = None
+            
+            username = ""
+            password = ""
+            email = None
+            form = CaptchaForm(request.POST)
+            if form.is_valid():
                 try:
                     username = request.POST['username']
                     password = request.POST['password']
@@ -40,6 +45,7 @@ def login_view(request):
                     if user is not None:
                         login(request, user)
                         return redirect('/profile/')
+
                 try:
                     if User.objects.filter(username=username).exists() == False:
                         i = 10
@@ -47,6 +53,7 @@ def login_view(request):
                         while i > 0:
                             code+=(str)(random.randint(0,9))
                             i-=1
+                        
                         Ref_Links.objects.create(username=username, password=password, email=email, code=code)
                         code = "http://localhost:8000/ref/"+username+"-"+code
                         send_mail(
@@ -55,10 +62,11 @@ def login_view(request):
                             '',
                             [email],
                             fail_silently=False,
-                        )
+                        )      
                 except:
                     print('=>login')
-                return render(request, 'login.html')  
+            
+            return render(request, 'login.html', {'form' : form})  
         else:
             return redirect('/profile/')
                 
