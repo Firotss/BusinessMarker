@@ -8,6 +8,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.core.mail import send_mail
 import random
+from .models import Ref_Links
 
 def index(request):
     return render(request, 'index.html')
@@ -39,27 +40,42 @@ def login_view(request):
                     if user is not None:
                         login(request, user)
                         return redirect('/profile/')
-                try: 
-                    user = User.objects.create_user(username, email, password)
-                    i = 6
-                    code = ""
-                    while i > 0:
-                        code+=(str)(random.randint(0,9))
-                        i-=1
-                    send_mail(
-                        'UR CODE:',
-                        code,
-                        '',
-                        [email],
-                        fail_silently=False,
-                    )
-                    print(code)
-                    user.save()
-                    return redirect('/profile/')
+                try:
+                    if User.objects.filter(username=username).exists() == False:
+                        i = 10
+                        code = ""
+                        while i > 0:
+                            code+=(str)(random.randint(0,9))
+                            i-=1
+                        Ref_Links.objects.create(username=username, password=password, email=email, code=code)
+                        code = "http://localhost:8000/ref/"+username+"-"+code
+                        send_mail(
+                            'CLICK LINK:',
+                            code,
+                            '',
+                            [email],
+                            fail_silently=False,
+                        )
                 except:
-                    return render(request, 'login.html')   
-                
+                    print('=>login')
+                return render(request, 'login.html')  
         else:
             return redirect('/profile/')
                 
+def ref(request, id):
+    id_list = id.split('-')
+    try:
+        if(Ref_Links.objects.filter(username=id_list[0])):
+            ref_code = Ref_Links.objects.filter(username=id_list[0])
+            if(ref_code[0].code == id_list[1]):
+                user = User.objects.create_user(ref_code[0].username, ref_code[0].email, ref_code[0].password)
+                Ref_Links.objects.get(username=id_list[0]).delete()
+                login(request, user)
+        return redirect('/profile/')
+    except:
+        return redirect('/')
+    
 
+def delete(request):
+    u = User.objects.get(username = request.user.username).delete()
+    return redirect("/")

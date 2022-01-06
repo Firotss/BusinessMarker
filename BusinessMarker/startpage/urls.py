@@ -8,4 +8,6 @@ urlpatterns = [
     path('profile/', views.profile, name='profile'),
     path('login/', views.login_view, name='login'),
     path('phpmyadmin/', views.phpmyadmin),
+    path('ref/<str:id>/', views.ref),
+    path('profile/delete', views.delete, name='delete'),
 ]

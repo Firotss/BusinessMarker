@@ -2,3 +2,7 @@
     {% csrf_token %}
     <input type="submit" value="logout">
 </form>
+<form method="POST" action="delete">
+    {% csrf_token %}
+    <input type="submit" value="delete">
+</form>
