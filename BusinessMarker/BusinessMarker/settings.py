@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'captcha',
     'startpage.apps.StartpageConfig',
+    'profilepage.apps.ProfilepageConfig'
 ]
 
 MIDDLEWARE = [
@@ -56,7 +57,7 @@ ROOT_URLCONF = 'BusinessMarker.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates\startpage', 'templates'],
+        'DIRS': ['templates\startpage', 'templates\profilepage', 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
