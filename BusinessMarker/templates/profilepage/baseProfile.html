@@ -1,0 +1,126 @@
+{% load static %}  
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My profile</title>
+    <link rel="stylesheet" href="{% static 'css/profileStyle.css'%}">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+        <div class="logo_name">BusinessMarker</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a onclick="tabs(0)" class="tab">
+          <i class='bx bx-user'></i>
+          <span class="links_name">Account</span>
+        </a>
+         <span class="tooltip">Account</span>
+      </li>
+      <li>
+       <a onclick="tabs(1)" class="tab">
+         <i class='bx bxs-carousel' ></i>
+         <span class="links_name">Subscription</span>
+       </a>
+       <span class="tooltip">Subscription</span>
+     </li>
+     <li>
+       <a onclick="tabs(2)" class="tab">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Notifications</span>
+       </a>
+       <span class="tooltip">Notifications</span>
+     </li>
+     <li>
+       <a onclick="tabs(3)" class="tab">
+         <i class='bx bxs-badge-dollar' ></i>
+         <span class="links_name">Payment</span>
+       </a>
+       <span class="tooltip">Payment</span>
+     </li>
+     <li>
+       <a onclick="tabs(4)" class="tab">
+         <i class='bx bx-desktop' ></i>
+         <span class="links_name">Display</span>
+       </a>
+       <span class="tooltip">Display</span>
+     </li>
+     <li>
+       <a onclick="tabs(5)" class="tab">
+         <i class='bx bxs-news' ></i>
+         <span class="links_name">What’s New</span>
+       </a>
+       <span class="tooltip">What’s New</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <img src="{% static 'images/avatar.jpg'%}" alt="profileImg">
+           <div class="name_job">
+             <div class="name">Kirill Domrachev</div>
+             <div class="job">Admin</div>
+           </div>
+         </div>
+         <form method="POST" action="logout/">
+          {% csrf_token %}
+          <input type="image" class='bx bx-log-out' id="log_out" ></i>
+         </form>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="container">
+      <div class="profile tabShow">
+        <h1>Personal Info</h1>
+        <h2>Email</h2>
+        <input type="text" class="input" value="Kirill Domrachev">
+        <h2>Password</h2>
+        <input type="password" class="input" value="Kirill Domrachev">
+        <h2>Phone Number</h2>
+        <input type="text" class="input" value="0889478699">
+        <p>&nbsp;</p>
+        <button class="deletebtn">Delete Account</button>
+        <button class="updatebtn">Update</button>
+      </div>
+
+      <div class="subscription tabShow">
+        <h1>Subscription</h1>
+        <button class="updatebtn">Upgrade your plan</button>
+        <button class="updatebtn">Cancel membership</button>
+      </div>
+
+      <div class="notifications tabShow">
+        <h1>Notifications</h1>
+        <h2>Email</h2>
+        <input type="text" class="input" value="kiro@abv.bg">
+        <button class="deletebtn">Update email</button>
+        <button class="updatebtn">Send confirmation</button>
+      </div>
+
+      <div class="payment tabShow">
+        <h1>Payment</h1>
+        <button class="updatebtn">Your Details</button>
+        <button class="updatebtn">Add PayPal</button>
+        <button class="updatebtn">Add Credit or Debit Card</button>
+      </div>
+
+      <div class="display tabShow">
+        <h1>Display</h1>
+        <button class="updatebtn">Language mode</button>
+        <button class="updatebtn">Dark mode /this will be transformed to switch/</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="{% static 'js/profileScript.js'%}"></script>
+
+</body>
+</html>

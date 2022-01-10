@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 
 def profile(request):
     if request.user.is_authenticated:
-        return render(request, 'user_profile.html')
+        return render(request, 'baseProfile.html')
     else:
         return redirect("/login_menu/")
 
