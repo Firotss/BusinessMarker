@@ -1,11 +1,12 @@
 {% load static %}  
+
 <!DOCTYPE html>
   <head>
     <meta charset="UTF-8">
     <title>My profile</title>
     <link rel="stylesheet" href="{% static 'css/profileStyle.css'%}">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
   <div class="sidebar">
@@ -76,51 +77,10 @@
      </li>
     </ul>
   </div>
-  <section class="home-section">
-    <div class="container">
-      <div class="profile tabShow">
-        <h1>Personal Info</h1>
-        <h2>Email</h2>
-        <input type="text" class="input" value="Kirill Domrachev">
-        <h2>Password</h2>
-        <input type="password" class="input" value="Kirill Domrachev">
-        <h2>Phone Number</h2>
-        <input type="text" class="input" value="0889478699">
-        <p>&nbsp;</p>
-        <button class="deletebtn">Delete Account</button>
-        <button class="updatebtn">Update</button>
-      </div>
-
-      <div class="subscription tabShow">
-        <h1>Subscription</h1>
-        <button class="updatebtn">Upgrade your plan</button>
-        <button class="updatebtn">Cancel membership</button>
-      </div>
-
-      <div class="notifications tabShow">
-        <h1>Notifications</h1>
-        <h2>Email</h2>
-        <input type="text" class="input" value="kiro@abv.bg">
-        <button class="deletebtn">Update email</button>
-        <button class="updatebtn">Send confirmation</button>
-      </div>
-
-      <div class="payment tabShow">
-        <h1>Payment</h1>
-        <button class="updatebtn">Your Details</button>
-        <button class="updatebtn">Add PayPal</button>
-        <button class="updatebtn">Add Credit or Debit Card</button>
-      </div>
-
-      <div class="display tabShow">
-        <h1>Display</h1>
-        <button class="updatebtn">Language mode</button>
-        <button class="updatebtn">Dark mode /this will be transformed to switch/</button>
-      </div>
-    </div>
-  </section>
-
+  {% include "map.html" %}  
+  <!-- <section class="home-section">
+     
+  </section> -->
   <script src="{% static 'js/profileScript.js'%}"></script>
-
 </body>
 </html>
