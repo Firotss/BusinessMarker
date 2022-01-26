@@ -20,22 +20,13 @@ require([
   "esri/widgets/Sketch",
   "esri/Map",
   "esri/layers/GraphicsLayer",
-  "esri/views/MapView",
-  "esri/layers/FeatureLayer"
-], (Sketch, Map, GraphicsLayer, MapView, FeatureLayer) => {
+  "esri/views/MapView"
+], (Sketch, Map, GraphicsLayer, MapView) => {
   const graphicsLayer = new GraphicsLayer();
-  const baseLayer = new FeatureLayer({
-          legendEnabled: false,
-          popupEnabled: false,
-          spatialReference: {
-            wkid: 5936
-          }
-        });
 
   const map = new Map({
-    
     basemap: "dark-gray-vector",
-    layers: [baseLayer, graphicsLayer]
+    layers: [graphicsLayer]
   });
 
   const view = new MapView({
@@ -49,13 +40,25 @@ require([
     const sketch = new Sketch({
       layer: graphicsLayer,
       view: view,
-      // graphic will be selected as soon as it is created
       creationMode: "update"
+    });
+    sketch.on("update", function(event){
+      if (event.tool == "transform" ){
+        console.log(event.graphics[0].geometry);
+      }
+      else
+      {
+        console.log(event.tool)
+        console.log(event.graphics[0].geometry.latitude)
+        console.log(event.graphics[0].geometry.longitude)
+        
+      }
     });
 
     view.ui.add(sketch, "top-right");
   });
 });
+
 </script>
 
 <div id="viewDiv"></div>
