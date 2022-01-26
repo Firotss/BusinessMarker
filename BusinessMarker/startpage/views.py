@@ -78,6 +78,3 @@ def ref(request, id):
             Ref_Links.objects.get(username=id_list[0]).delete()
             login(request, user)
     return redirect('/profile/')
-
-    
-

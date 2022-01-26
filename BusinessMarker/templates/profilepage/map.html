@@ -24,38 +24,25 @@ require([
   "esri/layers/FeatureLayer"
 ], (Sketch, Map, GraphicsLayer, MapView, FeatureLayer) => {
   const graphicsLayer = new GraphicsLayer();
-
   const baseLayer = new FeatureLayer({
-          portalItem: {
-            id: "2b93b06dc0dc4e809d3c8db5cb96ba69"
-          },
           legendEnabled: false,
           popupEnabled: false,
-          renderer: {
-            type: "simple",
-            symbol: {
-              type: "simple-fill",
-              color: [65, 65, 65, 1],
-              outline: {
-                color: [50, 50, 50, 0.75],
-                width: 0.5
-              }
-            }
-          },
           spatialReference: {
             wkid: 5936
           }
         });
 
   const map = new Map({
+    
+    basemap: "dark-gray-vector",
     layers: [baseLayer, graphicsLayer]
   });
 
   const view = new MapView({
     container: "viewDiv",
     map: map,
-    zoom: 5,
-    center: [90, 45]
+    zoom: 11,
+    center: [23.34, 42.69]
   });
 
   view.when(() => {
