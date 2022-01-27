@@ -44,7 +44,34 @@ require([
     });
     sketch.on("update", function(event){
       if (event.tool == "transform" ){
-        console.log(event.graphics[0].geometry);
+        let xmin = event.graphics[0].geometry.extent.xmax - event.graphics[0].geometry.extent.xmin;
+        let xcount = xmin /100000 / 2;
+        xcount = Number((xcount).toFixed(3));
+        xmin = event.graphics[0].geometry.centroid.longitude - xcount + xcount* 0.10;
+        
+        let xmax = event.graphics[0].geometry.centroid.longitude + xcount - xcount* 0.10;
+
+        let ymin = event.graphics[0].geometry.extent.ymax - event.graphics[0].geometry.extent.ymin;
+        let ycount = ymin /100000 / 2;
+        ycount = Number((ycount).toFixed(3));
+        ymin = event.graphics[0].geometry.centroid.latitude - ycount + ycount*0.57;
+        
+        let ymax = event.graphics[0].geometry.centroid.latitude + ycount - ycount*0.57;
+        
+
+        // let xmin = event.graphics[0].geometry.extent.xmin /100000 / 2 - event.graphics[0].geometry.centroid.longitude;
+        // xmin = event.graphics[0].geometry.centroid.longitude - xmin / 100;
+        // let ymin = event.graphics[0].geometry.extent.ymin /100000 / 2 - event.graphics[0].geometry.centroid.latitude;
+        // ymin = event.graphics[0].geometry.centroid.latitude - ymin / 100;
+        console.log(xmin+" - "+xmax)
+        console.log(ymin+" - "+ymax)
+        // //console.log(ymin)
+        // console.log( event.graphics[0].geometry.extent.xmin);
+        // console.log(event.graphics[0].geometry.centroid.longitude);
+        // console.log(event.graphics[0].geometry.centroid.latitude);
+        // console.log();
+        // console.log(event.graphics[0].geometry.centroid.longitude - xmin)
+        // console.log(event.graphics[0].geometry);
       }
       else
       {
