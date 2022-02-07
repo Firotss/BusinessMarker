@@ -3,6 +3,7 @@
 rel="stylesheet"
 href="https://js.arcgis.com/4.22/esri/themes/dark/main.css"
 />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script src="https://js.arcgis.com/4.22/"></script>
 <style>
 html,
@@ -54,31 +55,31 @@ require([
         let ymin = event.graphics[0].geometry.extent.ymax - event.graphics[0].geometry.extent.ymin;
         let ycount = ymin /100000 / 2;
         ycount = Number((ycount).toFixed(3));
-        ymin = event.graphics[0].geometry.centroid.latitude - ycount + ycount*0.57;
+        ymin = event.graphics[0].geometry.centroid.latitude-ycount+ ycount*0.57;
         
-        let ymax = event.graphics[0].geometry.centroid.latitude + ycount - ycount*0.57;
-        
+        let ymax = event.graphics[0].geometry.centroid.latitude+ycount- ycount*0.57;
+        console.log(ymin);
+        console.log(ymax);
 
-        // let xmin = event.graphics[0].geometry.extent.xmin /100000 / 2 - event.graphics[0].geometry.centroid.longitude;
-        // xmin = event.graphics[0].geometry.centroid.longitude - xmin / 100;
-        // let ymin = event.graphics[0].geometry.extent.ymin /100000 / 2 - event.graphics[0].geometry.centroid.latitude;
-        // ymin = event.graphics[0].geometry.centroid.latitude - ymin / 100;
-        console.log(xmin+" - "+xmax)
-        console.log(ymin+" - "+ymax)
-        // //console.log(ymin)
-        // console.log( event.graphics[0].geometry.extent.xmin);
-        // console.log(event.graphics[0].geometry.centroid.longitude);
-        // console.log(event.graphics[0].geometry.centroid.latitude);
-        // console.log();
-        // console.log(event.graphics[0].geometry.centroid.longitude - xmin)
-        // console.log(event.graphics[0].geometry);
+        $.ajax({
+          url: "ajax/",
+          type: "GET",
+          data: {
+            xmin: xmin,
+            xmax: xmax,
+            ymin: ymin,
+            ymax: ymax
+          },
+          success: function(response){
+            console.log(response.info);
+          }
+          });
       }
       else
       {
         console.log(event.tool)
         console.log(event.graphics[0].geometry.latitude)
         console.log(event.graphics[0].geometry.longitude)
-        
       }
     });
 

@@ -1,4 +1,4 @@
-
+var map;
 require([
 "esri/widgets/Sketch",
 "esri/Map",
