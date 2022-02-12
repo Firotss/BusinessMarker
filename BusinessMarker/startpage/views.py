@@ -36,7 +36,7 @@ def register(request):
                     print()
 
                 Ref_Links.objects.create(username=username, password=password, email=email, code=code)
-                code = "http://localhost:8000/ref/"+username+"-"+code
+                code = "https://www.businessmarker.ru/ref/"+username+"-"+code
                 send_mail(
                     'CLICK LINK:',
                     code,

@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 import geopandas
 from shapely.geometry import Polygon
 from django.views.generic import View
-areas = geopandas.read_file("./populationDB/bgdensity/bulgaria.shp")
+areas = geopandas.read_file("bgdensity/bulgaria.shp")
 
 def profile(request):
     if request.user.is_authenticated:
