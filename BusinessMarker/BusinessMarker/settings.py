@@ -57,7 +57,7 @@ ROOT_URLCONF = 'BusinessMarker.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [str(BASE_DIR.joinpath('templates'))],
+        'DIRS': ['templates\startpage', 'templates\profilepage', 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
