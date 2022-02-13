@@ -60,7 +60,7 @@ section .title::before{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 450px;
+    width: 280px;
     height: 3px;
     background: #111;
     transform: translateX(-50%);
@@ -219,7 +219,7 @@ section .title::after{
     color: #d3a937;
 }
 .about .title::after{
-    content: "What does it do and why?";
+    content: "What and why?";
 }
 .about .about-content .left{
     width: 45%;
@@ -273,7 +273,7 @@ section .title::after{
 .subscriptions .title::after,
 .teams .title::after{
     background: rgb(8, 8, 8);
-    content: "Which one is right for you?";
+    content: "Which one?";
 }
 .subscriptions .serv-content .card{
     width: calc(33% - 20px);
