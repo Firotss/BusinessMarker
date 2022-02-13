@@ -18,7 +18,6 @@ def logout_view(request):
     logout(request)
     return redirect('/')
 
-
 def delete(request):
     User.objects.get(username = request.user.username).delete()
     return redirect("/")
