@@ -23,12 +23,14 @@ def delete(request):
     return redirect("/")
 
 def overlap(poly1, selected):
+    # selected = (24.26911, 43.02215), (26.57979, 43.02215), (26.57979, 42.01308), (24.26911, 42.01308)
     poly2 = Polygon(selected)
     overlapping_area = poly1.intersection(poly2).area 
     return overlapping_area
 
 def ajax(selected):  
     population = 0
+    #city = areas.loc[areas["LAU_NAME"] == name]
     for city in areas.iloc:
         overlaping_area = overlap(city.geometry, selected)
         if(overlaping_area > 0):
