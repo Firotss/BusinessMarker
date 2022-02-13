@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}  
 {% block content %}
-
-<div class="scroll-up-btn">
+<link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
+
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Business<span>Marker</span></a></div>
@@ -20,6 +21,7 @@
             </div>
         </div>
     </nav>
+
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
@@ -60,7 +62,6 @@
                         <p>❌the lack of the selected business segment in percentage of our country</p>
                         <p>&nbsp;</p>
                         <p>❌use all the functionality of the site for every country</p>
-                        <a href="/login_menu">Choose</a>
                     </div>
                 </div>
                 <div class="card">
@@ -72,7 +73,6 @@
                             <p>✅the lack of the selected business segment in percentage of our country</p>
                             <p>&nbsp;</p>
                             <p>❌use all the functionality of the site for every country</p>
-                            <a href="/login_menu">Choose</a>
                         </div>
                 </div>
                 <div class="card">
@@ -84,7 +84,6 @@
                             <p>✅the lack of the selected business segment in percentage of our country</p>
                             <p>&nbsp;</p>
                             <p>✅use all the functionality of the site for every country</p>
-                            <a href="/login_menu">Choose</a>
                         </div>
                     </div>
                </div>
@@ -148,5 +147,8 @@
             </div>
         </div>
     </section>
+    <footer>
+        <span>Created By Kirill Domrachev | Marin Andreev <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+    </footer>
 
 {% endblock %}

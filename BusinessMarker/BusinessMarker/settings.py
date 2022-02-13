@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-n)1fw3@m+08+=@54t^0&@0rz0x=z7j)lg6n-)sl0fdm1*4x7=l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False #Промени на False в хост
+DEBUG = True #Промени на False в хост
 
 ALLOWED_HOSTS = ['www.businessmarker.ru','businessmarker.ru', '127.0.0.1']
 ADMINS = [('admin', 'tech-support@businessmarker.xyz')]
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'BusinessMarker.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates/startpage', 'templates/profilepage', 'templates'],
+        'DIRS': ['templates\startpage', 'templates\profilepage', 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
