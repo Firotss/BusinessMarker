@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
@@ -23,10 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-n)1fw3@m+08+=@54t^0&@0rz0x=z7j)lg6n-)sl0fdm1*4x7=l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True #Промени на False в хост
 
 ALLOWED_HOSTS = ['www.businessmarker.ru','businessmarker.ru', '127.0.0.1']
-
+ADMINS = [('admin', 'tech-support@businessmarker.xyz')]
 
 # Application definition
 
@@ -118,10 +117,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
-STATICFILES_DIRS = [
-   os.path.join(BASE_DIR, "static"),
-]
+STATIC_ROOT = 'static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
@@ -131,8 +127,21 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST='smtp.gmail.com'
-EMAIL_HOST_USER='mymailtosend9@gmail.com'
-EMAIL_HOST_PASSWORD='jficbxzijnomxjgk'
+EMAIL_HOST='smtp.businessmarker.xyz'
+EMAIL_HOST_USER='tech-support@businessmarker.xyz'
+EMAIL_HOST_PASSWORD='12a12Aabv.bg'
+
 RECAPTCHA_PUBLIC_KEY = '6LdaMvUdAAAAAAotNeuws1-bgSxZujSGqayrTj5M'
 RECAPTCHA_PRIVATE_KEY = '6LdaMvUdAAAAACLZ9ORI-0Q1Nk4G5zzf_87rY4c9'
+
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'handlers': {
+#         'mail_admins': {
+#             'level': 'ERROR',
+#             'class': 'django.utils.log.AdminEmailHandler',
+#             'include_html': True,
+#         },
+#     },
+# }

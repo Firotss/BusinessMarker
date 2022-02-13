@@ -1,3 +1,4 @@
+{% if user.is_authenticated %}
  <div class="container">
       <div class="profile tabShow">
         <h1>Personal Info</h1>
@@ -39,3 +40,4 @@
         <button class="updatebtn">Dark mode /this will be transformed to switch/</button>
       </div>
     </div>
+{% endif %}

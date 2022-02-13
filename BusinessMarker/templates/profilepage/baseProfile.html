@@ -1,5 +1,5 @@
 {% load static %}  
-
+{% if user.is_authenticated %}
 <!DOCTYPE html>
   <head>
     <meta charset="UTF-8">
@@ -66,8 +66,8 @@
          <div class="profile-details">
            <img src="{% static 'images/avatar.jpg'%}" alt="profileImg">
            <div class="name_job">
-             <div class="name">Kirill Domrachev</div>
-             <div class="job">Admin</div>
+             <div class="name">{{ user.get_username }}</div>
+             <div class="job">{{ user.groups.all.0.name }}</div>
            </div>
          </div>
          <form method="POST" action="logout/">
@@ -84,3 +84,4 @@
   <script src="{% static 'js/profileScript.js'%}"></script>
 </body>
 </html>
+{% endif %}

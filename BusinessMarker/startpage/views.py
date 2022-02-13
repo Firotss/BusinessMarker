@@ -5,7 +5,6 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth.models import User
 from django.core.mail import send_mail
 import random
-
 from .forms import LoginForm, RegisterForm
 from .models import Ref_Links
 
@@ -38,7 +37,7 @@ def register(request):
                 Ref_Links.objects.create(username=username, password=password, email=email, code=code)
                 code = "https://www.businessmarker.ru/ref/"+username+"-"+code
                 send_mail(
-                    'CLICK LINK:',
+                    'Confirm ur email:',
                     code,
                     '',
                     [email],
@@ -78,3 +77,6 @@ def ref(request, id):
             Ref_Links.objects.get(username=id_list[0]).delete()
             login(request, user)
     return redirect('/profile/')
+
+def handler404(request, exception):
+    return render(request, '404.html', status=404)

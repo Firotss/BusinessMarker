@@ -30,7 +30,6 @@ require([
     basemap: "dark-gray-vector",
     layers: [graphicsLayer]
   });
-
   const view = new MapView({
     container: "viewDiv",
     map: map,
@@ -38,6 +37,9 @@ require([
     center: [23.34, 42.69]
   });
 
+  
+
+  view.popup.autoOpenEnabled = false;
   view.when(() => {
     const sketch = new Sketch({
       layer: graphicsLayer,
@@ -45,12 +47,12 @@ require([
       creationMode: "update"
     });
     sketch.on("update", function(event){
-      if (event.tool == "transform" ){
+      if (event.tool == "transform" && event.state == "start" || event.state == "complete" && event.aborted == false){
         let xmin = event.graphics[0].geometry.extent.xmax - event.graphics[0].geometry.extent.xmin;
         let xcount = xmin /100000 / 2;
         xcount = Number((xcount).toFixed(3));
         xmin = event.graphics[0].geometry.centroid.longitude - xcount + xcount* 0.10;
-        
+
         let xmax = event.graphics[0].geometry.centroid.longitude + xcount - xcount* 0.10;
 
         let ymin = event.graphics[0].geometry.extent.ymax - event.graphics[0].geometry.extent.ymin;
@@ -59,8 +61,6 @@ require([
         ymin = event.graphics[0].geometry.centroid.latitude-ycount+ ycount*0.35;
         
         let ymax = event.graphics[0].geometry.centroid.latitude+ycount- ycount*0.35;
-        console.log(ymin);
-        console.log(ymax);
 
         $.ajax({
           url: "ajax/",
@@ -72,16 +72,26 @@ require([
             ymax: ymax
           },
           success: function(response){
-            console.log(response.info);
+            view.popup.open({
+              title: "Population: "+response.info,
+              location: event.graphics[0].geometry.centroid
+          });
           }
           });
       }
       else
       {
-        console.log(event.tool)
-        console.log(event.graphics[0].geometry.latitude)
-        console.log(event.graphics[0].geometry.longitude)
+        view.popup.close();
       }
+      // if(event.state == "active")
+      // {
+      //   view.popup.dockEnabled = true;
+      // }
+      // else
+      // {
+      //   view.popup.dockEnabled = false;
+      // }
+      
     });
 
     view.ui.add(sketch, "top-right");
