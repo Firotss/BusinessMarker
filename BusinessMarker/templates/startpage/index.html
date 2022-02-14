@@ -2,6 +2,19 @@
 {% load static %}  
 {% block content %}
 <link rel="stylesheet" href="{% static 'css/style.css'%}">
+<link rel="stylesheet" href="{% static 'css/preloader.css'%}">
+
+    <div class="preload">
+        <div class="earth"></div>
+        <script>
+            var earth = document.querySelector(".earth")
+            window.addEventListener("load", vanish)
+            function vanish(){
+                earth.classList.add("disappear")
+            }
+        </script>
+    </div>
+
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>

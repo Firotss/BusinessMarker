@@ -7,6 +7,7 @@ from django.core.mail import send_mail
 import random
 from .forms import LoginForm, RegisterForm
 from .models import Ref_Links
+from django.template import RequestContext
 
 def index(request):
     return render(request, 'index.html')
@@ -78,5 +79,5 @@ def ref(request, id):
             login(request, user)
     return redirect('/profile/')
 
-def handler404(request, exception):
-    return render(request, '404.html', status=404)
+def error_404(request, exception):
+    return render(request, '404.html')

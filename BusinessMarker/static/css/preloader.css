@@ -1,22 +1,23 @@
-*
-{
-    margin: 0;
-    padding: 0;
-}
-body{
+.preload{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: white;
-    overflow: hidden;
+    transition: opacity 0.5s ease;
 }
 
+.preload-finish{
+    opacity: 0;
+    pointer-events: none;
+}
 .earth{
     position: relative;
     width: 400px;
     height: 400px;
-    background: #0962a1 url('earth.png');
+    background: #0962a1 url(../images/earth.png);
     background-size: cover;
     border-radius: 50%;
     box-shadow: inset 0 0 50px rgba(0,0,0,0.85);
@@ -33,7 +34,7 @@ body{
     height: 100%;
     border-radius: 50%;
     overflow: hidden;
-    background: url('cloud.png');
+    background: url(../images/cloud.png);
     background-size: cover;
     animation: animate 18s infinite;
 }
