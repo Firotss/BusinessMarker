@@ -33,7 +33,7 @@
     </section>
     <script src="{% static 'js/script.js'%}"></script>
 
-    <section class="about" id="about">
+    <section class="about reveal" id="about">
         <div class="max-width">
             <h2 class="title">About our system</h2>
             <div class="about-content">
@@ -49,49 +49,55 @@
         </div>
     </section>
 
-    <section class="subscriptions" id="subscriptions">
+    <section class="subscriptions reveal" id="subscriptions">
         <div class="max-width">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
             <h2 class="title">Subscriptions</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <div class="text">Basic</div>
-                        <h5 style="color: #d3a937;">You get the ability to look up:</h3>
+                        <h3>Basic</h3>
+                        <h5>You get the ability to look up:</h5>
                         <p>✅the different types of businesses in the regions of your country</p>
                         <p>&nbsp;</p>
                         <p>❌the lack of the selected business segment in percentage of our country</p>
                         <p>&nbsp;</p>
                         <p>❌use all the functionality of the site for every country</p>
+                        <button class="btn btn1">Learn more</button>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <div class="text">Standard</div>
-                        <h5 style="color: #d3a937;">You get the ability to look up:</h3>
-                            <p>✅the different types of businesses in the regions of your country</p>
-                            <p>&nbsp;</p>
-                            <p>✅the lack of the selected business segment in percentage of our country</p>
-                            <p>&nbsp;</p>
-                            <p>❌use all the functionality of the site for every country</p>
-                        </div>
+                        <h3>Standard</h3>
+                        <h5>You get the ability to look up:</h5>
+                        <p>✅the different types of businesses in the regions of your country</p>
+                        <p>&nbsp;</p>
+                        <p>✅the lack of the selected business segment in percentage of our country</p>
+                        <p>&nbsp;</p>
+                        <p>❌use all the functionality of the site for every country</p>
+                        <button class="btn btn1">Learn more</button>
+                    </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <div class="text">Premium</div>
-                        <h5 style="color: #d3a937;">You get the ability to look up:</h3>
-                            <p>✅the different types of businesses in the regions of your country</p>
-                            <p>&nbsp;</p>
-                            <p>✅the lack of the selected business segment in percentage of our country</p>
-                            <p>&nbsp;</p>
-                            <p>✅use all the functionality of the site for every country</p>
-                        </div>
+                        <h3>Premium</h3>
+                        <h5>You get the ability to look up:</h5>
+                        <p>✅the different types of businesses in the regions of your country</p>
+                        <p>&nbsp;</p>
+                        <p>✅the lack of the selected business segment in percentage of our country</p>
+                        <p>&nbsp;</p>
+                        <p>✅use all the functionality of the site for every country</p>
+                        <button class="btn btn1">Learn more</button>
                     </div>
                </div>
             </div>
         </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section class="contact reveal" id="contact">
         <div class="max-width">
             <h2 class="title">Contact us</h2>
             <div class="contact-content">
@@ -150,5 +156,24 @@
     <footer>
         <span>Created By Kirill Domrachev | Marin Andreev <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
     </footer>
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+            for(var i = 0; i < reveals.length; i++){
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.add('active');
+                }
+            }
+        }
+    </script>
 
 {% endblock %}
