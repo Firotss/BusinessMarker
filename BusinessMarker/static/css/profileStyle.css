@@ -227,7 +227,7 @@
   left: 78px;
   width: calc(100% - 78px);
   transition: all 0.5s ease;
-  z-index: 2;
+  z-index: -999;
 }
 .sidebar.open ~ .home-section{
   left: 250px;
@@ -244,11 +244,4 @@
   .sidebar li .tooltip{
     display: none;
   }
-}
-
-#viewDiv {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
 }
