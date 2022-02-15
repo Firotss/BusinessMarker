@@ -73,7 +73,7 @@ require([
           },
           success: function(response){
             view.popup.open({
-              title: "Population: "+response.info,
+              title: "Population: "+response.population,
               location: event.graphics[0].geometry.centroid
           });
           }

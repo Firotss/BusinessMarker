@@ -1,12 +1,12 @@
 from django.urls import include, path
-
-from . import views
+from .views import *
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('login_menu/login/', views.login_func),
-    path('login_menu/register/', views.register),
-    path('login_menu/', views.login_view, name='login'),
-    path('phpmyadmin/', views.phpmyadmin),
-    path('ref/<str:id>/', views.ref),
+    path('', IndexView.as_view(), name='index'),
+    path('login_menu/login/', login_func),
+    path('login_menu/register/', register),
+    path('login_menu/', login_view, name='login'),
+    path('phpmyadmin/', phpmyadmin),
+    path('ref/<str:id>/', ref),
+    path('404/', test_handler),
 ]
