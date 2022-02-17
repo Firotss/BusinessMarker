@@ -44,6 +44,20 @@ def ajax(selected):
         population += city.POP_DENS_2 * km
     return round(population)
 
+def take_business(xmin, xmax, ymin, ymax):
+    business = []
+    with open('bgdensity/business.json', encoding="utf8") as file:
+        templates = json.load(file)['elements']
+        try:
+            for i in templates:
+                if i['lon'] > xmin and i['lon']<xmax:
+                    if i['lat'] > ymin and i['lat'] < ymax:
+                    # print(i)
+                        business.append(i['tags'])
+        except:
+            print("true")
+    return business
+
 class AjaxView(Permissions):
     
     def get(self, request):
@@ -61,9 +75,11 @@ class AjaxView(Permissions):
             # selected = tuple(zip(*[iter(coordinates)] * 2))
             # print(selected)
             population = ajax(selected)
-            data = {'population' : population}
+            business = take_business(xmin, xmax, ymin, ymax)
+            data = {'population' : population,'business' : business}
 
         except Exception as ex:
+            print(ex)
             data = {"error":"wrong data"}
 
         return JsonResponse(data)

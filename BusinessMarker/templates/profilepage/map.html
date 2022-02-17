@@ -72,12 +72,42 @@ require([
             ymax: ymax
           },
           success: function(response){
+            let oneper = response.population
+            if(response.business.length != 0)
+            {
+              oneper = Math.round(response.population/response.business.length)
+            }
             view.popup.open({
               title: "Population: "+response.population,
+              content: "<p>Business count: "+response.business.length+"(one for "+oneper+"p.)</p>",
               location: event.graphics[0].geometry.centroid
           });
+          let status = "Badly"
+          if(oneper > 1290)
+          {
+            status = "Excellent"
           }
-          });
+          else if(oneper > 645)
+          {
+            status = "Good"
+          }
+          else if(oneper > 322)
+          {
+            status = "Satisfactory"
+          }
+          view.popup.content+="<p>Status for place: "+status+"</p>"
+          try{
+            response.business.forEach(element => {
+            if(element.name != null)
+            {
+              view.popup.content+="<li>"+element.name+"</li>"
+            }});
+          }
+          finally
+          {
+            
+          }
+          }});
       }
       else
       {
