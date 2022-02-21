@@ -6,6 +6,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import logout
 from django.contrib.auth.models import User
 import geopandas
+from shapely.geometry import Point
 from shapely.geometry import Polygon
 from django.views.generic import View
 from .utils.mixins import Permissions
@@ -44,16 +45,15 @@ def ajax(selected):
         population += city.POP_DENS_2 * km
     return round(population)
 
-def take_business(xmin, xmax, ymin, ymax):
+def take_business(selected):
     business = []
     with open('bgdensity/business.json', encoding="utf8") as file:
         templates = json.load(file)['elements']
         try:
             for i in templates:
-                if i['lon'] > xmin and i['lon']<xmax:
-                    if i['lat'] > ymin and i['lat'] < ymax:
-                    # print(i)
-                        business.append(i['tags'])
+                point = Point(i['lon'], i['lat'])
+                if selected.contains(point):
+                    business.append(i['tags'])
         except:
             print("true")
     return business
@@ -62,20 +62,10 @@ class AjaxView(Permissions):
     
     def get(self, request):
         try:
-            ymin = float(request.GET.get('ymin'))
-            ymax = float(request.GET.get('ymax'))
-            xmin = float(request.GET.get('xmin'))
-            xmax = float(request.GET.get('xmax'))
-            selected = (xmin, ymax), (xmax, ymax), (xmax, ymin), (xmin, ymin)
-            # mapcoordinates = ['xmin', 'xmax', 'ymin', 'ymax']
-            # cleaned_values = {c: float(request.GET.get(c)) for c in self.mapcoordinates}
-            # from_request = '%(xmin)f,%(ymax)f,%(xmax)f,%(ymax)f,%(xmax)f,%(ymin)f,%(xmin)f,%(ymax)f' % cleaned_values
-            
-            # coordinates = [float(i) for i in from_request.split(',')]
-            # selected = tuple(zip(*[iter(coordinates)] * 2))
-            # print(selected)
+            coordinates = request.GET.get('data', None)
+            selected = Polygon(json.loads(coordinates))
             population = ajax(selected)
-            business = take_business(xmin, xmax, ymin, ymax)
+            business = take_business(selected)
             data = {'population' : population,'business' : business}
 
         except Exception as ex:

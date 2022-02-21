@@ -22,8 +22,9 @@ require([
   "esri/widgets/Sketch",
   "esri/Map",
   "esri/layers/GraphicsLayer",
-  "esri/views/MapView"
-], (Sketch, Map, GraphicsLayer, MapView) => {
+  "esri/views/MapView",
+  "esri/geometry/support/webMercatorUtils"
+], (Sketch, Map, GraphicsLayer, MapView, webMercatorUtils) => {
   const graphicsLayer = new GraphicsLayer();
 
   const map = new Map({
@@ -48,29 +49,11 @@ require([
     });
     sketch.on("update", function(event){
       if (event.tool == "transform" && event.state == "start" || event.state == "complete" && event.aborted == false){
-        let xmin = event.graphics[0].geometry.extent.xmax - event.graphics[0].geometry.extent.xmin;
-        let xcount = xmin /100000 / 2;
-        xcount = Number((xcount).toFixed(3));
-        xmin = event.graphics[0].geometry.centroid.longitude - xcount + xcount* 0.10;
-
-        let xmax = event.graphics[0].geometry.centroid.longitude + xcount - xcount* 0.10;
-
-        let ymin = event.graphics[0].geometry.extent.ymax - event.graphics[0].geometry.extent.ymin;
-        let ycount = ymin /100000 / 2;
-        ycount = Number((ycount).toFixed(3));
-        ymin = event.graphics[0].geometry.centroid.latitude-ycount+ ycount*0.35;
-        
-        let ymax = event.graphics[0].geometry.centroid.latitude+ycount- ycount*0.35;
-
+        let coordinates = webMercatorUtils.webMercatorToGeographic(event.graphics[0].geometry).toJSON().rings[0];
         $.ajax({
           url: "ajax/",
           type: "GET",
-          data: {
-            xmin: xmin,
-            xmax: xmax,
-            ymin: ymin,
-            ymax: ymax
-          },
+          data: {data : JSON.stringify(coordinates)},
           success: function(response){
             let oneper = response.population
             if(response.business.length != 0)
