@@ -6,10 +6,9 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
-.container{
+.containerCard{
     min-height: 100vh;
     background: #eee;
     display: flex;
@@ -19,48 +18,50 @@
     padding-bottom: 60px;
 }
 
-.container form{
+.containerCard form{
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 10px 15px rgba(0,0,0,.1);
     padding: 20px;
-    width: 600px;
     padding-top: 160px;
     width: calc(100% / 2 - 10px);
+    height: fit-content;
 }
 
-.container form .inputBox{
+.containerCard form .inputBox{
     margin-top: 20px;
     width: calc(100% - 5px);
+    text-transform: uppercase;
 }
 
-.container form .inputBox span{
+.containerCard form .inputBox span{
     display: block;
     color:#999;
     padding-bottom: 5px;
 }
 
-.container form .inputBox input,
-.container form .inputBox select{
+.containerCard form .inputBox input,
+.containerCard form .inputBox select{
     width: 100%;
     padding: 10px;
     border-radius: 10px;
     border:1px solid rgba(0,0,0,.3);
     color:#444;
+    text-transform: uppercase;
 }
 
-.container form .flexbox{
+.containerCard form .flexbox{
     display: flex;
     gap:15px;
     overflow: auto;
     flex-wrap: wrap; 
 }
 
-.container form .flexbox .inputBox{
+.containerCard form .flexbox .inputBox{
     flex:1 1 150px;
 }
 
-.container form .submit-btn{
+.containerCard form .submit-btn{
     width: 100%;
     background:linear-gradient(45deg, crimson, rgb(243, 138, 39));
     margin-top: 20px;
@@ -70,21 +71,22 @@
     border-radius: 10px;
     cursor: pointer;
     transition: .2s linear;
+    text-transform: uppercase;
 }
 
-.container form .submit-btn:hover{
+.containerCard form .submit-btn:hover{
     letter-spacing: 2px;
     opacity: .8;
 }
 
-.container .card-container{
+.containerCard .card-container{
     margin-bottom: -150px;
     position: relative;
     height: 250px;
     width: 400px;
 }
 
-.container .card-container .front{
+.containerCard .card-container .front{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -96,39 +98,40 @@
     padding:20px;
     transform:perspective(1000px) rotateY(0deg);
     transition:transform .4s ease-out;
+    text-transform: uppercase;
 }
 
-.container .card-container .front .image{
+.containerCard .card-container .front .image{
     display: flex;
     align-items:center;
     justify-content: space-between;
     padding-top: 10px;
 }
 
-.container .card-container .front .image img{
+.containerCard .card-container .front .image img{
     height: 50px;
 }
 
-.container .card-container .front .card-number-box{
+.containerCard .card-container .front .card-number-box{
     padding:30px 0;
     font-size: 22px;
     color:#fff;
 }
 
-.container .card-container .front .flexbox{
+.containerCard .card-container .front .flexbox{
     display: flex;
 }
 
-.container .card-container .front .flexbox .box:nth-child(1){
+.containerCard .card-container .front .flexbox .box:nth-child(1){
     margin-right: auto;
 }
 
-.container .card-container .front .flexbox .box{
+.containerCard .card-container .front .flexbox .box{
     font-size: 15px;
     color:#fff;
 }
 
-.container .card-container .back{
+.containerCard .card-container .back{
     position: absolute;
     top:0; left: 0;
     height: 100%;
@@ -143,23 +146,23 @@
     transition:transform .4s ease-out;
 }
 
-.container .card-container .back .stripe{
+.containerCard .card-container .back .stripe{
     background: #000;
     width: 100%;
     margin: 10px 0;
     height: 50px;
 }
 
-.container .card-container .back .box{
+.containerCard .card-container .back .box{
     padding: 0 20px;
 }
 
-.container .card-container .back .box span{
+.containerCard .card-container .back .box span{
     color:#fff;
     font-size: 15px;
 }
 
-.container .card-container .back .box .cvv-box{
+.containerCard .card-container .back .box .cvv-box{
     height: 50px;
     padding: 10px;
     margin-top: 5px;
@@ -169,7 +172,15 @@
     width: 100%;
 }
 
-.container .card-container .back .box img{
+.containerCard .card-container .back .box img{
     margin-top: 30px;
     height: 30px;
+}
+
+@media (max-width: 480px){
+    .containerCard .card-container{
+        height: 275px;
+        width: calc(100% - 50px);
+    }
+    
 }

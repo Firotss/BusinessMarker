@@ -12,16 +12,16 @@
 </head>
 <body>
 
-<div class="container">
+<div class="containerCard">
 
     <div class="card-container">
 
         <div class="front">
             <div class="image">
-                <img src="image/chip.png" alt="">
-                <img src="image/visa.png" alt="">
+                <img src="{% static 'images/chip.png'%}" alt="">
+                <img src="{% static 'images/visa.png'%}" alt="">
             </div>
-            <div class="card-number-box">################</div>
+            <div class="card-number-box">#### #### #### ####</div>
             <div class="flexbox">
                 <div class="box">
                     <span>card holder</span>
@@ -42,7 +42,7 @@
             <div class="box">
                 <span>cvv</span>
                 <div class="cvv-box"></div>
-                <img src="image/visa.png" alt="">
+                <img src="{% static 'images/visa.png'%}" alt="">
             </div>
         </div>
 
@@ -51,11 +51,11 @@
     <form action="">
         <div class="inputBox">
             <span>card number</span>
-            <input type="text" maxlength="16" class="card-number-input">
+            <input type="text" maxlength="20" id="input" class="card-number-input">
         </div>
         <div class="inputBox">
             <span>card holder</span>
-            <input type="text" class="card-holder-input">
+            <input type="text" maxlength="30" class="card-holder-input">
         </div>
         <div class="flexbox">
             <div class="inputBox">
@@ -80,16 +80,15 @@
                 <span>expiration yy</span>
                 <select name="" id="" class="year-input">
                     <option value="year" selected disabled>year</option>
-                    <option value="2021">2021</option>
-                    <option value="2022">2022</option>
-                    <option value="2023">2023</option>
-                    <option value="2024">2024</option>
-                    <option value="2025">2025</option>
-                    <option value="2026">2026</option>
-                    <option value="2027">2027</option>
-                    <option value="2028">2028</option>
-                    <option value="2029">2029</option>
-                    <option value="2030">2030</option>
+                    <option value="2022">22</option>
+                    <option value="2023">23</option>
+                    <option value="2024">24</option>
+                    <option value="2025">25</option>
+                    <option value="2026">26</option>
+                    <option value="2027">27</option>
+                    <option value="2028">28</option>
+                    <option value="2029">29</option>
+                    <option value="2030">30</option>
                 </select>
             </div>
             <div class="inputBox">
@@ -137,8 +136,22 @@ document.querySelector('.cvv-input').onmouseleave = () =>{
 
 document.querySelector('.cvv-input').oninput = () =>{
     document.querySelector('.cvv-box').innerText = document.querySelector('.cvv-input').value;
+    document.querySelector('.front').style.transform = 'perspective(1000px) rotateY(-180deg)';
+    document.querySelector('.back').style.transform = 'perspective(1000px) rotateY(0deg)';
 }
 
+</script>
+<script type="text/javascript">
+    var input = document.getElementById("input");
+
+input.onkeydown = function () {
+    if (input.value.length > 0) {
+
+        if (input.value.length % 4 == 0) {
+            input.value += " ";
+        }
+    }
+}
 </script>
 
 

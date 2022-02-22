@@ -17,7 +17,7 @@
     <ul class="nav-list">
       <li>
           <i class='bx bx-search' ></i>
-         <input type="text" placeholder="Search...">
+         <input type="text" placeholder="Search">
          <span class="tooltip">Search</span>
       </li>
       <li>
@@ -73,47 +73,92 @@
          </div>
          <form method="POST" action="logout/">
           {% csrf_token %}
-          <input type="image" class='bx bx-log-out' id="log_out" ></i>
+          <input type="image" class='bx bx-log-out' id="log_out">
          </form>
      </li>
     </ul>
   </div>
-  <!--  -->
  
   <section class="home-section">
     <div class="container">
       <div class="profile tabShow">
-        <h1>Personal Info</h1>
-        <h2>Email</h2>
-        <input type="text" class="input" value="Kirill Domrachev">
-        <h2>Password</h2>
-        <input type="password" class="input" value="Kirill Domrachev">
-        <h2>Phone Number</h2>
-        <input type="text" class="input" value="0889478699">
-        <p>&nbsp;</p>
-        <button class="deletebtn">Delete Account</button>
-        <button class="updatebtn">Update</button>
+        <div class="form-container">
+          <div class="center">
+            <h1>Personal Info</h1>
+            <form method="post">
+              <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Email</label>
+              </div>
+              <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Phone number</label>
+              </div>
+              <div class="txt_field">
+                <input type="password" required>
+                <span></span>
+                <label>Password</label>
+              </div>
+              <input type="submit" value="Update">
+              <div class="delete">
+                Don't want to be one of us anymore? <a href="#">Delete account</a>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
 
       <div class="subscription tabShow">
-        <h1>Subscription</h1>
-        <button class="updatebtn">Upgrade your plan</button>
-        <button class="updatebtn">Cancel membership</button>
+        <div class="form-container">
+          <div class="center">
+            <h1>Subscription</h1>
+            <form method="post">
+              <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label>Email</label>
+              </div>
+              <input type="submit" value="Upgrade your plan">
+              <p>&nbsp;</p>
+              <input type="submit" value="Cancel membership">
+              <p>&nbsp;</p>
+            </form>
+          </div>
+        </div>
       </div>
 
       <div class="notifications tabShow">
-        <h1>Notifications</h1>
-        <h2>Email</h2>
-        <input type="text" class="input" value="kiro@abv.bg">
-        <button class="deletebtn">Update email</button>
-        <button class="updatebtn">Send confirmation</button>
+        <div class="form-container">
+          <div class="center">
+            <h1>Notifications</h1>
+            <form method="post">
+              <p>&nbsp;</p>
+              <input type="submit" value="Upgrade email">
+              <p>&nbsp;</p>
+              <input type="submit" value="Send confirmation">
+              <p>&nbsp;</p>
+            </form>
+          </div>
+        </div>
       </div>
 
       <div class="payment tabShow">
-        <h1>Payment</h1>
-        <button class="updatebtn">Your Details</button>
-        <button class="updatebtn">Add PayPal</button>
-        <button class="updatebtn">Add Credit or Debit Card</button>
+        <div class="form-container">
+          <div class="center">
+            <h1>Payment</h1>
+            <form method="post">
+              <p>&nbsp;</p>
+              <input type="submit" value="Your Details">
+              <p>&nbsp;</p>
+              <input type="submit" value="Add PayPal">
+              <p>&nbsp;</p>
+              <input type="submit" value="Add Credit or Debit Card">
+              <p>&nbsp;</p>
+            </form>
+          </div>
+        </div>
       </div>
 
       <div class="display tabShow">
@@ -124,6 +169,18 @@
         {% include "pay.html" %}
       
         {% endif %}
+      </div>
+    </div>
+
+    <div class="payment tabShow">
+      <div class="form-container">
+        <div class="center">
+          <h1>What's new</h1>
+          <form method="post">
+            <p>&nbsp;</p>
+            
+          </form>
+        </div>
       </div>
     </div>
   </section>
