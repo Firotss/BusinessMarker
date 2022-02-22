@@ -45,9 +45,9 @@ def ajax(selected):
         population += city.POP_DENS_2 * km
     return round(population)
 
-def take_business(selected):
+def take_business(selected, amenity):
     business = []
-    with open('bgdensity/business.json', encoding="utf8") as file:
+    with open('bgdensity/'+amenity+'DB.json', encoding="utf8") as file:
         templates = json.load(file)['elements']
         try:
             for i in templates:
@@ -63,9 +63,10 @@ class AjaxView(Permissions):
     def get(self, request):
         try:
             coordinates = request.GET.get('data', None)
+            amenity = request.GET.get('type', None)
             selected = Polygon(json.loads(coordinates))
             population = ajax(selected)
-            business = take_business(selected)
+            business = take_business(selected, amenity)
             data = {'population' : population,'business' : business}
 
         except Exception as ex:

@@ -26,7 +26,7 @@ require([
   "esri/geometry/support/webMercatorUtils"
 ], (Sketch, Map, GraphicsLayer, MapView, webMercatorUtils) => {
   const graphicsLayer = new GraphicsLayer();
-
+ 
   const map = new Map({
     basemap: "dark-gray-vector",
     layers: [graphicsLayer]
@@ -38,8 +38,8 @@ require([
     center: [23.34, 42.69]
   });
 
-  
 
+  
   view.popup.autoOpenEnabled = false;
   view.when(() => {
     const sketch = new Sketch({
@@ -47,13 +47,24 @@ require([
       view: view,
       creationMode: "update"
     });
+
+    sketch.visibleElements = {
+  createTools: {
+    point: false,
+    polyline: false,
+  },
+  selectionTools:{
+    "lasso-selection": false
+  },
+  settingsMenu: false
+}
     sketch.on("update", function(event){
       if (event.tool == "transform" && event.state == "start" || event.state == "complete" && event.aborted == false){
         let coordinates = webMercatorUtils.webMercatorToGeographic(event.graphics[0].geometry).toJSON().rings[0];
         $.ajax({
           url: "ajax/",
           type: "GET",
-          data: {data : JSON.stringify(coordinates)},
+          data: {data : JSON.stringify(coordinates), type : "restaurant"},
           success: function(response){
             let oneper = response.population
             if(response.business.length != 0)
@@ -65,6 +76,7 @@ require([
               content: "<p>Business count: "+response.business.length+"(one for "+oneper+"p.)</p>",
               location: event.graphics[0].geometry.centroid
           });
+          view.popup.content+='<input type="text" id="fname" name="fname">'
           let status = "Badly"
           if(oneper > 1290)
           {
