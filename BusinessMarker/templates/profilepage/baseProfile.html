@@ -78,18 +78,56 @@
      </li>
     </ul>
   </div>
-  {% if is_premium or is_admin %}
-  {% include "map.html" %}
-
-  {% else %}
-  {% include "pay.html" %}
-
-  {% endif %}
-  <!--
+  <!--  -->
+ 
   <section class="home-section">
-     
+    <div class="container">
+      <div class="profile tabShow">
+        <h1>Personal Info</h1>
+        <h2>Email</h2>
+        <input type="text" class="input" value="Kirill Domrachev">
+        <h2>Password</h2>
+        <input type="password" class="input" value="Kirill Domrachev">
+        <h2>Phone Number</h2>
+        <input type="text" class="input" value="0889478699">
+        <p>&nbsp;</p>
+        <button class="deletebtn">Delete Account</button>
+        <button class="updatebtn">Update</button>
+      </div>
+
+      <div class="subscription tabShow">
+        <h1>Subscription</h1>
+        <button class="updatebtn">Upgrade your plan</button>
+        <button class="updatebtn">Cancel membership</button>
+      </div>
+
+      <div class="notifications tabShow">
+        <h1>Notifications</h1>
+        <h2>Email</h2>
+        <input type="text" class="input" value="kiro@abv.bg">
+        <button class="deletebtn">Update email</button>
+        <button class="updatebtn">Send confirmation</button>
+      </div>
+
+      <div class="payment tabShow">
+        <h1>Payment</h1>
+        <button class="updatebtn">Your Details</button>
+        <button class="updatebtn">Add PayPal</button>
+        <button class="updatebtn">Add Credit or Debit Card</button>
+      </div>
+
+      <div class="display tabShow">
+        {% if is_premium or is_admin %}
+        {% include "map.html" %}
+      
+        {% else %}
+        {% include "pay.html" %}
+      
+        {% endif %}
+      </div>
+    </div>
   </section>
--->
+  
   <script src="{% static 'js/profileScript.js'%}"></script>
 </body>
 </html>

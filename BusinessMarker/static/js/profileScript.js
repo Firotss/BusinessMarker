@@ -31,4 +31,4 @@ function tabs(panelIndex) {
   });
   tab[panelIndex].style.display = "block";
 }
-tabs(0);
+tabs(4);
