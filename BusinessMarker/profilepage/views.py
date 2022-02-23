@@ -71,6 +71,6 @@ class AjaxView(Permissions):
 
         except Exception as ex:
             print(ex)
-            data = {"error":"wrong data"}
+            data = {"error":ex}
 
         return JsonResponse(data)
