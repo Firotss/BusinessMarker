@@ -281,7 +281,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 600px;
   background: white;
   border-radius: 10px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
@@ -380,5 +380,36 @@ input[type="submit"]:hover{
 @media (max-width: 485px){
   .center{
     width: calc(100% - 20px);
+  }
+}
+.cards-container{
+  max-width: 600px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  margin: 0 auto;
+}
+h2{
+  color: crimson;
+}
+.card-new-container{
+  flex: 1;
+  padding: 30px;
+  font-size: 19px;
+  margin: 3px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.card-new-container card-img{
+  min-width: 25rem;
+  max-width: 60rem;
+}
+@media screen and (max-width: 768px){
+  .cards-container{
+      flex-direction: column;
   }
 }
