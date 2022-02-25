@@ -13,3 +13,4 @@ class Ref_Links(models.Model):
     password = models.CharField(max_length=200)
     email = models.CharField(max_length=200)
     code = models.CharField(max_length=200)
+

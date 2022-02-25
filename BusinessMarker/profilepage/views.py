@@ -9,10 +9,10 @@ import geopandas
 from shapely.geometry import Point
 from shapely.geometry import Polygon
 from django.views.generic import View
-from .utils.mixins import Permissions
+from .utils.mixins import Permissions, News
 areas = geopandas.read_file("bgdensity/bulgaria.shp")
 
-class ProfileView(Permissions):
+class ProfileView(Permissions, News):
     template_name = "baseProfile.html"
 
     def get_context_data(self, **kwargs):

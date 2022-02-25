@@ -34,7 +34,7 @@
        </a>
        <span class="tooltip">Subscription</span>
      </li>
-     <li>
+     <!-- <li>
        <a onclick="tabs(2)" class="tab">
          <i class='bx bx-chat' ></i>
          <span class="links_name">Notifications</span>
@@ -47,23 +47,23 @@
          <span class="links_name">Payment</span>
        </a>
        <span class="tooltip">Payment</span>
-     </li>
+     </li> -->
      <li>
-       <a onclick="tabs(4)" class="tab">
+       <a onclick="tabs(2)" class="tab">
          <i class='bx bx-desktop' ></i>
          <span class="links_name">Display Map</span>
        </a>
        <span class="tooltip">Display Map</span>
      </li>
      <li>
-      <a onclick="tabs(6)" class="tab">
+      <a onclick="tabs(4)" class="tab">
         <i class='bx bxs-news' ></i>
         <span class="links_name">What’s New</span>
       </a>
       <span class="tooltip">What’s New</span>
     </li>
      <li>
-      <a onclick="tabs(5)" class="tab">
+      <a onclick="tabs(3)" class="tab">
         <i class='bx bx-question-mark'></i>
         <span class="links_name">FAQ</span>
       </a>
@@ -136,7 +136,7 @@
         </div>
       </div>
 
-      <div class="notifications tabShow">
+      <!-- <div class="notifications tabShow">
         <div class="form-container">
           <div class="center">
             <h1>Notifications</h1>
@@ -166,7 +166,7 @@
             </form>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="display tabShow">
         {% if is_premium or is_admin %}
@@ -194,13 +194,26 @@
 </div>
 </div>
 
-    <div class="payment tabShow">
+    <div class="notifications tabShow">
       <div class="form-container">
         <div class="center">
           <h1>What's new</h1>
           <form method="post">
-            <p>&nbsp;</p>
-            
+            {% for element in news %}
+            <div>
+              <h3>{{element.date}} - {{element.comment}}</h3>
+            </div>
+            {% endfor %}
+            <!-- <script>
+              $.ajax({
+                url: "https://api.github.com/repos/firotss/businessmarker/commits",
+                type: "GET",
+                success: function(commits){
+                  commits.forEach(element => {
+                   console.log(element['commit']['message'] +" - "+ element['commit']['author']['date'])
+                  });
+                  }});
+            </script> -->
           </form>
         </div>
       </div>
