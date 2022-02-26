@@ -377,39 +377,52 @@ input[type="submit"]:hover{
   text-decoration: underline;
 }
 
-@media (max-width: 485px){
+@media (max-width: 680px){
   .center{
     width: calc(100% - 20px);
   }
 }
 .cards-container{
-  max-width: 600px;
+  max-width: 1500px;
   display: flex;
   box-sizing: border-box;
   flex-direction: row;
   margin: 0 auto;
+  transform: translateY(50%);
 }
 h2{
   color: crimson;
+  font-size: 20px;
 }
 .card-new-container{
   flex: 1;
   padding: 30px;
-  font-size: 19px;
+  font-size: 15px;
   margin: 3px;
   background-color: #eee;
   border-radius: 10px;
+}
+.card-new-container-mid{
+  flex: 1;
+  padding: 30px;
+  font-size: 15px;
+  margin: 3px;
+  background-color: #eee;
+  border-radius: 10px;
+  transform: scaleY(1500px);
 }
 img{
   max-width: 100%;
   max-height: 100%;
 }
-.card-new-container card-img{
-  min-width: 25rem;
-  max-width: 60rem;
-}
 @media screen and (max-width: 768px){
   .cards-container{
-      flex-direction: column;
+    flex-direction: column;
+    transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 690px){
+  .cards-container{
+    max-width: 400px;
   }
 }
