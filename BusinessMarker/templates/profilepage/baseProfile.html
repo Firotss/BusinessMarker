@@ -8,6 +8,7 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/subscriptions.css'%}">
+    <link rel="shortcut icon" href="{% static 'images/bm.png'%}">
    </head>
 <body>
   <div class="sidebar">
@@ -69,6 +70,19 @@
         <span class="links_name">FAQ</span>
       </a>
       <span class="tooltip">FAQ</span>
+    </li>
+    <li>
+      <a class="tab">
+        <i class='bx bx-collection'></i>
+        <span class="links_name">Map Category</span>
+        <i class="bx bxs-chevron-down arrow"></i>
+      </a>
+      <span class="tooltip">Map Category</span>
+      <ul class="sub-menu">
+        <li><a onclick="checkType()">Restaurants</a></li>
+        <li><a onclick="checkType()">Pharmacies</a></li>
+        <li><a onclick="checkType()">Hotels</a></li>
+      </ul>
     </li>
      <li class="profile">
          <div class="profile-details">

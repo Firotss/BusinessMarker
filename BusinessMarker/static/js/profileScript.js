@@ -15,7 +15,7 @@ searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the 
 // following are the code to change sidebar button(optional)
 function menuBtnChange() {
  if(sidebar.classList.contains("open")){
-   closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the icons class
  }
  else {
    closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the icons class
@@ -32,3 +32,8 @@ function tabs(panelIndex) {
   tab[panelIndex].style.display = "block";
 }
 tabs(2);
+
+function checkType(){
+  let name = document.getElementById("name").value;
+  // ur code here
+  }
