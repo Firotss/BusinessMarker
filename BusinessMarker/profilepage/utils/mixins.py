@@ -3,6 +3,8 @@ from django.views.generic import TemplateView
 import os
 import re
 from profilepage.models import Updates
+from django.core.mail import send_mail
+
 class Permissions(TemplateView):
 
     def dispatch(self, request, *args, **kwargs):
@@ -46,4 +48,17 @@ class News(TemplateView):
         # Updates.objects.all().delete()
         context['news'] = Updates.objects.all()
 
+        return context
+
+class Send(TemplateView):
+
+    def get_context_data(self, **kwargs):
+        context = send_mail(
+                'Confirm ur email:',
+                code,
+                'tech-support@businessmarker.ru',
+                [email],
+                fail_silently=False,
+                )
+                
         return context

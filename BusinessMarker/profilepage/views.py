@@ -35,14 +35,19 @@ def overlap(poly1, selected):
 
 def ajax(selected):  
     population = 0
+    
+
     for city in areas.iloc:
-        overlaping_area = overlap(city.geometry, selected)
-        if(overlaping_area > 0):
-            overlaping_area = city.geometry.area / overlaping_area
-            km = city.AREA_KM2 /overlaping_area
-        else:
-            km = 0
-        population += city.POP_DENS_2 * km
+        area_population = 0
+        meter = 0
+        if city.settleme_3:
+            overlaping_area = overlap(city.geometry, selected)
+            if(overlaping_area > 0):
+                overlaping_area = city.geometry.area / overlaping_area
+                meter = float(city.settleme_3) / float(overlaping_area)
+                area_population = float(city.settleme_4) / float(city.settleme_3) 
+            
+        population += area_population * meter
     return round(population)
 
 def take_business(selected, amenity):

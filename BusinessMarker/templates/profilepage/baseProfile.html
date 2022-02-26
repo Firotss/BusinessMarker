@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{% static 'css/profileStyle.css'%}">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/subscriptions.css'%}">
    </head>
 <body>
   <div class="sidebar">
@@ -119,20 +120,60 @@
 
       <div class="subscription tabShow">
         <div class="form-container">
-          <div class="center">
-            <h1>Subscription</h1>
+э
             <form method="post">
-              <div class="txt_field">
-                <input type="text" required>
-                <span></span>
-                <label>Email</label>
+  
+              <div class="pricing-table">
+                <div class="pricing-card">
+                  <h3 class="pricing-card-header">Basic</h3>
+                  <div class="price"><sup>$</sup>15<span>/MO</span></div>
+                  <h3>Basic</h3>
+                  <h5>You get the ability to look up:</h5>
+                  <p>&nbsp;</p>
+                  <p>✅the different types of businesses in the regions of your country</p>
+                  <p>&nbsp;</p>
+                  <p>❌the lack of the selected business segment in percentage of our country</p>
+                  <p>&nbsp;</p>
+                  <p>❌use all the functionality of the site for every country</p>
+                  <a href="#" class="order-btn">Order Now</a>
+                </div>
+
+                <div class="pricing-card">
+                  <h3 class="pricing-card-header">Standard</h3>
+                  <div class="price"><sup>$</sup>30<span>/MO</span></div>
+                  <h3>Standard</h3>
+                  <h5>You get the ability to look up:</h5>
+                  <p>&nbsp;</p>
+                  <p>✅the different types of businesses in the regions of your country</p>
+                  <p>&nbsp;</p>
+                  <p>✅the lack of the selected business segment in percentage of our country</p>
+                  <p>&nbsp;</p>
+                  <p>❌use all the functionality of the site for every country</p>
+                  <a href="#" class="order-btn">Order Now</a>
+                </div>
+
+                <div class="pricing-card">
+                  <h3 class="pricing-card-header">Premium</h3>
+                  <div class="price"><sup>$</sup>50<span>/MO</span></div>
+                  <h3>Premium</h3>
+                  <h5>You get the ability to look up:</h5>
+                  <p>&nbsp;</p>
+                  <p>✅the different types of businesses in the regions of your country</p>
+                  <p>&nbsp;</p>
+                  <p>✅the lack of the selected business segment in percentage of our country</p>
+                  <p>&nbsp;</p>
+                  <p>✅use all the functionality of the site for every country</p>
+                  <a href="#" class="order-btn">Order Now</a>
+                </div>
               </div>
-              <input type="submit" value="Upgrade your plan">
-              <p>&nbsp;</p>
-              <input type="submit" value="Cancel membership">
-              <p>&nbsp;</p>
+              <div class="center" style="background: transparent; top: 90%">
+                <input type="submit" value="Upgrade your plan">
+                <p>&nbsp;</p>
+                <input type="submit" value="Cancel membership">
+                <p>&nbsp;</p>
+                </div>
             </form>
-          </div>
+         
         </div>
       </div>
 

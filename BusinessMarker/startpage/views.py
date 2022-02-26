@@ -9,8 +9,9 @@ from django.contrib.auth.models import Group
 from django.views.generic import TemplateView
 from .forms import LoginForm, RegisterForm
 from .models import Ref_Links
+from .utils.mixins import Send
 
-class IndexView(TemplateView):
+class IndexView(Send):
     template_name = 'index.html'
 
 # def index(request):
