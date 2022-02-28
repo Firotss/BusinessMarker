@@ -7,6 +7,8 @@ from django.core.mail import send_mail
 import random
 from django.contrib.auth.models import Group
 from django.views.generic import TemplateView
+
+from profilepage.utils.mixins import Permissions
 from .forms import LoginForm, RegisterForm
 from .models import Ref_Links
 from .utils.mixins import Send
@@ -20,10 +22,12 @@ class IndexView(Send):
 def phpmyadmin(request):
     return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")
     
+class LoginView(Permissions):
+    template_name = "login.html"
+
 def register(request):
     if not request.user.is_authenticated:
         form = RegisterForm(request.POST)
-        print(form.is_valid())
         if form.is_valid():
             username = request.POST['username']
             password = request.POST['password']
@@ -56,7 +60,6 @@ def register(request):
 def login_func(request):
     if not request.user.is_authenticated: 
         form = LoginForm(request.POST)
-        print(form.is_valid())
         if form.is_valid():
             user = authenticate(request, username= request.POST['username'], password=request.POST['password'])
             if user is not None:

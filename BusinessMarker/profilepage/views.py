@@ -1,3 +1,4 @@
+from turtle import numinput
 from django.http import HttpResponseRedirect
 import json
 from re import template
@@ -35,8 +36,6 @@ def overlap(poly1, selected):
 
 def ajax(selected):  
     population = 0
-    
-
     for city in areas.iloc:
         area_population = 0
         meter = 0
@@ -54,13 +53,13 @@ def take_business(selected, amenity):
     business = []
     with open('bgdensity/'+amenity+'DB.json', encoding="utf8") as file:
         templates = json.load(file)['elements']
-        try:
-            for i in templates:
+        for i in templates:
+            valid_type = i.get('type', False) == 'node'
+            valid_param = i.get('tags', False)
+            if all([valid_type, valid_param]):
                 point = Point(i['lon'], i['lat'])
                 if selected.contains(point):
                     business.append(i['tags'])
-        except:
-            print("true")
     return business
 
 class AjaxView(Permissions):
@@ -75,7 +74,6 @@ class AjaxView(Permissions):
             data = {'population' : population,'business' : business}
 
         except Exception as ex:
-            print(ex)
             data = {"error":ex}
 
         return JsonResponse(data)

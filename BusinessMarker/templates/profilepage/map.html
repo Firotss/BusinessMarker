@@ -62,7 +62,7 @@ require([
         $.ajax({
           url: "ajax/",
           type: "GET",
-          data: {data : JSON.stringify(coordinates), type : "restaurant"},
+          data: {data : JSON.stringify(coordinates), type : document.getElementsByClassName("sub-menu")[0].id},
           success: function(response){
             let oneper = response.population
             if(response.business.length != 0)
@@ -74,7 +74,6 @@ require([
               content: "<p>Business count: "+response.business.length+"(one for "+oneper+"p.)</p>",
               location: event.graphics[0].geometry.centroid
           });
-          view.popup.content+='<input type="text" id="fname" name="fname">'
           let status = "Badly"
           if(oneper > 1290)
           {

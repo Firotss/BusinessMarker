@@ -78,10 +78,10 @@
         <i class="bx bxs-chevron-down arrow"></i>
       </a>
       <span class="tooltip">Map Category</span>
-      <ul class="sub-menu">
-        <li><a onclick="checkType()">Restaurants</a></li>
-        <li><a onclick="checkType()">Pharmacies</a></li>
-        <li><a onclick="checkType()">Hotels</a></li>
+      <ul class="sub-menu" id="restaurants">
+        <li class="restaurants"><a onclick="checkType('restaurants')">Restaurants</a></li>
+        <li class="pharmacies"><a onclick="checkType('pharmacies')">Pharmacies</a></li>
+        <li class="hotels"><a onclick="checkType('hotels')">Hotels</a></li>
       </ul>
     </li>
      <li class="profile">
@@ -127,16 +127,26 @@
               <div class="delete">
                 Don't want to be one of us anymore? <a href="#">Delete account</a>
               </div>
+                <h1>Payment</h1>
+                <form method="post">
+                  <p>&nbsp;</p>
+                  <input type="submit" value="Your Details">
+                  <p>&nbsp;</p>
+                  <input type="submit" value="Add PayPal">
+                  <p>&nbsp;</p>
+                  <input type="submit" value="Add Credit or Debit Card">
+                  <p>&nbsp;</p>
+
             </form>
+            
           </div>
         </div>
       </div>
 
       <div class="subscription tabShow">
         <div class="form-container">
-э
+            
             <form method="post">
-  
               <div class="pricing-table">
                 <div class="pricing-card">
                   <h3 class="pricing-card-header">Basic</h3>
@@ -149,7 +159,7 @@
                   <p>❌the lack of the selected business segment in percentage of our country</p>
                   <p>&nbsp;</p>
                   <p>❌use all the functionality of the site for every country</p>
-                  <a href="#" class="order-btn">Order Now</a>
+                  <a href="#" onclick="tabs(5)" class="order-btn">Order Now</a>
                 </div>
 
                 <div class="pricing-card">
@@ -163,7 +173,7 @@
                   <p>✅the lack of the selected business segment in percentage of our country</p>
                   <p>&nbsp;</p>
                   <p>❌use all the functionality of the site for every country</p>
-                  <a href="#" class="order-btn">Order Now</a>
+                  <a href="#" onclick="tabs(5)" class="order-btn">Order Now</a>
                 </div>
 
                 <div class="pricing-card">
@@ -177,10 +187,11 @@
                   <p>✅the lack of the selected business segment in percentage of our country</p>
                   <p>&nbsp;</p>
                   <p>✅use all the functionality of the site for every country</p>
-                  <a href="#" class="order-btn">Order Now</a>
+                  <a href="#" onclick="tabs(5)" class="order-btn">Order Now</a>
                 </div>
               </div>
               <div class="center" style="background: transparent; top: 90%">
+                
                 <input type="submit" value="Upgrade your plan">
                 <p>&nbsp;</p>
                 <input type="submit" value="Cancel membership">
@@ -191,37 +202,7 @@
         </div>
       </div>
 
-      <!-- <div class="notifications tabShow">
-        <div class="form-container">
-          <div class="center">
-            <h1>Notifications</h1>
-            <form method="post">
-              <p>&nbsp;</p>
-              <input type="submit" value="Upgrade email">
-              <p>&nbsp;</p>
-              <input type="submit" value="Send confirmation">
-              <p>&nbsp;</p>
-            </form>
-          </div>
-        </div>
-      </div>
 
-      <div class="payment tabShow">
-        <div class="form-container">
-          <div class="center">
-            <h1>Payment</h1>
-            <form method="post">
-              <p>&nbsp;</p>
-              <input type="submit" value="Your Details">
-              <p>&nbsp;</p>
-              <input type="submit" value="Add PayPal">
-              <p>&nbsp;</p>
-              <input type="submit" value="Add Credit or Debit Card">
-              <p>&nbsp;</p>
-            </form>
-          </div>
-        </div>
-      </div> -->
 
       <div class="display tabShow">
         {% if is_premium or is_admin %}
@@ -286,7 +267,9 @@
       </div>
     </div>
   </section>
-  
+  <div class="tabShow">
+    {% include "pay.html" %}
+  </div>
   <script src="{% static 'js/profileScript.js'%}"></script>
 </body>
 </html>

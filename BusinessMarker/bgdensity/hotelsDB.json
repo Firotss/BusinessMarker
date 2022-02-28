@@ -1,0 +1,6112 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.57 93a4d346",
+  "osm3s": {
+    "timestamp_osm_base": "2022-02-26T08:49:47Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 800647362,
+      "lat": 43.1995297,
+      "lon": 27.9176193,
+      "tags": {
+        "name": "Клуб Магелан",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1225638746,
+      "lat": 44.1739435,
+      "lon": 28.656985,
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:street": "Strada Canarache Vasile",
+        "name": "Agenție de voiaj CFR",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1586674896,
+      "lat": 44.4540349,
+      "lon": 26.0973929,
+      "tags": {
+        "addr:city": "București",
+        "addr:housenumber": "5",
+        "addr:postcode": "011786",
+        "addr:street": "Strada Stockholm",
+        "name": "Aventur - agenție de turism",
+        "phone": "0040760694499",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1699498137,
+      "lat": 42.6775901,
+      "lon": 23.3012585,
+      "tags": {
+        "name": "Valeo travel",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1904008750,
+      "lat": 44.4324459,
+      "lon": 26.1244951,
+      "tags": {
+        "name": "Karine Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2375766914,
+      "lat": 42.6777785,
+      "lon": 23.2922453,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2435301459,
+      "lat": 40.9845409,
+      "lon": 29.0391132,
+      "tags": {
+        "name": "Türk Hava Yolları Bilet Satış Ofisi",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2446515866,
+      "lat": 44.4404925,
+      "lon": 26.0995008,
+      "tags": {
+        "name": "Mareea",
+        "shop": "travel_agency",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2446518887,
+      "lat": 44.4404529,
+      "lon": 26.0995211,
+      "tags": {
+        "name": "Oltextur",
+        "shop": "travel_agency",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2446520556,
+      "lat": 44.4405365,
+      "lon": 26.0994816,
+      "tags": {
+        "name": "ABC",
+        "shop": "travel_agency",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2446520557,
+      "lat": 44.4403705,
+      "lon": 26.099556,
+      "tags": {
+        "name": "Europa Travel",
+        "shop": "travel_agency",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2446520565,
+      "lat": 44.440224,
+      "lon": 26.0996289,
+      "tags": {
+        "name": "Travel Shop",
+        "shop": "travel_agency",
+        "source": "survey",
+        "website": "https://www.travelshop.ro/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2446521935,
+      "lat": 44.4398055,
+      "lon": 26.1004774,
+      "tags": {
+        "name": "Christian Tour",
+        "shop": "travel_agency",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2446523726,
+      "lat": 44.4387371,
+      "lon": 26.1003074,
+      "tags": {
+        "addr:city": "București",
+        "addr:housenumber": "21",
+        "addr:postcode": "010044",
+        "addr:street": "Bulevardul Nicolae Bălcescu",
+        "branch": "Travel Center",
+        "brand": "TUI",
+        "brand:wikidata": "Q573103",
+        "brand:wikipedia": "en:TUI Group",
+        "name": "TUI",
+        "opening_hours": "Mo-Fr 09:00-19:00",
+        "shop": "travel_agency",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2448145959,
+      "lat": 44.4346625,
+      "lon": 26.1071148,
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:postcode": "030236",
+        "addr:street": "Bulevardul Hristo Botev",
+        "email": "office@eurogifts.ro",
+        "name": "Euro Gifts",
+        "opening_hours": "Mo-Fr 09:00-22:00",
+        "phone": "+4021 311 4 311",
+        "shop": "travel_agency",
+        "source": "survey",
+        "website": "http://www.eurogifts.ro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2449446061,
+      "lat": 40.9942543,
+      "lon": 29.025043,
+      "tags": {
+        "name": "Kamil Koç",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2449446064,
+      "lat": 40.9949269,
+      "lon": 29.0249316,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Meşhur Kokoreççi Adem Usta",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2449446068,
+      "lat": 40.9943468,
+      "lon": 29.0250593,
+      "tags": {
+        "name": "Ulusoy",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2469814571,
+      "lat": 42.696697,
+      "lon": 23.3293568,
+      "tags": {
+        "addr:housenumber": "21B",
+        "addr:street": "Московска",
+        "name": "MEM Services EOOD",
+        "payment:bitcoin": "yes",
+        "shop": "travel_agency",
+        "website": "https://simplytravelonline.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2484089642,
+      "lat": 44.4781748,
+      "lon": 26.1034303,
+      "tags": {
+        "addr:city": "București",
+        "addr:postcode": "014476",
+        "addr:street": "Calea Floreasca",
+        "is_in": "București",
+        "level": "-1",
+        "name": "Christian Tour",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2621838855,
+      "lat": 44.4593929,
+      "lon": 26.076445,
+      "tags": {
+        "name": "Deea Travel",
+        "shop": "travel_agency",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2624510469,
+      "lat": 42.6961365,
+      "lon": 23.3165322,
+      "tags": {
+        "addr:housenumber": "9А",
+        "addr:postcode": "1000",
+        "addr:street": "Позитано",
+        "contact:facebook": "https://www.facebook.com/Najjar-travel-Ltd-%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%80%D0%B0%D0%BD-%D1%82%D1%83%D1%80%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80-141883345872824/",
+        "name": "Najjar",
+        "phone": "+359 2 981 2612",
+        "shop": "travel_agency",
+        "website": "https://www.najjartravel.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2634862550,
+      "lat": 44.4422643,
+      "lon": 26.1261027,
+      "tags": {
+        "addr:city": "București",
+        "addr:housenumber": "74A",
+        "addr:postcode": "021393",
+        "addr:street": "Bulevardul Ferdinand I",
+        "description": "Agenție de turism ce ofera servicii complete pentru călătorii: bilete de avion, cazări în România, cazări în străinătate, croaziere, sejururi, circuite, transferuri, bilete de tren, rent a car, asigurări de călătorie, evenimente, programe incentive.",
+        "name": "Accent Travel & Events",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "+40 21 314 1980",
+        "shop": "travel_agency",
+        "source": "Survey 2013",
+        "website": "https://www.accenttravel.ro/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2689227503,
+      "lat": 44.443137,
+      "lon": 26.0584154,
+      "tags": {
+        "name": "GTS Turism",
+        "shop": "travel_agency",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2728556968,
+      "lat": 44.4430222,
+      "lon": 26.0886049,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:postcode": "010776",
+        "addr:street": "Strada Pictor Theodor Aman",
+        "description": "Dorim sa schimbam mentalitati, sa oferim o noua viziune despre turism in Romania, o adordare diferita a calatoriilor ca parte importanta a vietii noastre.",
+        "email": "info@perfect-tour.ro",
+        "name": "Perfect Tour",
+        "opening_hours": "Mo-Fr 08:00-22:00;Sa-Su 10:00-18:00",
+        "phone": "+40 21 405 00 15",
+        "shop": "travel_agency",
+        "website": "https://www.perfect-tour.ro/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2910933351,
+      "lat": 42.6919125,
+      "lon": 23.3170947,
+      "tags": {
+        "addr:housenumber": "18А",
+        "addr:postcode": "1000",
+        "addr:street": "Уилям Гладстон",
+        "name": "Domika Tour",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "phone": "(+359 2) 952 34 04",
+        "shop": "travel_agency",
+        "website": "http://www.domikatourbg.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2911121919,
+      "lat": 42.6938036,
+      "lon": 23.3169714,
+      "tags": {
+        "addr:housenumber": "32",
+        "addr:postcode": "1000",
+        "addr:street": "Цар Самуил",
+        "name": "Мондел Травел",
+        "phone": "+359 2 980 3322",
+        "shop": "travel_agency",
+        "website": "http://mondel-travel.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2958005333,
+      "lat": 44.4376201,
+      "lon": 26.1131544,
+      "tags": {
+        "name": "SF Travel",
+        "shop": "travel_agency",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3149555929,
+      "lat": 41.1704917,
+      "lon": 29.0582704,
+      "tags": {
+        "addr:street": "Kocayemiş Sokak",
+        "name": "Poseidon Tekne Turları",
+        "phone": "+902123460700",
+        "shop": "travel_agency",
+        "website": "https://www.tekneturu.com.tr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3225105193,
+      "lat": 44.3144624,
+      "lon": 23.7958599,
+      "tags": {
+        "name": "Archie Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3225105214,
+      "lat": 44.3231623,
+      "lon": 23.7921728,
+      "tags": {
+        "addr:street": "Bulevardul Nicolae Titulescu",
+        "name": "Euro Turist",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3225105230,
+      "lat": 44.3161705,
+      "lon": 23.7961761,
+      "tags": {
+        "name": "Marshal Turism",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3225105237,
+      "lat": 44.3148983,
+      "lon": 23.7954568,
+      "tags": {
+        "name": "PS Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3225105247,
+      "lat": 44.315556,
+      "lon": 23.7959513,
+      "tags": {
+        "name": "Sky Limit",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3225105249,
+      "lat": 44.3267919,
+      "lon": 23.7891065,
+      "tags": {
+        "addr:city": "Craiova",
+        "addr:street": "Strada George Enescu",
+        "name": "Start Tour",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3228663261,
+      "lat": 44.3185628,
+      "lon": 23.7961506,
+      "tags": {
+        "name": "Mapamond",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3228663306,
+      "lat": 44.31845,
+      "lon": 23.7959175,
+      "tags": {
+        "name": "TUI Travel Center",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3229749718,
+      "lat": 44.3208063,
+      "lon": 23.7975988,
+      "tags": {
+        "addr:city": "Craiova",
+        "addr:street": "Calea București",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3244663984,
+      "lat": 44.315882,
+      "lon": 23.7994749,
+      "tags": {
+        "addr:city": "Craiova",
+        "addr:country": "RO",
+        "addr:housenumber": "2",
+        "addr:postcode": "200390",
+        "addr:street": "Strada Eugeniu Carada",
+        "email": "craiova@perfect-tour.ro",
+        "fax": "0251530070",
+        "name": "Perfect Tour",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-14:00; Su off",
+        "phone": "0251530070",
+        "shop": "travel_agency",
+        "website": "https://www.perfect-tour.ro/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3334259296,
+      "lat": 44.3197189,
+      "lon": 23.8030124,
+      "tags": {
+        "addr:city": "Craiova",
+        "addr:country": "RO",
+        "addr:housename": "Bloc 21B",
+        "addr:housenumber": "31",
+        "addr:postcode": "200677",
+        "addr:street": "Calea București",
+        "name": "Velvet Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3384248847,
+      "lat": 43.4041954,
+      "lon": 24.6210126,
+      "tags": {
+        "name": "Travel Agensy - RUAL TRAVEL",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3499270165,
+      "lat": 41.014077,
+      "lon": 28.9768067,
+      "tags": {
+        "brand": "Turkish Airlines",
+        "brand:wikidata": "Q4548",
+        "brand:wikipedia": "en:Turkish Airlines",
+        "name": "Turkish Airlines",
+        "shop": "travel_agency",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3517921618,
+      "lat": 42.7132197,
+      "lon": 27.7584096,
+      "tags": {
+        "amenity": "atm",
+        "name": "Kometa 2",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3786088888,
+      "lat": 42.6914531,
+      "lon": 23.3168333,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "21",
+        "addr:postcode": "1000",
+        "addr:street": "Петър Парчевич",
+        "name": "Дениз Травел",
+        "opening_hours": "Mo-Fr 10:00-17:30",
+        "opening_hours:signed": "no",
+        "operator": "Дениз Травел",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3807220144,
+      "lat": 44.3127525,
+      "lon": 23.8018474,
+      "tags": {
+        "addr:city": "Craiova",
+        "addr:country": "RO",
+        "addr:street": "Strada Arieș",
+        "name": "Express Line",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3826511957,
+      "lat": 42.7036005,
+      "lon": 23.3280289,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "9",
+        "addr:postcode": "1000",
+        "addr:street": "Поп Богомил",
+        "name": "Туроператорска фирма Запрянов Травел",
+        "opening_hours": "Mo-Fr 10:00-19:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3841520919,
+      "lat": 42.1424984,
+      "lon": 24.7436518,
+      "tags": {
+        "name": "Vistalis",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3841521082,
+      "lat": 42.1448109,
+      "lon": 24.7519331,
+      "tags": {
+        "addr:city": "Пловдив",
+        "addr:housenumber": "89",
+        "addr:postcode": "4000",
+        "addr:street": "бул.Цар Борис III Обединител",
+        "name": "Туристическа агенция Глобус Холидейс",
+        "opening_hours": "Mo-Fr 09:30-18:30",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3841521086,
+      "lat": 42.1425663,
+      "lon": 24.744729,
+      "tags": {
+        "name": "Дрийм Тур",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3841521092,
+      "lat": 42.1433069,
+      "lon": 24.7470471,
+      "tags": {
+        "name": "Крис тур",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3841521095,
+      "lat": 42.1430824,
+      "lon": 24.7461284,
+      "tags": {
+        "name": "Моникатурс",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3841521102,
+      "lat": 42.1433506,
+      "lon": 24.7472078,
+      "tags": {
+        "name": "Ривиера тур",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3852196886,
+      "lat": 42.144488,
+      "lon": 24.7512176,
+      "tags": {
+        "name": "Аква Флор",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3857069629,
+      "lat": 42.1475683,
+      "lon": 24.7412083,
+      "tags": {
+        "name": "Posoka.com",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3857076958,
+      "lat": 42.1452268,
+      "lon": 24.7500994,
+      "tags": {
+        "name": "Астрал Холидейс",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3857076976,
+      "lat": 42.1500982,
+      "lon": 24.744375,
+      "tags": {
+        "name": "Теско Груп",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3872783854,
+      "lat": 43.8471397,
+      "lon": 25.9546302,
+      "tags": {
+        "addr:city": "Русе",
+        "addr:housenumber": "6",
+        "addr:postcode": "7000",
+        "addr:street": "Симеон Велики",
+        "name": "Вени Травел",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3906009500,
+      "lat": 41.1109555,
+      "lon": 29.0004633,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "2",
+        "addr:postcode": "34396",
+        "addr:street": "Huzur Mah. Maslak Ayazağa Cad.",
+        "name": "Antur",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3926965708,
+      "lat": 44.1698157,
+      "lon": 28.6325478,
+      "tags": {
+        "name": "Sempre",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3997719658,
+      "lat": 42.5016348,
+      "lon": 27.4689856,
+      "tags": {
+        "name": "БургасБус Транспортна къща",
+        "shop": "travel_agency",
+        "vending": "public_transport_tickets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4048726664,
+      "lat": 44.4461497,
+      "lon": 26.0968952,
+      "tags": {
+        "addr:city": "București",
+        "addr:housenumber": "42",
+        "addr:postcode": "010326",
+        "addr:street": "Bulevardul General Gheorghe Magheru",
+        "name": "Marshal Turism",
+        "opening_hours:signed": "no",
+        "shop": "travel_agency",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4105523113,
+      "lat": 42.1489139,
+      "lon": 24.7403685,
+      "tags": {
+        "name": "Aero Tour",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4107689689,
+      "lat": 44.4175019,
+      "lon": 26.0590129,
+      "tags": {
+        "addr:city": "București",
+        "addr:housenumber": "130",
+        "addr:street": "Strada Petre Ispirescu",
+        "name": "TempleResidence nr.130",
+        "shop": "travel_agency",
+        "source": "survey, field survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4107691789,
+      "lat": 44.41672,
+      "lon": 26.0569497,
+      "tags": {
+        "addr:city": "București",
+        "addr:housenumber": "7",
+        "addr:street": "Strada Panterei",
+        "name": "nr.7",
+        "shop": "travel_agency",
+        "source": "survey, field survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4118458658,
+      "lat": 44.1703795,
+      "lon": 28.6324878,
+      "tags": {
+        "addr:city": "Constanța",
+        "addr:housenumber": "1",
+        "addr:postcode": "900271",
+        "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+        "addr:street": "Strada Theodor Burada",
+        "name": "Condor Tour",
+        "opening_hours": "08:30-19:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4147476634,
+      "lat": 41.036818,
+      "lon": 28.6325563,
+      "tags": {
+        "name": "Hür turizm acentesi",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4178377090,
+      "lat": 43.4091134,
+      "lon": 24.6220564,
+      "tags": {
+        "addr:city": "Плевен",
+        "addr:postcode": "5800",
+        "addr:street": "ул. Кирил и Методий 13",
+        "description": "От 2003 година Орбита БГ Плевен ЕООД специализира в сферата на конгресния, конферентния и бизнес туризъм, без да прекъсва работата и в другите направления на стопанския и алтернативния туризъм.",
+        "name": "Орбита БГ Плевен ЕООД туроператор Плевен",
+        "phone": "064 833 288, 0888 882 905, 0889 789 494",
+        "shop": "travel_agency",
+        "website": "https://www.orbitabgpleven.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4244198106,
+      "lat": 43.208645,
+      "lon": 27.9084088,
+      "tags": {
+        "addr:city": "Варна",
+        "addr:country": "BG",
+        "addr:postcode": "9000",
+        "addr:street": "Георги Бенковски 29",
+        "name": "Романтик Травъл Варна",
+        "phone": "052 697 097, 0898 600 038",
+        "shop": "travel_agency",
+        "website": "http://www.romantictravel.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4248030731,
+      "lat": 44.4289426,
+      "lon": 26.0940289,
+      "tags": {
+        "addr:housenumber": "5-11",
+        "addr:street": "Strada Vânători",
+        "email": "office@roholiday.com",
+        "name": "ROholiday",
+        "opening_hours": "24/7",
+        "phone": "+40723452009",
+        "shop": "travel_agency",
+        "website": "roholiday.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4252207891,
+      "lat": 41.0249495,
+      "lon": 29.0119819,
+      "tags": {
+        "name": "Şile Ağva Bilet Gişesi",
+        "shop": "travel_agency",
+        "website": "www.sileagvaotobusleri.net"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4271961355,
+      "lat": 44.3205237,
+      "lon": 23.7988268,
+      "tags": {
+        "addr:city": "Craiova",
+        "addr:country": "RO",
+        "addr:housename": "Bloc 9",
+        "addr:housenumber": "13",
+        "addr:postcode": "200678",
+        "addr:street": "Calea București",
+        "email": "dianatour_craiova@yahoo.com",
+        "name": "Diana Tour",
+        "phone": "0351431001",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4277479478,
+      "lat": 42.7038842,
+      "lon": 23.323256,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "44",
+        "addr:postcode": "1202",
+        "addr:street": "Поп Богомил",
+        "contact:facebook": "https://www.facebook.com/alexandertour",
+        "contact:phone": "(+359 2) 983 33 22",
+        "name": "Александър Тур",
+        "name:en": "Alexander Tour",
+        "opening_hours": "Mo-Fr 09:00-18:30; Sa 10:00-14:00",
+        "shop": "travel_agency",
+        "website": "https://alexandertour.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4317904330,
+      "lat": 42.6863265,
+      "lon": 27.7078912,
+      "tags": {
+        "name": "Экскурсии",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4324891852,
+      "lat": 42.6793701,
+      "lon": 23.3099551,
+      "tags": {
+        "addr:housenumber": "23",
+        "addr:postcode": "1408",
+        "addr:street": "Димитър Манов",
+        "name": "Mario Tours",
+        "opening_hours": "24/7",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4352322691,
+      "lat": 44.3174461,
+      "lon": 28.6120917,
+      "tags": {
+        "addr:housenumber": "12 bis",
+        "addr:postcode": "905700",
+        "addr:street": "Strada Rândunelelor",
+        "name": "DivTravel",
+        "opening_hours": "Mo-Fr 09:00-12:30,13:30-18:00",
+        "phone": "0726780961",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4360798990,
+      "lat": 41.7388042,
+      "lon": 22.1954923,
+      "tags": {
+        "addr:postcode": "2000",
+        "name": "ТА Медитеран",
+        "name:mk": "Медитеран",
+        "opening_hours": "Mo-Fr 10:00-20:00",
+        "shop": "travel_agency",
+        "website": "http://mediteran.mk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4360799389,
+      "lat": 41.7373653,
+      "lon": 22.1927255,
+      "tags": {
+        "addr:postcode": "2000",
+        "name": "Феријал Кашиков",
+        "name:mk": "Феријал Кашиков",
+        "opening_hours": "Mo-Fr 10:00-20:00",
+        "shop": "travel_agency",
+        "website": "http://www.ferijalkasikov.com.mk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4408013591,
+      "lat": 42.5021324,
+      "lon": 27.4674741,
+      "tags": {
+        "addr:housenumber": "99",
+        "addr:postcode": "8000",
+        "addr:street": "Христо Ботев",
+        "email": "burgas@cooltravel.bg",
+        "name": "Куул Травъл",
+        "name:bg": "Куул Травъл",
+        "name:en": "Cool Travel",
+        "opening_hours": "Mo-Fr 09:30-18:30",
+        "phone": "+359885777796",
+        "shop": "travel_agency",
+        "website": "https://www.cooltravel.bg/bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4417188328,
+      "lat": 42.7001616,
+      "lon": 23.3264657,
+      "tags": {
+        "addr:housenumber": "25 A",
+        "addr:postcode": "1000",
+        "addr:street": "Бачо Киро",
+        "email": "info@aviata.bg",
+        "name": "Авиата Травел",
+        "name:bg": "Авиата Травел",
+        "name:en": "Aviata Travel",
+        "opening_hours": "Mo-Fr 09:30-18:30",
+        "phone": "+359 2 421 9599",
+        "shop": "travel_agency",
+        "website": "http://www.aviata.bg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4420078546,
+      "lat": 43.569484,
+      "lon": 27.8276836,
+      "tags": {
+        "name": "Posoka.com",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4420078547,
+      "lat": 43.5694596,
+      "lon": 27.8277368,
+      "tags": {
+        "name": "Златка М",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4422047076,
+      "lat": 41.7387317,
+      "lon": 22.195338,
+      "tags": {
+        "name": "ТА ЈК-Травел",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4457867619,
+      "lat": 41.0869022,
+      "lon": 29.009195,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "1",
+        "addr:street": "Akçam Sok. 11. Blok",
+        "name": "Jolly Tours - Tiyada Turizm",
+        "phone": "2122834371",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4457868605,
+      "lat": 41.0022423,
+      "lon": 28.8709163,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "27",
+        "addr:street": "İzzettin Çalışkanlar Cad. Venüs Apt.",
+        "name": "Jolly Tours - Elf Tur",
+        "phone": "2125562683",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464654849,
+      "lat": 41.0626431,
+      "lon": 28.9932045,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "22",
+        "addr:street": "Büyükdere Cad. İstanbul Cevahir Alışveriş ve Eğlence Merkezi",
+        "name": "Jolly Tours - Cevahir Turizm",
+        "phone": "2123801398",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464656177,
+      "lat": 41.0584912,
+      "lon": 28.9133317,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "6",
+        "addr:street": "Küçükköy Yolu Cad. Ersoy Haşhaşlar İş Merkezi",
+        "name": "Jolly Tours - Susis Travel",
+        "phone": "2125459799",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464751711,
+      "lat": 41.056321,
+      "lon": 28.9871956,
+      "tags": {
+        "addr:housenumber": "142",
+        "addr:street": "Halaskargazi Cad. İlbay Apt.",
+        "name": "Jolly Tours - Rönesans Turizm",
+        "phone": "2123438140",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464753459,
+      "lat": 41.0444834,
+      "lon": 29.0069923,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "19",
+        "addr:street": "Barbaros Bulv. Teknik Apt.",
+        "name": "Jolly Tours - Caribbean Turizm",
+        "phone": "2122590704",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464753819,
+      "lat": 41.0128712,
+      "lon": 29.0540606,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "173/D",
+        "addr:street": "Acıbadem Cad.",
+        "name": "Jolly Tours - İmparator Tur",
+        "phone": "2163277427",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464760182,
+      "lat": 41.1101457,
+      "lon": 29.0325929,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "11",
+        "addr:street": "İstinye Bayırı Cad. İstinyePark Alışveriş Merkezi",
+        "name": "Jolly Tours - Merkez Ofis",
+        "phone": "2123457100",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464768954,
+      "lat": 41.0057193,
+      "lon": 28.9309984,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "27/E",
+        "addr:street": "Kuvayi Milliye Cad.",
+        "name": "Jolly Tours - Temmuz Turizm",
+        "phone": "2126447085",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464786820,
+      "lat": 40.9882238,
+      "lon": 28.9066424,
+      "tags": {
+        "addr:city": "Zeytinburnu",
+        "addr:housenumber": "25/B",
+        "addr:street": "45/3. Sok.",
+        "name": "Jolly Tours - Toscana Tur",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464787809,
+      "lat": 41.0565952,
+      "lon": 28.667014,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464787810,
+      "lat": 41.0562119,
+      "lon": 28.6674244,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "6",
+        "addr:street": "Esenkent Mevki 1655. Sok. Akbatı Alışveriş ve Yaşam Merkezi",
+        "name": "Jolly Tours - Merkez Ofis",
+        "phone": "2123970017",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464788082,
+      "lat": 41.0773496,
+      "lon": 29.0126287,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "181",
+        "addr:street": "Büyükdere Cad. ÖzdilekPark İstanbul",
+        "name": "Jolly Tours - Denistanbul",
+        "phone": "2122788288",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464788505,
+      "lat": 41.0016935,
+      "lon": 29.054586,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "14",
+        "addr:street": "Ankara Devlet Yolu Haydarpaşa Yönü 4. Km. Çeçen Sok. Akasya Acıbadem",
+        "name": "Jolly Tours - İmparator Turizm",
+        "phone": "2165101356",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464788772,
+      "lat": 41.0017694,
+      "lon": 29.053965,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464828815,
+      "lat": 41.0318087,
+      "lon": 28.8275861,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464828816,
+      "lat": 41.0311947,
+      "lon": 28.8281171,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "41/B",
+        "addr:street": "Cumhuriyet Cad.",
+        "name": "Jolly Tours - Mega Yazıcılar Turizm",
+        "phone": "2125155578",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464834195,
+      "lat": 41.0472518,
+      "lon": 28.9868686,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "181/A",
+        "addr:street": "Cumhuriyet Cad.",
+        "name": "Jolly Tours - Merkez Ofis",
+        "phone": "2122967060",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464840296,
+      "lat": 40.9903997,
+      "lon": 29.0288519,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "16",
+        "addr:street": "Söğütlüçeşme Cad. Mürver Çiçeği Sok. Karatekin İş Merkezi",
+        "name": "Jolly Tours - Beauty Turizm",
+        "phone": "2165410200",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464842778,
+      "lat": 41.0346831,
+      "lon": 28.9209267,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "2",
+        "addr:street": "Osman Gazi Caddesi",
+        "name": "Jolly Tours - Denistanbul",
+        "phone": "2125004377",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4464843024,
+      "lat": 41.0662364,
+      "lon": 29.0164356,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "297",
+        "addr:street": "Koru Sok. Zorlu Center",
+        "name": "Jolly Tours - Denistanbul",
+        "phone": "2123536704",
+        "shop": "travel_agency",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4474952384,
+      "lat": 41.0694554,
+      "lon": 29.0073725,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:street": "Esentepe Mah. Hikaye Sok.",
+        "name": "Jolly Tours - Merkez Ofis",
+        "phone": "2122967060",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4474954530,
+      "lat": 41.08688,
+      "lon": 29.0245634,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "4",
+        "addr:street": "Cumhuriyet Cad. Etiler Club Sporium",
+        "name": "Jolly Tours - Merkez Ofis",
+        "phone": "2122780207",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4474971841,
+      "lat": 40.9887835,
+      "lon": 28.8457548,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "168",
+        "addr:street": "Ataköy 7-8-9-10. Mah. Nilüfer Sok. Atrium Alışveriş Merkezi",
+        "name": "Jolly Tours - Gökbora Turizm",
+        "phone": "2125151633",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4475020614,
+      "lat": 41.075001,
+      "lon": 28.2440529,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "11",
+        "addr:street": "Piri Mehmet Paşa Mah. Başkomutan Cad.",
+        "name": "Jolly Tours - Guzel Hisar Turizm",
+        "phone": "2127270644",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4475021230,
+      "lat": 41.0404289,
+      "lon": 28.7904789,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "42",
+        "addr:street": "Halkalı Merkez Mah. Halkalı Cad. Ihlamur AVM",
+        "name": "Jolly Tours - Gökbora Turizm",
+        "phone": "2124704477",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4476582759,
+      "lat": 41.0377899,
+      "lon": 28.9842088,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "1/A",
+        "addr:street": "Kocatepe Mah. Abdulhak Hamit Cad.",
+        "name": "Jolly Tours - Section Turizm",
+        "phone": "2122979725",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4476582764,
+      "lat": 40.9958767,
+      "lon": 28.8649627,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:housenumber": "1",
+        "addr:street": "Bahçelievler Mah. Mehmetçik Sok. Kadir Has Alışveriş Merkezi",
+        "name": "Jolly Tours - Tiar Turizm",
+        "phone": "2124422144",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4501446143,
+      "lat": 42.6947995,
+      "lon": 23.3205643,
+      "tags": {
+        "name": "7M",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4514452168,
+      "lat": 42.6936575,
+      "lon": 23.3277044,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "6",
+        "addr:postcode": "1000",
+        "addr:street": "Славянска",
+        "contact:phone": "+359 2 987 987 2",
+        "name": "Hornit",
+        "shop": "travel_agency",
+        "website": "http://www.hornit.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4514452187,
+      "lat": 42.6936358,
+      "lon": 23.3282945,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4516159964,
+      "lat": 42.6932325,
+      "lon": 23.3317505,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "2А",
+        "addr:postcode": "1000",
+        "addr:street": "Цар Иван Шишман",
+        "contact:phone": "+359 2 980 89 50",
+        "int_name": "Bohemia",
+        "name": "Бохемия",
+        "opening_hours": "Mo-Fr 09:00-13:00,14:00-18:00",
+        "shop": "travel_agency",
+        "website": "https://www.bohemia.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4519651977,
+      "lat": 42.6926755,
+      "lon": 23.3174579,
+      "tags": {
+        "addr:housenumber": "61",
+        "addr:street": "Княз Борис Ⅰ",
+        "contact:phone": "+359 2 950 63 17",
+        "name": "Family Travel",
+        "name:bg": "Фемили Травел",
+        "shop": "travel_agency",
+        "website": "https://familytravel.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4524000098,
+      "lat": 42.69154,
+      "lon": 23.3232916,
+      "tags": {
+        "name": "Image Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4529232037,
+      "lat": 42.6927727,
+      "lon": 23.328804,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/yomexbg",
+        "contact:phone": "+359 2 981 0963",
+        "name": "Yomex",
+        "shop": "travel_agency",
+        "website": "http://www.yomexbg.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4530818589,
+      "lat": 41.4361981,
+      "lon": 22.6384798,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:postcode": "2400",
+        "addr:street": "Димитар Влахов",
+        "email": "manager@atlantis.com.mk",
+        "name": "АтлантиС Травел",
+        "name:en": "AtlantiS Travel",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "phone": "38934345212",
+        "shop": "travel_agency",
+        "website": "http://www.atlantis.mk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4530915661,
+      "lat": 42.6923837,
+      "lon": 23.3334358,
+      "tags": {
+        "name": "Intervoyage",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4535001791,
+      "lat": 42.6910327,
+      "lon": 23.3206019,
+      "tags": {
+        "addr:housenumber": "34",
+        "addr:street": "Христо Белчев",
+        "contact:facebook": "https://www.facebook.com/mistraltravel/",
+        "contact:phone": "+359 2 980 44 59",
+        "name": "Mistral Travel",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "shop": "travel_agency",
+        "website": "https://www.mistralbg.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4536676558,
+      "lat": 42.6907645,
+      "lon": 23.3221661,
+      "tags": {
+        "addr:housenumber": "25",
+        "addr:street": "Ангел Кънчев",
+        "contact:facebook": "https://www.facebook.com/SKYLINK-TRAVEL-479804265518458/",
+        "contact:phone": "+359 2 981 92 71",
+        "name": "Sky Link",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4536676560,
+      "lat": 42.6911056,
+      "lon": 23.3219301,
+      "tags": {
+        "addr:housenumber": "50Б",
+        "addr:postcode": "1000",
+        "addr:street": "Уилям Гладстон",
+        "contact:facebook": "https://www.facebook.com/TraveluxOod",
+        "contact:phone": "+359 2 490 21 92",
+        "name": "Travelux",
+        "opening_hours:signed": "no",
+        "shop": "travel_agency",
+        "website": "http://www.traveluxbg.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4538566638,
+      "lat": 42.6911727,
+      "lon": 23.3232031,
+      "tags": {
+        "addr:housenumber": "58",
+        "addr:street": "Уилям Гладстон",
+        "contact:phone": "+359 2 440 00 66",
+        "contact:skype": "danykoleva",
+        "name": "BG Holiday Club",
+        "name:bg": "Холидей Клуб БГ",
+        "shop": "travel_agency",
+        "website": "http://www.bgholidayclub.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4540424428,
+      "lat": 42.6910794,
+      "lon": 23.3246427,
+      "tags": {
+        "addr:housenumber": "157",
+        "addr:street": "Георги С. Раковски",
+        "contact:phone": "+359 2 981 91 93",
+        "name": "Inter Travel",
+        "shop": "travel_agency",
+        "website": "http://www.inter-bg.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4545467191,
+      "lat": 44.4331008,
+      "lon": 26.1066679,
+      "tags": {
+        "name": "Romanian Team Travel",
+        "name:ro": "Romanian Team Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4545552926,
+      "lat": 42.6896915,
+      "lon": 23.3152835,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:postcode": "1463",
+        "addr:street": "Цар Самуил",
+        "contact:phone": "+359 2 9523109",
+        "name": "Ivanko Tour",
+        "opening_hours": "Mo-Fr 10:00-17:00",
+        "shop": "travel_agency",
+        "website": "http://ivanikobg.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4545663116,
+      "lat": 42.6897006,
+      "lon": 23.3181964,
+      "tags": {
+        "addr:housenumber": "57",
+        "addr:street": "Цар Асен",
+        "contact:facebook": "https://www.facebook.com/travel.advisor.bg/",
+        "contact:phone": "+359 2 995 1070",
+        "name": "Travel Advisor",
+        "shop": "travel_agency",
+        "website": "http://travel-advisor.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4548536210,
+      "lat": 42.6895485,
+      "lon": 23.3214483,
+      "tags": {
+        "addr:housenumber": "49",
+        "addr:postcode": "1000",
+        "addr:street": "Хан Аспарух",
+        "contact:phone": "+359 2 480 85 96",
+        "name": "Misys",
+        "opening_hours": "Mo-Fr 09:30-19:00; Sa 10:30-14:00",
+        "shop": "travel_agency",
+        "website": "http://misystravel.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4548583388,
+      "lat": 42.689809,
+      "lon": 23.323084,
+      "tags": {
+        "addr:housenumber": "134",
+        "addr:postcode": "1000",
+        "addr:street": "Георги С. Раковски",
+        "branch": "Офис 1",
+        "contact:phone": "+359 700 100 38",
+        "name": "Balkanika Travel",
+        "name:bg": "Балканика Травъл",
+        "shop": "travel_agency",
+        "website": "http://www.balkanikatravel.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4548587189,
+      "lat": 42.6898137,
+      "lon": 23.3228038,
+      "tags": {
+        "addr:city": "София",
+        "addr:country": "BG",
+        "addr:housenumber": "60",
+        "addr:postcode": "1000",
+        "addr:street": "Неофит Рилски",
+        "contact:phone": "+359 2 417 33 77",
+        "name": "Doors Travel",
+        "shop": "travel_agency",
+        "website": "https://www.doors-travel.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4548938490,
+      "lat": 41.8284514,
+      "lon": 23.4775115,
+      "tags": {
+        "addr:housenumber": "100",
+        "addr:postcode": "2770",
+        "addr:street": "Найден Геров",
+        "email": "Douglas@bamro.com",
+        "name": "BanskoRentalscom",
+        "name:en": "BanskoRentals.com",
+        "opening_hours": "24/7",
+        "shop": "travel_agency",
+        "website": "http://www.banskorentals.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4549374506,
+      "lat": 44.4393391,
+      "lon": 26.1000046,
+      "tags": {
+        "addr:city": "București",
+        "addr:housenumber": "25",
+        "addr:postcode": "010045",
+        "addr:street": "Bulevardul Nicolae Bălcescu",
+        "name": "Christian Tour",
+        "name:ro": "Christian Tour",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa 10:00-14:00",
+        "shop": "travel_agency",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4549984428,
+      "lat": 42.6895563,
+      "lon": 23.3251369,
+      "tags": {
+        "addr:city": "София",
+        "addr:country": "BG",
+        "addr:housenumber": "26",
+        "addr:postcode": "1000",
+        "addr:street": "6-ти Септември",
+        "contact:phone": "+359 2 988 38 67",
+        "int_name": "2M-KO",
+        "name": "2М-КО",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "shop": "travel_agency",
+        "website": "https://www.2mko.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4550706705,
+      "lat": 42.6922482,
+      "lon": 23.3186365,
+      "tags": {
+        "addr:housenumber": "24",
+        "addr:postcode": "1000",
+        "addr:street": "Цар Асен",
+        "email": "office@travelpal.bg",
+        "name": "Травълпал ООД",
+        "name:en": "TravelPal",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "phone": "+359 2 980 2211",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4569277994,
+      "lat": 41.058223,
+      "lon": 28.9131139,
+      "tags": {
+        "name": "Mika Tur",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4569277996,
+      "lat": 41.0582624,
+      "lon": 28.9131515,
+      "tags": {
+        "name": "Anı Tur",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4599444789,
+      "lat": 42.702537,
+      "lon": 23.3281121,
+      "tags": {
+        "addr:housenumber": "46",
+        "addr:postcode": "1202",
+        "addr:street": "Георги Бенковски",
+        "name": "Караджъ турс",
+        "name:en": "Karaci tours",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4617464155,
+      "lat": 41.3304359,
+      "lon": 27.9724799,
+      "tags": {
+        "name": "Ulusoy",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4617464423,
+      "lat": 41.320135,
+      "lon": 27.9797231,
+      "tags": {
+        "name": "İstanbul Seyahat",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4646283789,
+      "lat": 44.1107363,
+      "lon": 24.3543181,
+      "tags": {
+        "addr:city": "Caracal",
+        "addr:housenumber": "24",
+        "addr:postcode": "235200",
+        "addr:street": "Calea București",
+        "name": "KlanDestin Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4691666954,
+      "lat": 41.3298322,
+      "lon": 27.9749532,
+      "tags": {
+        "name": "Truva Aydın Turizm Fındıkkale",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4691666960,
+      "lat": 41.3294777,
+      "lon": 27.974805,
+      "tags": {
+        "name": "Yağmur Turizm Personel Taşımacılığı",
+        "phone": "+902827178571",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4700564779,
+      "lat": 41.3286841,
+      "lon": 27.9751839,
+      "tags": {
+        "name": "Metro",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4700565177,
+      "lat": 41.3281448,
+      "lon": 27.9754669,
+      "tags": {
+        "addr:city": "Kapaklı",
+        "addr:country": "TR",
+        "addr:postcode": "59510",
+        "addr:province": "Tekirdağ",
+        "addr:street": "Çerkezköy Saray Yolu",
+        "brand": "İstanbul Seyahat",
+        "name": "İstanbul Seyahat",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4705082890,
+      "lat": 42.2821605,
+      "lon": 22.6916092,
+      "tags": {
+        "addr:housenumber": "16",
+        "addr:postcode": "2500",
+        "addr:street": "Цар Михаил",
+        "email": "anatoli.kostov@gmail.com",
+        "name": "Видеостудио Анатоли Костов",
+        "name:bg": "Видеостудио Анатоли Костов",
+        "name:en": "Videostudio Anatoli Kostov",
+        "phone": "00359886861892",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4710821770,
+      "lat": 41.3240576,
+      "lon": 27.976069,
+      "tags": {
+        "name": "İstanbul Seyahat",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4725737189,
+      "lat": 41.1436816,
+      "lon": 22.4963975,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:postcode": "1480",
+        "addr:street": "Деко Ковачев",
+        "name": "Радио Такси \" ХИТ\"",
+        "name:en": "Radio Taksi \" HIT\"",
+        "name:mk": "Радио Такси \" ХИТ\"",
+        "opening_hours": "24/7",
+        "phone": "034 214 151",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4876507481,
+      "lat": 42.6716633,
+      "lon": 23.3275343,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "36",
+        "addr:street": "Кораб планина",
+        "email": "office@doniktravel.com",
+        "name": "DONIK travel",
+        "opening_hours:signed": "no",
+        "phone": "02 / 858 60 14",
+        "shop": "travel_agency",
+        "website": "http://doniktravel.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4931813523,
+      "lat": 43.199482,
+      "lon": 27.9177038,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:postcode": "9000",
+        "addr:street": "Сан Стефано",
+        "name": "New Balkan Tours",
+        "phone": "+35952603387",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4936562427,
+      "lat": 42.1425672,
+      "lon": 24.7530745,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:postcode": "4000",
+        "addr:street": "Леонардо ДаВинчи",
+        "name": "Скай Травъл",
+        "name:en": "Sky Travel",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-14:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4936567622,
+      "lat": 42.1425871,
+      "lon": 24.7530628,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:postcode": "4000",
+        "addr:street": "Леонардо ДаВинчи",
+        "name": "Принцес турс",
+        "name:en": "Princess Tours",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-14:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4945688046,
+      "lat": 41.0013779,
+      "lon": 28.7996751,
+      "tags": {
+        "name": "Turk Havayollar",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4947500106,
+      "lat": 42.7078735,
+      "lon": 23.3226127,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4947500110,
+      "lat": 42.7027407,
+      "lon": 23.32349,
+      "tags": {
+        "name": "Бохемия",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4952542729,
+      "lat": 41.0441125,
+      "lon": 28.9861601,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Şişli",
+        "addr:housenumber": "2",
+        "addr:street": "Babil Sokak",
+        "alt_name": "Travel Zone",
+        "name": "Travezone",
+        "name:en": "Travelzone",
+        "name:tr": "Travezone",
+        "phone": "+90 212 219 83 83",
+        "shop": "travel_agency",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4964462932,
+      "lat": 42.1547186,
+      "lon": 24.7446482,
+      "tags": {
+        "name": "Inter Tourist",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4968049567,
+      "lat": 42.1483613,
+      "lon": 24.7448426,
+      "tags": {
+        "name": "Kibela Tour",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4968326123,
+      "lat": 40.9924929,
+      "lon": 28.9050224,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4979665323,
+      "lat": 40.9940366,
+      "lon": 28.9016797,
+      "tags": {
+        "name": "نوسیگەی گەشتیاری",
+        "name:tr": "نوسیگەی گەشتیاری",
+        "shop": "travel_agency",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4983827530,
+      "lat": 42.6727021,
+      "lon": 23.2971294,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "12",
+        "addr:postcode": "1404",
+        "addr:street": "Кестенова гора",
+        "name": "Fun Travel",
+        "opening_hours": "Mo-Fr 09:30-19:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4986239147,
+      "lat": 41.0017112,
+      "lon": 28.7994681,
+      "tags": {
+        "name": "Nilufer",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4986239148,
+      "lat": 41.0016338,
+      "lon": 28.7994509,
+      "tags": {
+        "name": "Pamukkale",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4986239149,
+      "lat": 41.001564,
+      "lon": 28.7994423,
+      "tags": {
+        "name": "Tatilstil",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4986239150,
+      "lat": 41.0015105,
+      "lon": 28.7994222,
+      "tags": {
+        "name": "Kamilkoc",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4991836111,
+      "lat": 41.0642747,
+      "lon": 28.6866919,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:district": "Başakşehir",
+        "addr:housenumber": "6/A",
+        "addr:neighbourhood": "Bahçeşehir 1. Kısım Mah.  Defne 03 Sitesi",
+        "addr:postcode": "34488",
+        "addr:street": "Ebabil Sok.",
+        "name": "Jolly Tur Yetkili Satış Ofisi - Dream Holidays Tur",
+        "opening_hours": "Mo-Fr 09:00-19:00",
+        "operator": "Jolly Tur Yetkili Satış Ofisi - Dream Holidays Tur",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5012930313,
+      "lat": 42.6679203,
+      "lon": 23.2849617,
+      "tags": {
+        "name": "Delta Tours",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5025051781,
+      "lat": 42.6186916,
+      "lon": 25.3911258,
+      "tags": {
+        "name": "Орлово Гнездо",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5031110807,
+      "lat": 42.6182656,
+      "lon": 25.3903607,
+      "tags": {
+        "name": "Andromeda",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5031172976,
+      "lat": 42.6184422,
+      "lon": 25.3916079,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5048722221,
+      "lat": 41.0403961,
+      "lon": 28.8933907,
+      "tags": {
+        "addr:postcode": "34000",
+        "addr:street": "Kazım Karabekir Cd.",
+        "name": "Metro",
+        "name:en": "Metro",
+        "name:fr": "Metro",
+        "shop": "travel_agency",
+        "website": "https://www.metroturizm.com.tr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5075961001,
+      "lat": 41.0136961,
+      "lon": 28.9465616,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Havlucu sokak",
+        "name": "HHS international",
+        "name:ar": "شركة الأمير والسلطان للسياحة والسفر",
+        "opening_hours": "mo-sa 09:00-17:00",
+        "phone": "05387656171",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5075961017,
+      "lat": 41.0141754,
+      "lon": 28.9489374,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Sofular caddesi",
+        "name": "Esma diş ticaret",
+        "name:ar": "شركة اسما للتجارة",
+        "opening_hours": "mo-sa 09:00-17:00",
+        "phone": "02125341561",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5075993818,
+      "lat": 41.0132755,
+      "lon": 28.9467228,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Ahmediye Caddesi",
+        "name": "Almubarak turizm",
+        "name:ar": "المبارك للسياحة والسفر",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "phone": "02125343211",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5075993820,
+      "lat": 41.0135881,
+      "lon": 28.9461903,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Ahmediye caddesi",
+        "name": "Ozlem Cizre Nuh Turizm",
+        "name:ar": "مجموعة الضيافة للسفر والسياحة",
+        "opening_hours": "Mo-Sa 09:00-22:00",
+        "phone": "05413417313",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5075994621,
+      "lat": 41.0137158,
+      "lon": 28.9459083,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Ahmediye caddesi",
+        "name": "Best Van Turizm",
+        "name:ar": "بيست ون للسياحة والسفر - العراق وإيران",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "05302245050",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5081264683,
+      "lat": 41.0117381,
+      "lon": 28.9466357,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Şht Pilot Mahmut Nedim Sokak",
+        "name": "Metro",
+        "name:ar": "شكر مترو للنقل",
+        "phone": "4443455",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5081265924,
+      "lat": 41.014133,
+      "lon": 28.9425147,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Molla Gürani caddesi",
+        "name": "Suleymaniye tourizm",
+        "name:ar": "السليمانية للنقل والسياحة",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5081265927,
+      "lat": 41.014034,
+      "lon": 28.9428721,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Molla Gürani caddesi",
+        "name": "Alhaliç tourizm",
+        "name:ar": "شركة الخليج للنقل والسياحة",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5081445047,
+      "lat": 41.0265885,
+      "lon": 28.954121,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Haliç Caddesi",
+        "name": "Ameda Turizm",
+        "name:ar": "اميدا توريزم",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5081445059,
+      "lat": 41.0248092,
+      "lon": 28.9524747,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Haliç Caddesi",
+        "name": "Korkut Turizm",
+        "name:ar": "كوركوت توريزم",
+        "phone": "0532 243 53 47",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5086061054,
+      "lat": 41.0265939,
+      "lon": 28.9555805,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Küçük Mustafa Paşa Caddesi",
+        "name": "Metro",
+        "name:ar": "ميترو",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5088194835,
+      "lat": 40.9993446,
+      "lon": 28.9310921,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Abdurrahman Nafiz Gürman Caddesi",
+        "name": "Mika tur",
+        "name:ar": "ميكا للسياحة",
+        "phone": "02125892828",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5088194889,
+      "lat": 41.003388,
+      "lon": 28.931332,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Berber Şefik Sokak",
+        "name": "Hama tur",
+        "name:ar": "حماة للسياحة",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5099056209,
+      "lat": 41.0068553,
+      "lon": 28.9495511,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Küçük Langa Caddesi",
+        "name": "Golden turizm",
+        "name:ar": "غولدن للسياحة و السفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5099060716,
+      "lat": 41.0081794,
+      "lon": 28.9512106,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "İnkilap caddesi",
+        "name": "Ahmet mardin turizm",
+        "name:ar": "أحمد ماردين للسياحة",
+        "phone": "02125850712",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5099060718,
+      "lat": 41.0081996,
+      "lon": 28.9505525,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "İnkilap caddesi",
+        "name": "Beş yıldız turizm",
+        "name:ar": "بيش يلدز للسياحة",
+        "phone": "02125875051",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5106118229,
+      "lat": 41.0123088,
+      "lon": 28.9574128,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Fevziye Caddesi",
+        "name": "Iraqi airways",
+        "name:ar": "الخطوط الجوية العراقية",
+        "opening_hours": "mo-sa 10:00-22:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5106118276,
+      "lat": 41.0127015,
+      "lon": 28.9560986,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Gençtürk Caddesi",
+        "name": "Afriqiyah Airways",
+        "name:ar": "الخطوط الجوية الأفريقية",
+        "opening_hours": "mo-fr 09:00-17:00",
+        "phone": "02124652748",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5106118292,
+      "lat": 41.0115762,
+      "lon": 28.9540601,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Selimpaşa Sokak",
+        "name": "Türkmenistan Kargo",
+        "name:ar": "تركمانستان كارغو",
+        "opening_hours": "mo-sa 09:00-17:00",
+        "phone": "02125261151",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5106118307,
+      "lat": 41.0098295,
+      "lon": 28.9540528,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Selimpaşa Sokak",
+        "name": "Seyr O Sefer",
+        "name:ar": "سير او سفر للسياحة",
+        "opening_hours": "mo-sa 09:00-22:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5106129521,
+      "lat": 41.02418,
+      "lon": 28.9424703,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Fevzi Paşa Caddesi",
+        "name": "Metro",
+        "name:ar": "ميترو",
+        "opening_hours": "mo-su 09:00-21:00",
+        "phone": "08502223455",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5106528822,
+      "lat": 41.004871,
+      "lon": 28.96539,
+      "tags": {
+        "name": "Emin",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5107247589,
+      "lat": 41.0069402,
+      "lon": 28.9309245,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Çevre Tiyatrosu Sokak",
+        "name": "Pamukkale",
+        "name:ar": "باموك كالي",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5107305893,
+      "lat": 41.0083549,
+      "lon": 28.9494555,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Abdüllatif Paşa Sokağı",
+        "name": "Ranya travel turizm",
+        "name:ar": "مكتب رانيا للسياحة و السفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108836345,
+      "lat": 41.0122147,
+      "lon": 28.978194,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Alemdar Caddesi",
+        "name": "Midday Travel Turkey",
+        "name:ar": "ميد داي ترافل توركي",
+        "phone": "+90 212 512 44 41",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108836368,
+      "lat": 41.0127302,
+      "lon": 28.9777872,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Mehmet Murat Sokak",
+        "name": "Bosforo Turizm",
+        "name:ar": "بوسفورو توريزم",
+        "phone": "+90 530 170 06 82",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108836370,
+      "lat": 41.0127519,
+      "lon": 28.9775632,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Hüdavendigar Caddesi",
+        "name": "Ucan Travel",
+        "name:ar": "أوجان ترافيل",
+        "phone": "+90 212 514 15 60",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843041,
+      "lat": 41.0081697,
+      "lon": 28.9757172,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Divan Yolu Caddesi",
+        "name": "Four Seasons",
+        "name:ar": "فور سيزن للسفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843042,
+      "lat": 41.0081545,
+      "lon": 28.9756494,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Divan Yolu Caddesi",
+        "name": "Bosphorus Tours",
+        "name:ar": "بوسفورز تورز للسفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843044,
+      "lat": 41.0081211,
+      "lon": 28.9758821,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Divan Yolu Caddesi",
+        "name": "İBO CRUISE and TOURS",
+        "name:ar": "أي بي أو كروز أند تورز للسفر",
+        "phone": "0530 294 68 00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843086,
+      "lat": 41.0082629,
+      "lon": 28.9772302,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "İncili Çavuş Sokak",
+        "name": "Pride Travel Istanbul",
+        "name:ar": "برايد ترافل اسطنبول للسفر",
+        "phone": "0539 989 67 92",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843093,
+      "lat": 41.0081067,
+      "lon": 28.9764255,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Divan Yolu Caddesi",
+        "name": "Turista Travel Agency",
+        "name:ar": "وكالة سفر توريستا",
+        "phone": "0212 513 71 19",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843094,
+      "lat": 41.0080819,
+      "lon": 28.9764157,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Divan Yolu Caddesi",
+        "name": "Sultanahmet Travel",
+        "name:ar": "سلطان أحمد للسفر",
+        "phone": "0212 513 71 19",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843535,
+      "lat": 41.009594,
+      "lon": 28.9765443,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Yerebatan Caddesi",
+        "name": "Onur Turizm",
+        "name:ar": "أونور توريسم للسفر",
+        "phone": "0212 528 75 61",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843537,
+      "lat": 41.0096081,
+      "lon": 28.976769,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Yerebatan Caddesi",
+        "name": "Anas crecca Travel",
+        "name:ar": "أنس كريسا للسفر",
+        "phone": "HOTEL 511 73 00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843546,
+      "lat": 41.0100097,
+      "lon": 28.9776519,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Salkım Söğüt Sokak",
+        "name": "Chora Travel- Estambul Tour",
+        "name:ar": "تشورا ترافل إستامبول تور للسفر",
+        "phone": "0212 511 68 03",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843564,
+      "lat": 41.0092102,
+      "lon": 28.9782128,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Alemdar Caddesi",
+        "name": "Walkabout Travel",
+        "name:ar": "ووك أباوت للسفر",
+        "phone": "0212 528 98 10",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843567,
+      "lat": 41.0095031,
+      "lon": 28.9785366,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Alemdar Caddesi",
+        "name": "Hannaro Travel",
+        "name:ar": "هانارو للسفر",
+        "phone": "0212 511 24 14",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843753,
+      "lat": 41.0082139,
+      "lon": 28.9747467,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Divan Yolu Caddesi",
+        "name": "Marco Polo Tourism and Travel Agency",
+        "name:ar": "ماركو بولو للسياحة و السفر",
+        "phone": "0212 519 33 06",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843756,
+      "lat": 41.0083409,
+      "lon": 28.974899,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Hacı Tahsin Bey Sokak",
+        "name": "Vialand Office Sultan Ahmad",
+        "name:ar": "فيالاند أوفيس سلطان أحمت للسفر",
+        "phone": "0536 960 85 04",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108843764,
+      "lat": 41.0081922,
+      "lon": 28.975144,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Divan Yolu Caddesi",
+        "name": "Hop On Hop Off",
+        "name:ar": "هوب أون هوب أوف للسفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108844001,
+      "lat": 41.0097857,
+      "lon": 28.9762398,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:housenumber": "27",
+        "addr:neighbourhood": "Alemdar Mahallesi",
+        "addr:postcode": "34110",
+        "addr:street": "Çatalçeşme Sokak",
+        "description": "Istanbul Voyages offers best quality of service with reasonable price for Istanbul sightseeing tours, private Istanbul tour, istanbul city tour, private old city tour.",
+        "name": "Istanbul Voyage Travel",
+        "name:ar": "İngilizce",
+        "opening_hours": "Mo-Su 09:00-19:45",
+        "phone": "0212 514 02 02",
+        "shop": "travel_agency",
+        "website": "https://istanbulvoyages.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108844002,
+      "lat": 41.0097625,
+      "lon": 28.9762038,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Profesör Kazım İsmail Gürkan Caddesi",
+        "name": "ASLYTRAVEL",
+        "name:ar": "أصلي ترفل للسفر",
+        "phone": "0212 522 23 30",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108844003,
+      "lat": 41.0097359,
+      "lon": 28.9760735,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Çatalçeşme Sokak",
+        "name": "Turkey City Tours",
+        "name:ar": "توركي سيتي تورز للسياحة و السفر",
+        "phone": "0212 296 04 40",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108844005,
+      "lat": 41.009633,
+      "lon": 28.9761388,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Çatalçeşme Sokak",
+        "name": "istanbul sightseeing Tours",
+        "name:ar": "اسطنبول سايت سينغ تورز للسياحة والسفر",
+        "phone": "0212 514 02 02",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108844431,
+      "lat": 41.0087629,
+      "lon": 28.9743704,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Çatalçeşme Sokak",
+        "name": "Turkey Travel Centre",
+        "name:ar": "تركيا ترفل سينتر للسفر",
+        "phone": "+61 1800 761 192",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5109654705,
+      "lat": 41.0154883,
+      "lon": 28.9320365,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Börekçi Veli Sokağı",
+        "name": "Metro",
+        "name:ar": "ميترو للسياحة",
+        "opening_hours": "Mo-sa 09:00-21:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5109654706,
+      "lat": 41.0155996,
+      "lon": 28.9316797,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Börekçi Veli Sokağı",
+        "name": "Pamukkale",
+        "name:ar": "باموك كالة للسياحة والسفر",
+        "opening_hours": "Mo-sa 09:00-21:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5111214119,
+      "lat": 41.0048685,
+      "lon": 28.9353168,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "koca mustafapasa caddesi",
+        "name": "Mng kargo",
+        "name:ar": "امج كارجو",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5111222068,
+      "lat": 41.0089288,
+      "lon": 28.9655828,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Biyazit karakol sokak",
+        "name": "Golden bridge",
+        "name:ar": "جولدن بريدج",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5112728869,
+      "lat": 41.0115529,
+      "lon": 28.9592221,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Büyük Reşitpaşa Caddesi",
+        "name": "Yazıcılar Turizm",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5112729018,
+      "lat": 41.0114883,
+      "lon": 28.9584736,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Harikzedeler Sokağı",
+        "name": "Celeste Turizm",
+        "name:ar": "سيليستا للسياحة والسفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5112732244,
+      "lat": 41.0111334,
+      "lon": 28.9592493,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Zeynep Kamil Sokağı",
+        "name": "Güneş Tur",
+        "name:ar": "غونيش توريزم للسياحة والسفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5112750914,
+      "lat": 41.0338473,
+      "lon": 28.9464959,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Leblebiciler Sokağı",
+        "name": "Inebolu Aksakal Seyahat",
+        "name:ar": "انيبولو أكساكال للسياحة",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5112834031,
+      "lat": 41.0075599,
+      "lon": 28.9517469,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Tiryaki hasanpaşa sokağı",
+        "name": "Demir turizm",
+        "name:ar": "ديمير للسياحة",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5112834084,
+      "lat": 41.008654,
+      "lon": 28.9531302,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Gazi kemalpaşa caddesi",
+        "name": "travel agency",
+        "name:ar": "مكتب سياحة و سفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5112834097,
+      "lat": 41.0089669,
+      "lon": 28.9523842,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Teceddüt sokağı",
+        "name": "Leon turizm",
+        "name:ar": "ليون للسياحة",
+        "phone": "02126334940",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5112834099,
+      "lat": 41.0089801,
+      "lon": 28.9521892,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Teceddüt sokağı",
+        "name": "Marina turizm",
+        "name:ar": "مارينا للسياحة",
+        "phone": "02125300419",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113126661,
+      "lat": 41.0055798,
+      "lon": 28.9314271,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Kuvayi Milliye Caddesi",
+        "name": "Kamil Koç",
+        "name:ar": "كاميل كوتش",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113126662,
+      "lat": 41.0056027,
+      "lon": 28.9314716,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Kuvayi Milliye Caddesi",
+        "name": "Metro",
+        "name:ar": "ميترو",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113126695,
+      "lat": 41.0057237,
+      "lon": 28.9309625,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Kuvayi Milliye Caddesi",
+        "name": "Jolly Tur",
+        "name:ar": "جولي تور",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113128113,
+      "lat": 41.0092038,
+      "lon": 28.9540892,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Ceylan Sokak",
+        "name": "Aksa Turizm",
+        "name:ar": "اكسا توريزم",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113128114,
+      "lat": 41.0090925,
+      "lon": 28.9537828,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Ceylan Sokak",
+        "name": "Elit Havacılık",
+        "name:ar": "ايليت هاواجيليك",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113128119,
+      "lat": 41.0090536,
+      "lon": 28.9537985,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Gazi Mustafa Kemal Paşa Caddesi",
+        "brand": "Turkish Airlines",
+        "brand:wikidata": "Q4548",
+        "brand:wikipedia": "en:Turkish Airlines",
+        "name": "Turkish Airlines",
+        "name:ar": "توركيش ايرلاينز",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113128232,
+      "lat": 41.0081167,
+      "lon": 28.9538204,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Gazi Mustafa Kemal Paşa Caddesi",
+        "name": "Aldea Tour",
+        "name:ar": "الديا تور",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113128233,
+      "lat": 41.0079472,
+      "lon": 28.953825,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Gazi Mustafa Kemal Paşa Caddesi",
+        "name": "Abaylar Turizm",
+        "name:ar": "ابايلار توريزم",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113128238,
+      "lat": 41.0079878,
+      "lon": 28.9538269,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Gazi Mustafa Kemal Paşa Caddesi",
+        "name": "Best Paradise Turizm",
+        "name:ar": "بيست براديس توريزم",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113128240,
+      "lat": 41.007913,
+      "lon": 28.9538125,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Gazi Mustafa Kemal Paşa Caddesi",
+        "name": "Gurbet Turizm",
+        "name:ar": "غوربت توريزم",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113128242,
+      "lat": 41.0079341,
+      "lon": 28.9538352,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Gazi Mustafa Kemal Paşa Caddesi",
+        "name": "UAG United Arab Group",
+        "name:ar": "يو آ جي اراب غروب",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113128244,
+      "lat": 41.0077883,
+      "lon": 28.9538182,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Gazi Mustafa Kemal Paşa Caddesi",
+        "name": "Nart Tour",
+        "name:ar": "نارت تور",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113128254,
+      "lat": 41.0074467,
+      "lon": 28.9538243,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Gazi Mustafa Kemal Paşa Caddesi",
+        "name": "Aeroflot",
+        "name:ar": "ايروفلوت",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113487712,
+      "lat": 41.0269211,
+      "lon": 28.9327967,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Sarmaşık sokak",
+        "name": "Agr tur",
+        "name:ar": "Agr tur",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113500234,
+      "lat": 41.0063656,
+      "lon": 28.9712056,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Göktaş sokak",
+        "name": "The history",
+        "name:ar": "ثي هيستوري",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113500246,
+      "lat": 41.0080956,
+      "lon": 28.9742459,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Işık sokak",
+        "name": "Independent Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113500267,
+      "lat": 41.0070526,
+      "lon": 28.9732796,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Klodfarer caddesi",
+        "name": "Route",
+        "name:ar": "روت",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113500272,
+      "lat": 41.0078444,
+      "lon": 28.9735074,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:housenumber": "No: 3/D",
+        "addr:neighbourhood": "Binbirdirek Mahallesi",
+        "addr:postcode": "34122",
+        "addr:street": "Klod Farer Caddesi",
+        "description": "Travel Tips Turkey is focused on offering travel managements of the most outstanding quality, consolidating our vitality and excitement, with our years of involvement in the business.",
+        "email": "info@traveltips.com.tr",
+        "fax": "+90 212 458 0813",
+        "name": "Travel Tips Turkey",
+        "name:ar": "ترافل تيبس",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+90 212 458 0811",
+        "shop": "travel_agency",
+        "source": "local knowledge",
+        "start_date": "2015-02-14",
+        "tourism": "information",
+        "website": "https://www.traveltips.com.tr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113500278,
+      "lat": 41.0069864,
+      "lon": 28.9731265,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Dostluk yurdu sokak",
+        "name": "İnsider travel",
+        "name:ar": "انسايدر ترافيل",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113500308,
+      "lat": 41.0057494,
+      "lon": 28.9735709,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Üçler sokak",
+        "name": "İstanbul vip travel",
+        "name:ar": "اسطانبول ترافل",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113500313,
+      "lat": 41.0056233,
+      "lon": 28.9737293,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Üçler sokak",
+        "name": "Cnr world",
+        "name:ar": "Cnr ورلد",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113500316,
+      "lat": 41.0053595,
+      "lon": 28.9744894,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Atmeydanı caddesi",
+        "name": "Opos",
+        "name:ar": "اوبوس",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113557374,
+      "lat": 41.0095961,
+      "lon": 28.9470071,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Haseki caddesi",
+        "name": "Jolly",
+        "name:ar": "جوللي",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113590318,
+      "lat": 41.0089593,
+      "lon": 28.9477173,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Cerrah Paşa Caddesi",
+        "brand": "Turkish Airlines",
+        "brand:wikidata": "Q4548",
+        "brand:wikipedia": "en:Turkish Airlines",
+        "name": "Turkish Airlines",
+        "name:ar": "الخطوط الجوية التركية",
+        "phone": "02124443119",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113592204,
+      "lat": 41.0110045,
+      "lon": 28.9419073,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Turgut özal millet caddesi",
+        "name": "Turk Hava Yolları",
+        "name:ar": "الخطوط الجوية التركية",
+        "opening_hours": "08:00-18:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113599466,
+      "lat": 41.0088705,
+      "lon": 28.9377433,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Ahmet hikmet Sokak",
+        "name": "Tek kardeşler",
+        "name:ar": "تيك كارديشلار",
+        "phone": "02125861352",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113609926,
+      "lat": 41.0289018,
+      "lon": 28.9373706,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Fevzi paşa Caddesi",
+        "name": "Kıble Turizm",
+        "name:ar": "قبلة سياحة",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113609931,
+      "lat": 41.029539,
+      "lon": 28.9372805,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Fevzi paşa Caddesi",
+        "name": "HFD turizm",
+        "name:ar": "ه ف د سياحة",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113620611,
+      "lat": 41.0096109,
+      "lon": 28.9788303,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Alemdar Caddesi",
+        "name": "Overseas",
+        "name:ar": "اوفر سيس",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113620653,
+      "lat": 41.0059191,
+      "lon": 28.9808674,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Akbıyık Caddesi",
+        "name": "Bonita Tour",
+        "name:ar": "بونيتا تور دليل سياحي",
+        "phone": "02126385276",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113620654,
+      "lat": 41.0059251,
+      "lon": 28.9806032,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Akbıyık Caddesi",
+        "name": "Efendi travel agency",
+        "name:ar": "افندي للسياحة",
+        "phone": "02126386344",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113620656,
+      "lat": 41.0062622,
+      "lon": 28.9810436,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Akbıyık Caddesi",
+        "name": "Magic Valley",
+        "name:ar": "ماجيك فالي",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113620664,
+      "lat": 41.0049343,
+      "lon": 28.9796484,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Akbıyık Caddesi",
+        "name": "Denizen Travel",
+        "name:ar": "دينيز ين دليل سياحي",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113620666,
+      "lat": 41.0049374,
+      "lon": 28.9793171,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Mimar mehmet ağa Caddesi",
+        "brand": "Turkish Airlines",
+        "brand:wikidata": "Q4548",
+        "brand:wikipedia": "en:Turkish Airlines",
+        "name": "Turkish Airlines",
+        "name:ar": "الخطوط الجوية التركية",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113620668,
+      "lat": 41.0086951,
+      "lon": 28.9787176,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "Alemdar Caddesi",
+        "name": "Road Runner",
+        "name:ar": "رود رنير للسياحة",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113623099,
+      "lat": 41.0061336,
+      "lon": 28.9795974,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Utangaç Sokak",
+        "name": "Ready travel",
+        "name:ar": "ريدي ترافل",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5113623107,
+      "lat": 41.0068076,
+      "lon": 28.9811423,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Kutlugun sokak",
+        "name": "Sky Blue",
+        "name:ar": "سكاي بلو",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5115937354,
+      "lat": 41.0068991,
+      "lon": 28.9336463,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Hekimoğlu Alipaşa Caddesi",
+        "name": "Ets tur",
+        "name:ar": "إي تي سي للسياحة",
+        "phone": "4440387",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5115940975,
+      "lat": 41.0018016,
+      "lon": 28.93237,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Marmara Caddesi",
+        "name": "Mardin Dilmenler",
+        "name:ar": "ماردين ديلمنلار",
+        "phone": "05354578525",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5119435869,
+      "lat": 41.0169599,
+      "lon": 28.6276359,
+      "tags": {
+        "addr:city": "İstanbul",
+        "addr:district": "Beylikdüzü",
+        "addr:housenumber": "1/B",
+        "addr:neighbourhood": "Cumhuriyet Mah.",
+        "addr:street": "Beyzade Cad. Keleş Plaza",
+        "name": "Jolly Tur Yetkili Satış Ofisi - Efege Turizm",
+        "operator": "Jolly Tur Yetkili Satış Ofisi - Efege Turizm",
+        "phone": "212 855 33 55",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5126691226,
+      "lat": 42.6825683,
+      "lon": 27.7082294,
+      "tags": {
+        "email": "office@kometa2.com",
+        "name": "Комета2",
+        "name:en": "Kometa2",
+        "opening_hours": "Mo-Su 10:30-18:30",
+        "phone": "+35955422214",
+        "shop": "travel_agency",
+        "website": "http://www.kometa2.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5243950962,
+      "lat": 41.0211096,
+      "lon": 28.9437566,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "SARIGUZEL cadde",
+        "name": "chanakkale truva",
+        "name:ar": "تشاناكالي تروفا",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5243951427,
+      "lat": 41.021386,
+      "lon": 28.9444253,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "muhsir sk.",
+        "name": "Louver",
+        "name:ar": "اللوفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5243951517,
+      "lat": 41.0163899,
+      "lon": 28.946448,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "PALIPASA caddesi",
+        "name": "Aljamal health tourism",
+        "name:ar": "الجمل للسياحة الطبية",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5243951564,
+      "lat": 41.0171863,
+      "lon": 28.9496827,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "FEYZULLAH EFENDI sokak",
+        "name": "Hennes",
+        "name:ar": "هنس للحج والعمرة",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5243951996,
+      "lat": 41.0190228,
+      "lon": 28.9433525,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "PALIPASA caddesi",
+        "name": "Al Hatim",
+        "name:ar": "الحاتم للسياحة والسفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5243952774,
+      "lat": 41.0154138,
+      "lon": 28.9432347,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Turkey",
+        "addr:street": "VATAN caddesi",
+        "name": "Akay turizm",
+        "name:ar": "أكاي للسياحة",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244801835,
+      "lat": 41.0036484,
+      "lon": 28.9757963,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Kapıağası Sokak",
+        "name": "Sultanahmet Tours",
+        "name:ar": "سلتان اهمت تورز",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244801836,
+      "lat": 41.0039391,
+      "lon": 28.975506,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Şifa Hamamı Sokak",
+        "name": "Tenedos Travel",
+        "name:ar": "تينيدوس ترافيل",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244801837,
+      "lat": 41.0038986,
+      "lon": 28.9754952,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Şifa Hamamı Sokak",
+        "name": "Istanbul Walks",
+        "name:ar": "استنبول وولكس",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244801859,
+      "lat": 41.0038779,
+      "lon": 28.9692738,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Dönüş Sokak",
+        "name": "Jasminne Tour",
+        "name:ar": "جاسمين تور",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244801886,
+      "lat": 41.0037542,
+      "lon": 28.9733392,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Kasap Osman Sokak",
+        "name": "Koçlar Turizm",
+        "name:ar": "كوجلار توريزم",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244801894,
+      "lat": 41.0038395,
+      "lon": 28.9746683,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Gelinlik Sokak",
+        "name": "Led Travel",
+        "name:ar": "ليد ترافيل",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244801915,
+      "lat": 41.0030165,
+      "lon": 28.9749372,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Mustafa Paşa Sokak",
+        "name": "Istanbul Package Tours",
+        "name:ar": "اسطنبول باكج تورز",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244801980,
+      "lat": 41.0029527,
+      "lon": 28.973879,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Aksakal Sokağı",
+        "name": "Ekol Travel",
+        "name:ar": "ايكول ترافيل",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244801989,
+      "lat": 41.0036236,
+      "lon": 28.9737408,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Aksakal Sokağı",
+        "name": "Istanbul Bosphorus Tour",
+        "name:ar": "استنبول بوسفور تور",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244801994,
+      "lat": 41.0036376,
+      "lon": 28.9731317,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:housenumber": "18",
+        "addr:street": "Kaleci Sokağı",
+        "name": "ByCoach Travel",
+        "name:ar": "باي كوتش ترافيل",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244802011,
+      "lat": 41.0046173,
+      "lon": 28.9711267,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Kadırga Limanı Caddesi",
+        "name": "YDN Turizm",
+        "name:ar": "يدن توريزم",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244802018,
+      "lat": 41.0048682,
+      "lon": 28.9706896,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Kadırga Limanı Caddesi",
+        "name": "Allstar Travel",
+        "name:ar": "اول ستار ترافيل",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244802721,
+      "lat": 41.0049867,
+      "lon": 28.970699,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Kadırga Limanı Caddesi",
+        "name": "New Way Travel",
+        "name:ar": "نيو واي ترافيل",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244807626,
+      "lat": 41.0096026,
+      "lon": 28.9737188,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Bab-ı Ali Caddesi",
+        "name": "Doraku Tours",
+        "name:ar": "دوراكو تورز",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244807627,
+      "lat": 41.0096912,
+      "lon": 28.9737258,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Bab-ı Ali Caddesi",
+        "name": "Dorak Turizm",
+        "name:ar": "دورااك توريزم",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244807913,
+      "lat": 41.0051867,
+      "lon": 28.9645293,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Tiyatro Caddesi",
+        "name": "Cristo Turizm",
+        "name:ar": "كريستو توريزم",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244812126,
+      "lat": 41.0191303,
+      "lon": 28.9681979,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Park İçi Yolu",
+        "name": "Masal Gemisi",
+        "name:ar": "ماسال غيميسي",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244812127,
+      "lat": 41.0195202,
+      "lon": 28.9667799,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Park İçi Yolu",
+        "name": "Bosphorus Tour",
+        "name:ar": "بوسفور تور",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244812129,
+      "lat": 41.0193336,
+      "lon": 28.9667306,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Ragıp Gümüşpala Caddesi",
+        "name": "Turyol Turizm Ofisi",
+        "name:ar": "توريول توريزم أوفيسي",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5244812130,
+      "lat": 41.0194188,
+      "lon": 28.9645363,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:street": "Ragıp Gümüşpala Caddesi",
+        "name": "Boğaziçi Yatçılık",
+        "name:ar": "بوازيجي ياتشيلك",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5288344558,
+      "lat": 42.6183963,
+      "lon": 25.3928328,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5320369522,
+      "lat": 42.501777,
+      "lon": 27.468937,
+      "tags": {
+        "name": "ОП „Транспорт\"",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5468568067,
+      "lat": 41.2999475,
+      "lon": 27.5431206,
+      "tags": {
+        "addr:street": "Cumhuriyet Caddesi",
+        "name": "İstanbul Seyahat",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5495165196,
+      "lat": 41.4407891,
+      "lon": 27.9220895,
+      "tags": {
+        "brand": "Metro Turizm",
+        "name": "Metro Turizm",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5546298660,
+      "lat": 41.2833122,
+      "lon": 28.0007379,
+      "tags": {
+        "addr:city": "Çerkezköy",
+        "addr:country": "TR",
+        "addr:district": "Çerkezköy",
+        "addr:postcode": "59500",
+        "addr:province": "Tekirdağ",
+        "addr:street": "Öztrak Caddesi",
+        "name": "Arslan Kardeşler Turizm Taşımacılık",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5609470204,
+      "lat": 41.0078369,
+      "lon": 28.973497,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Fatih",
+        "addr:housenumber": "No.3",
+        "addr:neighbourhood": "Binbirdirek Mahallesi",
+        "addr:postcode": "34122",
+        "addr:street": "Klod Farer Caddesi",
+        "description": "As Turkey & Tours Travel, we mostly provide private Turkey tours, Turkey tour packages, tailor-made Turkey tour options to our customers for them to discover Turkey.",
+        "ele": "56",
+        "email": "info@turkeytoursandtravel.com",
+        "fax": "+90 212 458 0813",
+        "name": "Turkey Tours and Travel",
+        "name:tr": "Türkiye Turları ve Seyahat",
+        "opening_hours": "24/7",
+        "operator": "CK Otelcilik Turizm Tic. Ltd. Sti.",
+        "payment:bitcoin": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+90 532 261 5265",
+        "shop": "travel_agency",
+        "source": "local knowledge",
+        "start_date": "2015",
+        "tourism": "information",
+        "website": "https://turkeytoursandtravel.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5654882915,
+      "lat": 41.3300827,
+      "lon": 27.9733358,
+      "tags": {
+        "addr:city": "Kapaklı",
+        "addr:country": "TR",
+        "addr:district": "Kapaklı",
+        "addr:postcode": "59510",
+        "addr:province": "Tekirdağ",
+        "addr:street": "Pınar Bulvarı",
+        "name": "Kale Seyahat Kale Metro",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5666215777,
+      "lat": 41.035895,
+      "lon": 28.983357,
+      "tags": {
+        "addr:housenumber": "48b",
+        "name": "king travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667638785,
+      "lat": 40.9984236,
+      "lon": 28.9048158,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "name": "İstanbul seyahat",
+        "name:ar": "وكالة سفريات اسطنبول سياحات",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667642966,
+      "lat": 40.999253,
+      "lon": 28.9115511,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "name": "BİLY TURİZİM",
+        "name:ar": "شركة سياحية",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667655693,
+      "lat": 40.9911479,
+      "lon": 28.9033718,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "name": "Uludağ Travel Agency",
+        "name:ar": "وكالة سفريات اولوداغ",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667655713,
+      "lat": 40.9911499,
+      "lon": 28.9034689,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "name": "Server Turizm",
+        "name:ar": "وكالة سفريات سيرفر توريزم",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667657048,
+      "lat": 40.9882525,
+      "lon": 28.9070905,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "addr:street": "45/2 Sokak",
+        "name": "Jolly",
+        "name:ar": "جولي",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667658274,
+      "lat": 40.9964161,
+      "lon": 28.897073,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "addr:street": "Ahmet yesevi sokak",
+        "name": "Metro",
+        "name:ar": "مكتب سياحة وسفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667658278,
+      "lat": 40.9940137,
+      "lon": 28.8982739,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "addr:street": "74. sok.",
+        "name": "Türk hava yolları",
+        "name:ar": "خطوط الطيران التركية",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667658487,
+      "lat": 40.9949458,
+      "lon": 28.8953528,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "addr:street": "Prof. Dr.turan Güneş Caddesi",
+        "name": "Baha turizm",
+        "name:ar": "باها للسياحة والسفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667660244,
+      "lat": 40.9908462,
+      "lon": 28.903535,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "name": "Tatil Keyfi",
+        "name:ar": "تعطيل على كيفك",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "546 20 06",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667660263,
+      "lat": 40.9958748,
+      "lon": 28.9025612,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "addr:street": "Semiha şakir caddesi",
+        "name": "Türk hava yolları ofisi",
+        "name:ar": "مكتب الخطوط التركية",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667660887,
+      "lat": 40.9883956,
+      "lon": 28.9046054,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "addr:street": "50 Sokak",
+        "brand": "Turkish Airlines",
+        "brand:wikidata": "Q4548",
+        "brand:wikipedia": "en:Turkish Airlines",
+        "name": "Turkish Airlines",
+        "name:ar": "تركش اير لاينز",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667670101,
+      "lat": 41.0476387,
+      "lon": 28.8456505,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Bağcılar",
+        "addr:street": "Velioğlu caddesi",
+        "name": "Bekiran",
+        "name:ar": "بيكيران",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667672703,
+      "lat": 41.0539121,
+      "lon": 28.8495426,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "name": "Metro",
+        "name:ar": "ميترو",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667673612,
+      "lat": 41.0531158,
+      "lon": 28.8494177,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Zeytinburnu",
+        "name": "İSTANBUL SEYAHAT",
+        "name:ar": "شركة سياحية",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667687601,
+      "lat": 41.0222517,
+      "lon": 28.8233685,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Bağcılar",
+        "addr:street": "Mimar sinan caddesi",
+        "name": "Hisar",
+        "name:ar": "هسار",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667689776,
+      "lat": 41.0315984,
+      "lon": 28.8230993,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Bağcılar",
+        "addr:street": "kocman caddesi",
+        "name": "Alper",
+        "name:ar": "البر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667702768,
+      "lat": 41.0431822,
+      "lon": 28.8440904,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Bağcılar",
+        "addr:street": "Bagcilar Asf caddesi",
+        "name": "Ani tur",
+        "name:ar": "اني تور",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667747271,
+      "lat": 41.031379,
+      "lon": 28.8561825,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Bağcılar",
+        "addr:street": "Bağcılar caddesi",
+        "name": "Tatilidir.com",
+        "name:ar": "وكالة سياحة وسفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667747962,
+      "lat": 41.0256497,
+      "lon": 28.8499302,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Bağcılar",
+        "addr:street": "Şehit Yılmaz Kaan Caddesi",
+        "name": "Pehlivan oğlu seyahat",
+        "name:ar": "بهلوان أوغلو للسياحة والسفر",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5667748635,
+      "lat": 41.0317788,
+      "lon": 28.8559865,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Bağcılar",
+        "addr:street": "29. sokak",
+        "name": "Türk hava yolları",
+        "name:ar": "مكتب خطوط الطيران التركية",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5690929024,
+      "lat": 42.5601769,
+      "lon": 27.6386691,
+      "tags": {
+        "name": "Нишикли травел",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5701775821,
+      "lat": 42.6960125,
+      "lon": 23.3138141,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "5",
+        "addr:postcode": "1606",
+        "addr:street": "Димитър Трайкович",
+        "name": "Алдер",
+        "opening_hours": "Mo-Fr 09:00-17:30",
+        "phone": "+359 2 951 63 06",
+        "shop": "travel_agency",
+        "website": "http://www.aldertravel.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5701776121,
+      "lat": 42.6968529,
+      "lon": 23.3148181,
+      "tags": {
+        "name": "MyWAY",
+        "shop": "travel_agency",
+        "website": "http://mywaytravel.bg",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5707475822,
+      "lat": 42.7079826,
+      "lon": 23.3084438,
+      "tags": {
+        "name": "Премиер клуб България",
+        "name:en": "Premier Club Bulgaria",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5710046240,
+      "lat": 41.0351521,
+      "lon": 28.9810504,
+      "tags": {
+        "name": "Iyi tour",
+        "shop": "travel_agency",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5723448814,
+      "lat": 41.3320978,
+      "lon": 27.9666665,
+      "tags": {
+        "addr:city": "Kapaklı",
+        "addr:country": "TR",
+        "addr:district": "Kapaklı",
+        "addr:place": "Kapaklı Belediyesi Otobüs Terminali",
+        "addr:province": "Tekirdağ",
+        "name": "Efe Tur",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5723448816,
+      "lat": 41.3321164,
+      "lon": 27.9667497,
+      "tags": {
+        "addr:city": "Kapaklı",
+        "addr:country": "TR",
+        "addr:district": "Kapaklı",
+        "addr:place": "Kapaklı Belediyesi Otobüs Terminali",
+        "addr:province": "Tekirdağ",
+        "name": "Metro Turizm",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5723448817,
+      "lat": 41.3321451,
+      "lon": 27.9667275,
+      "tags": {
+        "addr:city": "Kapaklı",
+        "addr:country": "TR",
+        "addr:district": "Kapaklı",
+        "addr:place": "Kapaklı Belediyesi Otobüs Terminali",
+        "addr:province": "Tekirdağ",
+        "name": "Kale",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5723448818,
+      "lat": 41.3322212,
+      "lon": 27.9668228,
+      "tags": {
+        "addr:city": "Kapaklı",
+        "addr:country": "TR",
+        "addr:district": "Kapaklı",
+        "addr:place": "Kapaklı Belediyesi Otobüs Terminali",
+        "addr:province": "Tekirdağ",
+        "name": "İstanbul Seyahat",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5723448819,
+      "lat": 41.3322483,
+      "lon": 27.9668509,
+      "tags": {
+        "addr:city": "Kapaklı",
+        "addr:country": "TR",
+        "addr:district": "Kapaklı",
+        "addr:place": "Kapaklı Belediyesi Otobüs Terminali",
+        "addr:province": "Tekirdağ",
+        "name": "Bafra Seyahat",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5723448820,
+      "lat": 41.3322705,
+      "lon": 27.9668818,
+      "tags": {
+        "addr:city": "Kapaklı",
+        "addr:country": "TR",
+        "addr:district": "Kapaklı",
+        "addr:place": "Kapaklı Belediyesi Otobüs Terminali",
+        "addr:province": "Tekirdağ",
+        "name": "Pamukkale Turizm",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5728554921,
+      "lat": 44.4245228,
+      "lon": 26.1026686,
+      "tags": {
+        "addr:housenumber": "22-24",
+        "addr:postcode": "040211",
+        "addr:street": "Calea Șerban Vodă",
+        "email": "rezervari@agetur.ro",
+        "name": "Agetur",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "phone": "0314256755",
+        "shop": "travel_agency",
+        "website": "https://www.agetur.ro/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5791987279,
+      "lat": 42.6820557,
+      "lon": 23.333029,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "22",
+        "addr:street": "Цанко Церковски",
+        "name": "Lyuba tours",
+        "opening_hours:signed": "no",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5848116885,
+      "lat": 42.1439751,
+      "lon": 24.7491377,
+      "tags": {
+        "email": "info@freeplovdivtour.com",
+        "name:en": "Free walking tour meeting place",
+        "phone": "+359 886 993 977",
+        "shop": "travel_agency",
+        "website": "https://freeplovdivtour.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5918710011,
+      "lat": 42.6874663,
+      "lon": 23.3270166,
+      "tags": {
+        "addr:city": "София",
+        "addr:country": "BG",
+        "addr:housenumber": "41",
+        "addr:postcode": "1142",
+        "addr:street": "бул. Васил Левски",
+        "check_date:opening_hours": "2021-04-20",
+        "contact:facebook": "https://www.facebook.com/TRAVELAGI",
+        "name": "Travelagi",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "+359 876 79 59 56",
+        "shop": "travel_agency",
+        "website": "https://www.travelagi.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6053537392,
+      "lat": 44.4336332,
+      "lon": 26.0143931,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6053541295,
+      "lat": 44.4333018,
+      "lon": 26.1022063,
+      "tags": {
+        "addr:city": "București",
+        "addr:housenumber": "20",
+        "addr:postcode": "030056",
+        "addr:street": "Strada Doamnei",
+        "name": "Basilica Travel",
+        "opening_hours": "Mo-Sa 09:00-17:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6053541492,
+      "lat": 44.4407307,
+      "lon": 26.1335552,
+      "tags": {
+        "name": "Atlas Tours",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "shop": "travel_agency",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6054175386,
+      "lat": 42.6872195,
+      "lon": 23.3259743,
+      "tags": {
+        "addr:city": "София",
+        "addr:country": "BG",
+        "addr:housenumber": "35",
+        "addr:postcode": "1142",
+        "addr:street": "бул. Васил Левски",
+        "branch": "Център",
+        "check_date:opening_hours": "2020-11-12",
+        "name": "Usit Colours",
+        "opening_hours": "Mo-Fr 09:30-18:30",
+        "phone": "+359883489807",
+        "shop": "travel_agency",
+        "website": "https://usitcolours.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6176125967,
+      "lat": 41.0732427,
+      "lon": 28.9047287,
+      "tags": {
+        "name": "Inebolu Aksakal Seyahat",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6214435385,
+      "lat": 42.6665853,
+      "lon": 23.3016412,
+      "tags": {
+        "addr:housenumber": "181",
+        "addr:postcode": "1404",
+        "addr:street": "бул. Гоце Делчев",
+        "email": "buburan@abv.bg",
+        "name": "МИГ Лукс Травел",
+        "name:en": "MIG LUX Travel",
+        "opening_hours": "24/7",
+        "phone": "00359878676932",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255663522,
+      "lat": 42.1521985,
+      "lon": 24.7493673,
+      "tags": {
+        "addr:city": "Пловдив",
+        "addr:housenumber": "28",
+        "addr:street": "4-ти Януари",
+        "phone": "032 262 264",
+        "shop": "travel_agency",
+        "website": "http://www.evrotoptour.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6255664463,
+      "lat": 42.7003916,
+      "lon": 23.3142613,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "45",
+        "addr:street": "Пиротска",
+        "branch": "офис София",
+        "name": "Евро Топ Тур",
+        "phone": "+359 89 205 0324",
+        "shop": "travel_agency",
+        "website": "https://www.evrotoptour.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6264574888,
+      "lat": 41.0005921,
+      "lon": 28.797404,
+      "tags": {
+        "name": "Efetur",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6273899633,
+      "lat": 42.7106068,
+      "lon": 23.3145288,
+      "tags": {
+        "name": "Сватбено кафе",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6308072189,
+      "lat": 41.0004303,
+      "lon": 28.7985905,
+      "tags": {
+        "name": "İstanbul Seyahat",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6345996095,
+      "lat": 41.7390594,
+      "lon": 22.1962423,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/KouzonCorporation/",
+        "name": "Couzon Stip",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6388332746,
+      "lat": 41.038187,
+      "lon": 28.9835382,
+      "tags": {
+        "name": "Bas si tours",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6419549090,
+      "lat": 44.4311953,
+      "lon": 26.1322735,
+      "tags": {
+        "name": "Karpaten",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6419694686,
+      "lat": 41.0064532,
+      "lon": 28.9472521,
+      "tags": {
+        "name": "Perla turizm",
+        "phone": "+902125869908",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6419694887,
+      "lat": 44.4136812,
+      "lon": 26.0866009,
+      "tags": {
+        "name": "Perla Turizm (trip to Istanbul)",
+        "phone": "0040752486919",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6424223586,
+      "lat": 42.692356,
+      "lon": 23.30961,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "6",
+        "addr:postcode": "1606",
+        "addr:street": "бул. Ген. Тотлебен",
+        "name": "Sun Travel",
+        "name:bg": "Сън Травел",
+        "opening_hours": "Mo-Fr 09:30-18:30",
+        "phone": "+359 2 951 69 48",
+        "shop": "travel_agency",
+        "website": "http://www.suntravel.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6424822847,
+      "lat": 42.692926,
+      "lon": 23.3123385,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "19",
+        "addr:postcode": "1606",
+        "addr:street": "бул. Македония",
+        "int_name": "Iana Tour",
+        "name": "Яна тур",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "phone": "+359 700 1 4262",
+        "shop": "travel_agency",
+        "website": "http://ianatour.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6426713023,
+      "lat": 42.6925277,
+      "lon": 23.3145347,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "31",
+        "addr:postcode": "1320",
+        "addr:street": "бул. Христо Ботев",
+        "name": "HC Holidays",
+        "phone": "+359 2 851 06 87",
+        "shop": "travel_agency",
+        "website": "http://www.hcholidays.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6431740905,
+      "lat": 42.691215,
+      "lon": 23.3094437,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "1",
+        "addr:street": "Шандор Петьофи",
+        "contact:facebook": "https://www.facebook.com/Trip-Advice-151577014938828/",
+        "name": "Трип Адвайз",
+        "name:en": "Trip Advice",
+        "opening_hours": "Mo-Fr 10:00-18:30",
+        "phone": "+359 2 953 36 72",
+        "shop": "travel_agency",
+        "website": "https://www.tripadvice.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6433775061,
+      "lat": 42.6899367,
+      "lon": 23.3090907,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "53",
+        "addr:postcode": "1606",
+        "addr:street": "Лайош Кошут",
+        "contact:facebook": "https://www.facebook.com/Balkan-Comfort-DMC-1225206417520138/",
+        "name": "Balkan Comfort DMC",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6443930211,
+      "lat": 42.6888511,
+      "lon": 23.3121186,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "30",
+        "addr:place": "Шандор Петьофи",
+        "contact:facebook": "https://www.facebook.com/ttadecom/",
+        "name": "TTA Decom",
+        "name:bg": "ТТА Деком",
+        "phone": "+359 2 950 0080",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6453086050,
+      "lat": 42.6886372,
+      "lon": 23.3114527,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "13",
+        "addr:street": "Доспат",
+        "name": "Прометей тур",
+        "phone": "+359 2 952 05 11",
+        "shop": "travel_agency",
+        "website": "http://www.prometey-tour.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6453086079,
+      "lat": 42.688587,
+      "lon": 23.3107916,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "25",
+        "addr:street": "Св. Иван Рилски",
+        "contact:facebook": "https://www.facebook.com/Веста-Травел-976709399062493/",
+        "name": "Веста Травел",
+        "phone": "+359 2 951 66 79",
+        "shop": "travel_agency",
+        "website": "http://www.vestatravel.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6456392199,
+      "lat": 42.6881572,
+      "lon": 23.316274,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "42",
+        "addr:postcode": "1463",
+        "addr:street": "Княз Борис Ⅰ",
+        "name": "PTM Travel",
+        "phone": "+359 2 951 69 75",
+        "shop": "travel_agency",
+        "website": "https://www.ptmitourism.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6457155817,
+      "lat": 42.6882966,
+      "lon": 23.3185162,
+      "tags": {
+        "addr:city": "София",
+        "addr:country": "BG",
+        "addr:housenumber": "70",
+        "addr:postcode": "1463",
+        "addr:street": "бул. Витоша",
+        "check_date:opening_hours": "2021-01-30",
+        "name": "Fly & Win",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "+359 2 958 26 40",
+        "shop": "travel_agency",
+        "website": "http://www.flyandwin.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6462906661,
+      "lat": 42.6881873,
+      "lon": 23.3259619,
+      "tags": {
+        "name": "Оданс Травел",
+        "opening_hours": "Mo-Fr 09:00-19:00",
+        "opening_hours:signed": "no",
+        "phone": "+359 2 981 96 48",
+        "shop": "travel_agency",
+        "website": "https://www.odans-travel.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6465666403,
+      "lat": 42.6882094,
+      "lon": 23.3329627,
+      "tags": {
+        "addr:city": "София",
+        "addr:country": "BG",
+        "addr:housenumber": "97",
+        "addr:postcode": "1142",
+        "addr:street": "бул. Евлоги и Христо Георгиеви",
+        "name": "Интеграл",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "opening_hours:covid19": "closed",
+        "phone": "+359 2 80 50 630",
+        "shop": "travel_agency",
+        "website": "https://www.sunny.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6470979741,
+      "lat": 42.6875204,
+      "lon": 23.3181028,
+      "tags": {
+        "addr:city": "София",
+        "addr:country": "BG",
+        "addr:housenumber": "82",
+        "addr:street": "бул. Витоша",
+        "name": "Flight plus",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6474575035,
+      "lat": 42.6876053,
+      "lon": 23.3239654,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:postcode": "1442",
+        "addr:street": "Гургулят",
+        "name": "Марина спорт",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "+359 2 981 34 79",
+        "shop": "travel_agency",
+        "website": "https://www.marinasport.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6498672637,
+      "lat": 42.6859155,
+      "lon": 23.3220259,
+      "tags": {
+        "addr:city": "София",
+        "addr:country": "BG",
+        "addr:housenumber": "8",
+        "addr:postcode": "1142",
+        "addr:street": "бул. Васил Левски",
+        "name": "Стил травел",
+        "name:en": "Style Travel",
+        "opening_hours": "Mo-Fr 09:30-17:30",
+        "phone": "+359 2 483 36 07",
+        "shop": "travel_agency",
+        "website": "http://styletravelbg.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6501118441,
+      "lat": 42.6846718,
+      "lon": 23.3168902,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "68",
+        "addr:street": "Доспат",
+        "name": "Profitours",
+        "name:bg": "Профи Турс",
+        "opening_hours": "Mo-Fr 09:30-18:00",
+        "phone": "+359 2 940 11 11",
+        "shop": "travel_agency",
+        "website": "https://www.profitours.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6501118513,
+      "lat": 42.6850011,
+      "lon": 23.3152569,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "5",
+        "addr:street": "Удово",
+        "branch": "Централен офис",
+        "name": "Lucky Holiday",
+        "name:bg": "Лъки Холидей",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "phone": "+359 886 049 676",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6501479997,
+      "lat": 42.6847278,
+      "lon": 23.3166718,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "75",
+        "addr:postcode": "1463",
+        "addr:street": "бул. Витоша",
+        "name": "ММ Турс",
+        "opening_hours": "Mo-Fr 10:30-18:30",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6504788150,
+      "lat": 42.6848631,
+      "lon": 23.3221286,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "81",
+        "addr:postcode": "1142",
+        "addr:street": "Любен Каравелов",
+        "check_date:opening_hours": "2021-01-19",
+        "name": "Марбро Турс",
+        "name:en": "Marbro Tours",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "phone": "+359 2 981 88 24",
+        "shop": "travel_agency",
+        "website": "https://marbrotours.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6512120783,
+      "lat": 42.6961381,
+      "lon": 23.3169707,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:postcode": "1000",
+        "addr:street": "Позитано",
+        "name": "ММ Травел",
+        "phone": "+359 700 10 756",
+        "shop": "travel_agency",
+        "website": "https://www.mmtravel.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6515273559,
+      "lat": 42.6967605,
+      "lon": 23.3186129,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "107",
+        "addr:street": "Княз Борис Ⅰ",
+        "name": "Искони",
+        "opening_hours": "Mo-Fr 10:00-18:30",
+        "phone": "+359 2 988 85 08",
+        "shop": "travel_agency",
+        "website": "http://iskoni.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6515532677,
+      "lat": 42.6967516,
+      "lon": 23.3203049,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "15",
+        "addr:postcode": "1000",
+        "addr:street": "бул. Александър Стамболийски",
+        "name": "Valenti 7",
+        "phone": "+35929866168",
+        "shop": "travel_agency",
+        "website": "http://www.valenti7.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6525460360,
+      "lat": 42.6960917,
+      "lon": 23.3195674,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6525460865,
+      "lat": 42.695575,
+      "lon": 23.3218146,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "3",
+        "addr:postcode": "1000",
+        "addr:street": "Позитано",
+        "name": "Gira Mondo",
+        "note": "Their website says №3, though it seems like they're in the neighbouring building?",
+        "phone": "+359 2 988 00 09",
+        "shop": "travel_agency",
+        "website": "http://www.giramondo-bg.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6550680858,
+      "lat": 42.6939099,
+      "lon": 23.3421586,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "17",
+        "addr:postcode": "1504",
+        "addr:street": "Велико Търново",
+        "contact:facebook": "https://www.facebook.com/BusinessTravelAgencyBG/",
+        "name": "Business Travel Agency",
+        "phone": "+359 887 80 77 10",
+        "shop": "travel_agency",
+        "website": "http://www.businesstravel.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6553778678,
+      "lat": 42.6926492,
+      "lon": 23.3354679,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "17А",
+        "addr:postcode": "1504",
+        "addr:street": "бул. Цар Освободител",
+        "name": "Macland",
+        "opening_hours": "Mo-Fr 09:00-18:30",
+        "phone": "+359 2 943 85 85",
+        "shop": "travel_agency",
+        "website": "http://maclandtravel.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6556808593,
+      "lat": 42.6928833,
+      "lon": 23.344519,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "141",
+        "addr:postcode": "1504",
+        "addr:street": "бул. Евлоги и Христо Георгиеви",
+        "contact:facebook": "https://www.facebook.com/Azmarra/",
+        "name": "Azmarra",
+        "opening_hours": "Mo-Fr 10:00-19:30",
+        "phone": "+359 887 461 676",
+        "shop": "travel_agency",
+        "website": "https://azmarra.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6563918564,
+      "lat": 42.6914782,
+      "lon": 23.3369981,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "29",
+        "addr:postcode": "1504",
+        "addr:street": "бул. Цар Освободител",
+        "contact:facebook": "https://en-gb.facebook.com/1512453755704307/photos/1512453892370960/",
+        "name": "Kronos",
+        "opening_hours:signed": "no",
+        "phone": "+359 2 943 45 83",
+        "shop": "travel_agency",
+        "website": "http://kronos.dir.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6600901681,
+      "lat": 41.4021874,
+      "lon": 27.3619612,
+      "tags": {
+        "addr:city": "Lüleburgaz",
+        "addr:country": "TR",
+        "addr:district": "Lüleburgaz",
+        "addr:place": "<different>",
+        "addr:province": "Kırklareli",
+        "name": "Aylar Turizm",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6600901797,
+      "lat": 41.4032688,
+      "lon": 27.3474745,
+      "tags": {
+        "addr:city": "Lüleburgaz",
+        "addr:country": "TR",
+        "addr:district": "Lüleburgaz",
+        "addr:place": "<different>",
+        "addr:province": "Kırklareli",
+        "name": "Nişikli Seyahat",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6611385806,
+      "lat": 42.7063868,
+      "lon": 23.309804,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "141-143",
+        "addr:postcode": "1233",
+        "addr:street": "бул. Сливница",
+        "floor": "2",
+        "name": "Премиер Турс ООД",
+        "shop": "travel_agency",
+        "website": "https://www.premiertours.bg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6710129352,
+      "lat": 42.418439,
+      "lon": 27.6951615,
+      "tags": {
+        "addr:city": "Созопол",
+        "addr:housenumber": "17",
+        "addr:street": "Републиканска",
+        "description": "Дафи е Вашия туроператор. Предлагаме  групово и индивидуално туристическо обслужване от А до Я: почивки и ученически лагери; резервации и настаняване; трансфери; екскурзии в страната и чужбина; развлекателни целодневни и полудневни мероприятия; професиона",
+        "name": "Дафи Травел",
+        "phone": "089 667 0796",
+        "shop": "travel_agency",
+        "website": "https://dafitravel.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6729849736,
+      "lat": 41.0350397,
+      "lon": 28.9880618,
+      "tags": {
+        "contact:phone": "+90 8503333535",
+        "contact:website": "https://pamukkale.com.tr",
+        "name": "Pamukkale Turizm",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6781382842,
+      "lat": 44.3122967,
+      "lon": 23.8311415,
+      "tags": {
+        "brand": "TUI",
+        "brand:wikidata": "Q573103",
+        "brand:wikipedia": "en:TUI AG",
+        "name": "TUI",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6790699609,
+      "lat": 42.7037475,
+      "lon": 23.3100832,
+      "tags": {
+        "name": "K&G Tours",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6811019891,
+      "lat": 42.6970261,
+      "lon": 23.3185009,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "27А",
+        "addr:street": "бул. Александър Стамболийски",
+        "branch": "Офис Стамболийски",
+        "name": "Посока",
+        "opening_hours": "Mo-Fr 09:00-16:00; Sa 10:00-16:00",
+        "phone": "+359 889 048971",
+        "shop": "travel_agency",
+        "website": "https://posoka.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6812666785,
+      "lat": 43.3175311,
+      "lon": 21.8963858,
+      "tags": {
+        "addr:city": "Ниш",
+        "addr:housenumber": "6",
+        "addr:postcode": "18000",
+        "addr:street": "Трг Републике",
+        "email": "office@clocktravel.rs",
+        "facebook": "https://www.facebook.com/ClockTravel",
+        "name:en": "Clock Travel",
+        "phone": "+381 18 305435",
+        "shop": "travel_agency",
+        "twitter": "https://twitter.com/TAClockTravel",
+        "website": "https://clocktravel.rs/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6812679409,
+      "lat": 43.2024997,
+      "lon": 27.9208893,
+      "tags": {
+        "addr:city": "Варна",
+        "addr:housenumber": "20",
+        "addr:postcode": "9000",
+        "addr:street": "Михаил Колони",
+        "name": "Руски визов център",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "shop": "travel_agency",
+        "website": "https://visaforrussia.bg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6847337786,
+      "lat": 44.4152955,
+      "lon": 26.1019897,
+      "tags": {
+        "addr:housenumber": "184",
+        "addr:postcode": "040324",
+        "addr:street": "Calea Șerban Vodă",
+        "email": "office@turistclub.ro",
+        "name": "Turist Club",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "0212526260",
+        "shop": "travel_agency",
+        "website": "http://www.turistclub.ro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6852460785,
+      "lat": 44.4513997,
+      "lon": 26.0840618,
+      "tags": {
+        "addr:housenumber": "59",
+        "addr:street": "Strada Buzești",
+        "email": "agvictoria@tarom.ro",
+        "name": "Tarom",
+        "name:ro": "Tarom Agency Victoriei",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "phone": "2046402",
+        "shop": "travel_agency",
+        "website": "https://tarom.ro/en/contact/national-agencies"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6879470180,
+      "lat": 44.4421315,
+      "lon": 26.1521091,
+      "tags": {
+        "brand": "DER Reisebüro",
+        "brand:wikidata": "Q56729186",
+        "brand:wikipedia": "de:Deutsches Reisebüro",
+        "level": "1",
+        "name": "DER Reisebüro",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6906517494,
+      "lat": 42.6979954,
+      "lon": 23.3292615,
+      "tags": {
+        "shop": "travel_agency",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6906517496,
+      "lat": 42.6938966,
+      "lon": 23.3259478,
+      "tags": {
+        "name": "Bulgaria Air",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6906532788,
+      "lat": 42.7025426,
+      "lon": 23.3258433,
+      "tags": {
+        "name": "TravelHappyEnd",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6913067289,
+      "lat": 42.6908245,
+      "lon": 23.3159761,
+      "tags": {
+        "name": "Cassia tour",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6913156286,
+      "lat": 42.6897528,
+      "lon": 23.3206631,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6913156488,
+      "lat": 42.6879166,
+      "lon": 23.3098855,
+      "tags": {
+        "name": "Albena",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6913157585,
+      "lat": 42.691551,
+      "lon": 23.3147063,
+      "tags": {
+        "name": "Partner travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6924550885,
+      "lat": 42.6308313,
+      "lon": 24.3580975,
+      "tags": {
+        "name": "Www.rual-travel.com",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6926506785,
+      "lat": 42.4894347,
+      "lon": 27.4555597,
+      "tags": {
+        "addr:street": "Индустриална",
+        "name:de": "Büro pbm Fähre",
+        "name:en": "Pbm ferry office",
+        "shop": "travel_agency",
+        "website": "http://www.pbm.bg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6927327685,
+      "lat": 42.148309,
+      "lon": 24.7486187,
+      "tags": {
+        "name": "Usit colours",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6935045885,
+      "lat": 43.0802322,
+      "lon": 25.63357,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938993785,
+      "lat": 44.3989293,
+      "lon": 26.0967959,
+      "tags": {
+        "name": "Sara Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7015451320,
+      "lat": 44.4390265,
+      "lon": 26.0789895,
+      "tags": {
+        "addr:housenumber": "166",
+        "addr:street": "Strada Știrbei Vodă",
+        "name": "Eximtur",
+        "shop": "travel_agency",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7051858285,
+      "lat": 41.0496792,
+      "lon": 28.9882262,
+      "tags": {
+        "name:fr": "TUNISAIR",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7128475536,
+      "lat": 41.0414979,
+      "lon": 28.9869891,
+      "tags": {
+        "name": "Lady Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7128475562,
+      "lat": 41.0428451,
+      "lon": 28.9868347,
+      "tags": {
+        "brand": "Turkish Airlines",
+        "brand:wikidata": "Q4548",
+        "brand:wikipedia": "en:Turkish Airlines",
+        "name": "Turkish Airlines",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7132484454,
+      "lat": 41.0477048,
+      "lon": 28.9869966,
+      "tags": {
+        "name": "Travelzone",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7132484455,
+      "lat": 41.0474603,
+      "lon": 28.9869275,
+      "tags": {
+        "name": "Coraltravel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7132484456,
+      "lat": 41.047353,
+      "lon": 28.9869001,
+      "tags": {
+        "name": "Ets tur",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7177926390,
+      "lat": 41.0377351,
+      "lon": 28.9848617,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7415263188,
+      "lat": 42.7035571,
+      "lon": 23.3054431,
+      "tags": {
+        "name": "Angel Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7425712061,
+      "lat": 41.0250604,
+      "lon": 29.0191857,
+      "tags": {
+        "addr:city": "Istanbul",
+        "addr:district": "Üsküdar",
+        "addr:housenumber": "No.48",
+        "addr:neighbourhood": "Mimar Sinan Mahallesi",
+        "addr:postcode": "34762",
+        "addr:street": "Selmani Pak Caddesi",
+        "description": "Avrupa Rüyası, Türsab üyesi A sınıfı seyahat acentedir. Otobüsle Avrupa turu, Kuzey Avrupa turu, Büyük Britanya turu, Balkan turu seçenekleri mevcuttur. Detaylı bilgi için www.avruparuyasi.com.tr ve 0850 840 1806 nolu telefondan bilgi alabilirsiniz.",
+        "email": "info@avruparuyasi.com.tr",
+        "internet_access": "yes",
+        "name": "Avrupa Rüyası",
+        "opening_hours": "Mo-Sa 09:30-18:30",
+        "operator": "Avrupa Rüyası",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+9008508401806",
+        "shop": "travel_agency",
+        "website": "https://www.avruparuyasi.com.tr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7456955964,
+      "lat": 43.204233,
+      "lon": 27.9194647,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7456955965,
+      "lat": 43.2042124,
+      "lon": 27.9195508,
+      "tags": {
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580370825,
+      "lat": 41.0638444,
+      "lon": 28.6874182,
+      "tags": {
+        "brand": "Turkish Airlines",
+        "brand:wikidata": "Q4548",
+        "brand:wikipedia": "en:Turkish Airlines",
+        "name": "Turkish Airlines",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7611096914,
+      "lat": 42.6708336,
+      "lon": 23.32919,
+      "tags": {
+        "addr:city": "София",
+        "addr:postcode": "1164",
+        "addr:street": "Бигла",
+        "name": "HappyFly",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-14:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7655981799,
+      "lat": 44.0783747,
+      "lon": 22.0979933,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Ђуре Ђаковића",
+        "name": "Xway",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7669700408,
+      "lat": 42.6977823,
+      "lon": 23.3169848,
+      "tags": {
+        "addr:city": "София",
+        "addr:housenumber": "12",
+        "addr:postcode": "1000",
+        "addr:street": "Братя Миладинови",
+        "description": "Travel agency and tour-operator - air-tickets, bus tickets, event tickets, hotel reservations.",
+        "level": "0",
+        "name": "V. Korekt Touroperator",
+        "name:bg": "Туроператор В. Корект",
+        "opening_hours": "Mo-Fr 09:30-18:30",
+        "opening_hours:covid19": "same",
+        "operator": "VIdeo Korekt - Ognian Handev ET",
+        "payment:cash": "yes",
+        "shop": "travel_agency",
+        "website": "http://www.vkorekt.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7777736885,
+      "lat": 42.6947855,
+      "lon": 23.3294724,
+      "tags": {
+        "name:en": "Balkan Bites",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7958859290,
+      "lat": 44.3518325,
+      "lon": 23.7557867,
+      "tags": {
+        "name": "Andrei Carsin",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8219146146,
+      "lat": 42.6738043,
+      "lon": 23.3222431,
+      "tags": {
+        "name": "Art travel",
+        "opening_hours": "Mo-Fr 10:00-19:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8292997205,
+      "lat": 42.6739393,
+      "lon": 23.3346178,
+      "tags": {
+        "name": "Travel boutique Find your escape",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8696656146,
+      "lat": 44.1844683,
+      "lon": 28.6460927,
+      "tags": {
+        "email": "constanta@icar.ro",
+        "name": "Icar Tours",
+        "phone": "+40 241 553 790",
+        "shop": "travel_agency",
+        "website": "https://icar.ro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8719399415,
+      "lat": 44.4279419,
+      "lon": 24.3730689,
+      "tags": {
+        "addr:city": "Slatina",
+        "addr:street": "Strada Primăverii",
+        "name": "RUTH DIANA",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8730208233,
+      "lat": 44.4290803,
+      "lon": 24.373837,
+      "tags": {
+        "addr:city": "Slatina",
+        "name": "FILADELFIA TURSIM",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9166929213,
+      "lat": 41.1156892,
+      "lon": 28.9982157,
+      "tags": {
+        "name": "Öz Günaylar Turizm",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9378962433,
+      "lat": 44.4531361,
+      "lon": 26.0496971,
+      "tags": {
+        "name": "Deity Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267116614,
+      "nodes": [
+        2725879952,
+        2725879943,
+        2725879946,
+        2725879949,
+        2725879952
+      ],
+      "tags": {
+        "addr:city": "Otopeni",
+        "addr:street": "Calea Bucureștilor",
+        "building": "yes",
+        "name": "Miniprix Voyage",
+        "shop": "travel_agency",
+        "source": "http://voyage.miniprix.ro/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 462284482,
+      "nodes": [
+        4576936109,
+        4576936110,
+        4576936111,
+        4576936112,
+        4576936109
+      ],
+      "tags": {
+        "addr:city": "Üsküdar/İstanbul",
+        "addr:street": "Koşuyolu Caddesi",
+        "building": "yes",
+        "name": "MİKA TUR",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "way",
+      "id": 956544860,
+      "nodes": [
+        8852626706,
+        8852626707,
+        8852626708,
+        8852626709,
+        8852626706
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "PTT Ispartakule HGS Acentesi",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "way",
+      "id": 956544889,
+      "nodes": [
+        8852632179,
+        8852632180,
+        8852632181,
+        8852632182,
+        8852632179
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "PTT Esenyurt HGS Acentesi",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8852632179,
+      "lat": 41.0499144,
+      "lon": 28.6878644
+    },
+    {
+      "type": "node",
+      "id": 8852632180,
+      "lat": 41.0498302,
+      "lon": 28.6879371
+    },
+    {
+      "type": "node",
+      "id": 8852632181,
+      "lat": 41.0498021,
+      "lon": 28.6878822
+    },
+    {
+      "type": "node",
+      "id": 8852632182,
+      "lat": 41.0498863,
+      "lon": 28.687813
+    },
+    {
+      "type": "node",
+      "id": 8852626706,
+      "lat": 41.0587704,
+      "lon": 28.7101282
+    },
+    {
+      "type": "node",
+      "id": 8852626707,
+      "lat": 41.0587449,
+      "lon": 28.7102049
+    },
+    {
+      "type": "node",
+      "id": 8852626708,
+      "lat": 41.0586886,
+      "lon": 28.710172
+    },
+    {
+      "type": "node",
+      "id": 8852626709,
+      "lat": 41.0587141,
+      "lon": 28.7100953
+    },
+    {
+      "type": "node",
+      "id": 4576936109,
+      "lat": 41.0111279,
+      "lon": 29.0385219
+    },
+    {
+      "type": "node",
+      "id": 4576936110,
+      "lat": 41.0110497,
+      "lon": 29.0386888
+    },
+    {
+      "type": "node",
+      "id": 4576936111,
+      "lat": 41.0109878,
+      "lon": 29.0386378
+    },
+    {
+      "type": "node",
+      "id": 4576936112,
+      "lat": 41.0110659,
+      "lon": 29.038471
+    },
+    {
+      "type": "node",
+      "id": 2725879943,
+      "lat": 44.5717782,
+      "lon": 26.0680358
+    },
+    {
+      "type": "node",
+      "id": 2725879946,
+      "lat": 44.5716489,
+      "lon": 26.068115
+    },
+    {
+      "type": "node",
+      "id": 2725879949,
+      "lat": 44.5714797,
+      "lon": 26.0675714
+    },
+    {
+      "type": "node",
+      "id": 2725879952,
+      "lat": 44.571609,
+      "lon": 26.0674921
+    }
+  ]
+}

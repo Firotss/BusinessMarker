@@ -1,3 +1,4 @@
+import profile
 from django.http import HttpResponseRedirect
 from django.views.generic import TemplateView
 import os
@@ -8,9 +9,14 @@ from django.core.mail import send_mail
 class Permissions(TemplateView):
 
     def dispatch(self, request, *args, **kwargs):
-        if not request.user.is_authenticated:
-            return HttpResponseRedirect('/login_menu/')
+        is_login_page = request.path == "/login_menu/"
+        is_profile_page = request.path == "/profile/"
+        is_user_authenticated = request.user.is_authenticated
 
+        if not is_user_authenticated and not is_login_page:
+            return HttpResponseRedirect('/login_menu/')
+        if is_user_authenticated and not is_profile_page:
+            return HttpResponseRedirect('/profile/')
         return super(Permissions, self).dispatch(request, *args, **kwargs)
 
     @property
@@ -30,12 +36,11 @@ class News(TemplateView):
     def check_for_updates(self):
         try:
             git_log = os.popen("git log --oneline -n 30 --pretty=format:'%cs,%s'").readlines()
-            print(git_log)
             date, message = git_log[0].split(',')
             message = re.sub('[^A-Za-z0-9 ]+', '', message)
             date = re.sub('[^0-9-]+', '', date)
 
-            if not Updates.objects.filter(date=date).exists():
+            if not Updates.objects.filter(date=date).exists() or not Updates.objects.filter(comment=message).exists():
                 Updates.objects.create(comment=message, date=date)
 
         except Exception as ex:
@@ -48,17 +53,4 @@ class News(TemplateView):
         # Updates.objects.all().delete()
         context['news'] = Updates.objects.all()
 
-        return context
-
-class Send(TemplateView):
-
-    def get_context_data(self, **kwargs):
-        context = send_mail(
-                'Confirm ur email:',
-                code,
-                'tech-support@businessmarker.ru',
-                [email],
-                fail_silently=False,
-                )
-                
         return context

@@ -33,7 +33,16 @@ function tabs(panelIndex) {
 }
 tabs(2);
 
-function checkType(){
-  let name = document.getElementById("name").value;
-  // ur code here
-  }
+function checkType(type){
+  document.getElementsByClassName("sub-menu")[0].id = type;
+  document.getElementsByClassName("sub-menu")[0].querySelectorAll("li a").forEach(element => {
+    element.style.background = "rgb(8, 8, 8)";
+    element.style.color = "#fff";
+  });
+  document.getElementsByClassName("sub-menu")[0].querySelectorAll("li").forEach(element => {
+    if (element.className == type){
+      element.querySelectorAll("a")[0].style.background = "#fff";
+      element.querySelectorAll("a")[0].style.color = "rgb(8, 8, 8)";
+    }
+  });
+}

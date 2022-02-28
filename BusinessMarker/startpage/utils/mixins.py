@@ -4,7 +4,6 @@ from django.core.mail import send_mail
 
 class Send(TemplateView):
     def post(self, request, *args, **kwargs):
-        print(request.POST)
         description = request.POST["name"] + " " + request.POST["email"]+ " "+ request.POST["description"]
         mail_status = send_mail(
                 request.POST["subject"],
