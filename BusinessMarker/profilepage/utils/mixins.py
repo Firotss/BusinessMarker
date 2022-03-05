@@ -11,12 +11,15 @@ class Permissions(TemplateView):
     def dispatch(self, request, *args, **kwargs):
         is_login_page = request.path == "/login_menu/"
         is_profile_page = request.path == "/profile/"
+        is_ajax_page = request.path == "/profile/ajax/"
         is_user_authenticated = request.user.is_authenticated
-
+        
+        if is_user_authenticated:
+            if not is_profile_page and not is_ajax_page:
+                return HttpResponseRedirect('/profile/')
         if not is_user_authenticated and not is_login_page:
             return HttpResponseRedirect('/login_menu/')
-        if is_user_authenticated and not is_profile_page:
-            return HttpResponseRedirect('/profile/')
+        
         return super(Permissions, self).dispatch(request, *args, **kwargs)
 
     @property
