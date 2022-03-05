@@ -4,10 +4,17 @@
 
 <link rel="stylesheet" href="{% static 'css/loginRegister.css'%}">
 <link rel="shortcut icon" href="{% static 'images/bm.png'%}">
+
+{% for error in login_form.non_field_errors %}
+    <p>{{ error }}</p>
+{% endfor %}
+{% for error in register_form.non_field_errors %}
+    <p>{{ error }}</p>
+{% endfor %}
 <div class="container">
   <div class="forms-container">
     <div class="signin-signup">
-      <form method="POST" action="login/" class="sign-in-form">
+      <form method="POST" action="" class="sign-in-form">
         {% csrf_token %}
         {{ login_form.captcha }}
         <h2 class="title">Login</h2>
@@ -22,7 +29,7 @@
         <input type="submit" value="Login" class="btn solid">
           <input type="hidden" name="action" value="login">
       </form>
-      <form method="POST" action="register/" class="sign-up-form">
+      <form method="POST" action="" class="sign-up-form">
         {% csrf_token %}
         {{ register_form.captcha }}
         <h2 class="title">Register</h2>
@@ -39,7 +46,7 @@
           <input type="password" name="password" class="form-control" placeholder="Password" id="password" required>
         </div>
         <input type="submit" value="Register" class="btn solid">
-          <input type="hidden" name="action" value="login">
+          <input type="hidden" name="action" value="register">
       </form>
     </div>
   </div>

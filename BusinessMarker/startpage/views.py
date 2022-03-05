@@ -1,5 +1,6 @@
+from pickle import NONE
 from django.core.checks.messages import Error
-from django.http import HttpResponse, request
+from django.http import HttpResponse, HttpResponseBadRequest, request
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.models import User
@@ -23,70 +24,61 @@ def phpmyadmin(request):
     return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")
     
 class LoginView(Permissions):
-    template_name = "login.html"
+    def get(self, request, *args, **kwargs):
+        loginForm = LoginForm(request.POST)
+        registerForm = RegisterForm(request.POST)
+        return render(request, "login.html", {'login_form' : loginForm, 'register_form' : registerForm})
 
-def register(request):
-    if not request.user.is_authenticated:
-        form = RegisterForm(request.POST)
-        if form.is_valid():
-            username = request.POST['username']
-            password = request.POST['password']
-            email = request.POST['email']
-            if User.objects.filter(username=username).exists() == False:
-                i = 10
-                code = ""
-                while i > 0:
-                    code+=(str)(random.randint(0,9))
-                    i-=1
+    def post(self, request, *args, **kwargs):
+        loginForm = LoginForm(request.POST)
+        registerForm = RegisterForm(request.POST)
+        if request.POST['action'] == "login":
+            if loginForm.is_valid():
+                user = authenticate(request, username= request.POST['username'], password=request.POST['password'])
+                if user is not None:
+                    login(request, user)
+                    return redirect('/profile/')
+            loginForm.add_error(None, 'LOGIN ERROR')
+        else:
+            if registerForm.is_valid():
+                username = request.POST['username']
+                password = request.POST['password']
+                email = request.POST['email']
+                if User.objects.filter(username=username).exists() == False:
+                    i = 10
+                    code = ""
+                    while i > 0:
+                        code+=(str)(random.randint(0,9))
+                        i-=1
+                    
+                    if Ref_Links.objects.filter(username=username).exists() == True:
+                        Ref_Links.objects.get(username=username).delete()
+
+                    Ref_Links.objects.create(username=username, password=password, email=email, code=code)
+                    code = "https://www.businessmarker.ru/ref/"+username+"-"+code
+                    if send_mail(
+                        'Confirm ur email:',
+                        code,
+                        'tech-support@businessmarker.ru',
+                        [email],
+                        fail_silently=False):
+                        registerForm.add_error(None, 'CONFIRM EMAIL')
+            else:
+                registerForm.add_error(None, 'REGISTER ERROR')
                 
-                try:
-                    Ref_Links.objects.get(username=username).delete()
-                except:
-                    print()
+        return render(request, "login.html", {'login_form' : loginForm, 'register_form' : registerForm})
 
-                Ref_Links.objects.create(username=username, password=password, email=email, code=code)
-                code = "https://www.businessmarker.ru/ref/"+username+"-"+code
-                send_mail(
-                    'Confirm ur email:',
-                    code,
-                    'tech-support@businessmarker.ru',
-                    [email],
-                    fail_silently=False,
-                )
-        return redirect('/login_menu/')
-    else:
-        return redirect('/profile/')
-
-def login_func(request):
-    if not request.user.is_authenticated: 
-        form = LoginForm(request.POST)
-        if form.is_valid():
-            user = authenticate(request, username= request.POST['username'], password=request.POST['password'])
-            if user is not None:
-                login(request, user)
-                return redirect('/profile/')
-        return redirect('/login_menu/')
-    else:
-        return redirect('/profile/')
-
-def login_view(request):
-    loginForm = LoginForm()
-    registerForm = RegisterForm()
-    if not request.user.is_authenticated: 
-        return render(request, 'login.html', {'login_form' : loginForm, 'register_form' : registerForm})  
-    else:
-        return redirect('/profile/')
-                
 def ref(request, id):
     id_list = id.split('-')
-    if(Ref_Links.objects.filter(username=id_list[0])):
-        ref_code = Ref_Links.objects.filter(username=id_list[0])
-        if(ref_code[0].code == id_list[1]):
-            user = User.objects.create_user(ref_code[0].username, ref_code[0].email, ref_code[0].password)
-            basic_group = Group.objects.get(name='Free') 
-            user.groups.add(basic_group)
-            Ref_Links.objects.get(username=id_list[0]).delete()
-            login(request, user)
+    if User.objects.filter(username=id_list[0]).exists() == False:
+        if(Ref_Links.objects.filter(username=id_list[0])):
+            ref_code = Ref_Links.objects.filter(username=id_list[0])
+            if(ref_code[0].code == id_list[1]):
+                user = User.objects.create_user(ref_code[0].username, ref_code[0].email, ref_code[0].password)
+                basic_group = Group.objects.get(name='Free') 
+                user.groups.add(basic_group)
+                Ref_Links.objects.get(username=id_list[0]).delete()
+                login(request, user)
     return redirect('/profile/')
 
 def handler404(request, exception):
