@@ -131,26 +131,28 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message</div>
-                    <div class="form">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" id="name" placeholder="Name" required>
+                    <form>
+                        <div class="form">
+                            <div class="fields">
+                                <div class="field name">
+                                    <input type="text" id="name" placeholder="Name" required>
+                                </div>
+                                <div class="field email">
+                                    <input type="email" id="email" placeholder="Email" required>
+                                </div>
                             </div>
-                            <div class="field email">
-                                <input type="email" id="email" placeholder="Email" required>
+                            <div class="field">
+                                <input type="text" id="subject" placeholder="Subject" required>
                             </div>
+                            <div class="field textarea">
+                                <textarea cols="30" rows="10" id="description" placeholder="Text message" required></textarea>
+                            </div>
+                            <div class="button-area">
+                                <button type="button" onclick="sendMessage()">SEND</button>
+                            </div>
+                            <p id="valid"></p>
                         </div>
-                        <div class="field">
-                            <input type="text" id="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" id="description" placeholder="Text message" required></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button type="button" onclick="sendMessage()">SEND</button>
-                        </div>
-                        <p id="valid"></p>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
