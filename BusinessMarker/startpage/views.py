@@ -17,9 +17,6 @@ from .utils.mixins import Send
 class IndexView(Send):
     template_name = 'index.html'
 
-# def index(request):
-#     return render(request, 'index.html')
-
 def phpmyadmin(request):
     return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")
     
@@ -38,7 +35,9 @@ class LoginView(Permissions):
                 if user is not None:
                     login(request, user)
                     return redirect('/profile/')
-            loginForm.add_error(None, 'LOGIN ERROR')
+                loginForm.add_error(None, 'LOGIN ERROR')
+            else:
+                loginForm.add_error(None, 'CAPTCHA ERROR')
         else:
             if registerForm.is_valid():
                 username = request.POST['username']
