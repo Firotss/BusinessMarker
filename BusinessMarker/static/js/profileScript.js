@@ -34,15 +34,32 @@ function tabs(panelIndex) {
 tabs(2);
 
 function checkType(type){
-  document.getElementsByClassName("sub-menu")[0].id = type;
-  document.getElementsByClassName("sub-menu")[0].querySelectorAll("li a").forEach(element => {
-    element.style.background = "rgb(8, 8, 8)";
-    element.style.color = "#fff";
-  });
-  document.getElementsByClassName("sub-menu")[0].querySelectorAll("li").forEach(element => {
-    if (element.className == type){
-      element.querySelectorAll("a")[0].style.background = "#fff";
-      element.querySelectorAll("a")[0].style.color = "rgb(8, 8, 8)";
-    }
-  });
+  if(type == "api" || type == "local")
+  {
+    document.getElementsByClassName("sub-menu")[1].id = type;
+    document.getElementsByClassName("sub-menu")[1].querySelectorAll("li a").forEach(element => {
+      element.style.background = "rgb(8, 8, 8)";
+      element.style.color = "#fff";
+    });
+    document.getElementsByClassName("sub-menu")[1].querySelectorAll("li").forEach(element => {
+      if (element.className == type){
+        element.querySelectorAll("a")[0].style.background = "#fff";
+        element.querySelectorAll("a")[0].style.color = "rgb(8, 8, 8)";
+      }
+    });
+  }
+  else
+  {
+    document.getElementsByClassName("sub-menu")[0].id = type;
+    document.getElementsByClassName("sub-menu")[0].querySelectorAll("li a").forEach(element => {
+      element.style.background = "rgb(8, 8, 8)";
+      element.style.color = "#fff";
+    });
+    document.getElementsByClassName("sub-menu")[0].querySelectorAll("li").forEach(element => {
+      if (element.className == type){
+        element.querySelectorAll("a")[0].style.background = "#fff";
+        element.querySelectorAll("a")[0].style.color = "rgb(8, 8, 8)";
+      }
+    });
+  }
 }

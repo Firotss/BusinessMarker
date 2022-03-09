@@ -60,7 +60,7 @@ require([
         $.ajax({
           url: "ajax/",
           type: "GET",
-          data: {data : JSON.stringify(coordinates), type : document.getElementsByClassName("sub-menu")[0].id},
+          data: {data : JSON.stringify(coordinates), type : document.getElementsByClassName("sub-menu")[0].id, source : document.getElementsByClassName("sub-menu")[1].id},
           success: function(response){
             let oneper = response.population
             if(response.business.length != 0)
