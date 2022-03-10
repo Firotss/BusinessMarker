@@ -1,20 +1,14 @@
-from turtle import numinput
 from django.http import HttpResponseRedirect
-from re import template
 from django.http import JsonResponse
-from django.shortcuts import render, redirect
+from django.shortcuts import redirect
 from django.contrib.auth import logout
 from django.contrib.auth.models import User
-from matplotlib.style import context
 from shapely.geometry import Point
-from shapely.geometry import MultiPolygon, Polygon
-from django.views.generic import View
+from shapely.geometry import Polygon
+from bs4 import BeautifulSoup
 from .utils.mixins import Permissions, News
-from django.contrib.auth.models import Group
 import geopandas
 import json
-from OSMPythonTools.overpass import Overpass
-from bs4 import BeautifulSoup
 import requests as req
 areas = geopandas.read_file("bgdensity/bulgaria.shp")
 

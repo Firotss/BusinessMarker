@@ -396,12 +396,13 @@ input[type="submit"]:hover{
   }
 }
 .cards-container{
-  max-width: 1500px;
   display: flex;
   box-sizing: border-box;
   flex-direction: row;
   margin: 0 auto;
-  transform: translateY(50%);
+  transform: translateY(30%);
+  min-width: 2000px;
+  padding-left: 5%;
 }
 h2{
   color: crimson;
@@ -438,4 +439,18 @@ img{
   .cards-container{
     max-width: 400px;
   }
+}
+.sidebar li.showMenu .sub-menu{
+  display: block;
+}
+.sidebar li.showMenu i.arrow{
+  transform: rotate(-180deg);
+}
+.sidebar li .sub-menu{
+  display: none;
+}
+.center h3{
+  padding: 20px 0;
+  border-bottom: 1px solid silver;
+  font-weight: 500;
 }

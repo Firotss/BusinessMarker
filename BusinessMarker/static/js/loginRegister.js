@@ -9,3 +9,8 @@ sign_up_btn.addEventListener("click", () => {
 sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
 });
+
+document.getElementById("dismiss-popup-btn").addEventListener("click", function(){
+  document.getElementsByClassName("popup")
+  [0].classList.remove("active");
+});

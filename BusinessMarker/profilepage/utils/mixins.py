@@ -30,6 +30,8 @@ class Permissions(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(Permissions, self).get_context_data(**kwargs)
         context['is_free'] = 'free' in self._user_groups
+        context['is_basic'] = 'basic' in self._user_groups
+        context['is_standart'] = 'standart' in self._user_groups
         context['is_premium'] = 'premium' in self._user_groups
         context['is_admin'] = 'admin' in self._user_groups
 
@@ -40,6 +42,9 @@ class News(TemplateView):
         try:
             git_log = os.popen("git log --oneline -n 30 --pretty=format:'%cs,%s'").readlines()
             date, message = git_log[0].split(',')
+            # for item in git_log:
+            #     date, message = item.split(',')
+            #     Updates.objects.create(comment=message, date=date)
             message = re.sub('[^A-Za-z0-9 ]+', '', message)
             date = re.sub('[^0-9-]+', '', date)
 
@@ -54,6 +59,6 @@ class News(TemplateView):
         context = super().get_context_data(**kwargs)
         self.check_for_updates()
         # Updates.objects.all().delete()
-        context['news'] = Updates.objects.all()
+        context['news'] = Updates.objects.all()[:10]
 
         return context

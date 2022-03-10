@@ -81,7 +81,7 @@
       <ul class="sub-menu" id="restaurant">
         <li class="restaurant"><a onclick="checkType('restaurant')">Restaurants</a></li>
         <li class="pharmacy"><a onclick="checkType('pharmacy')">Pharmacies</a></li>
-        <li class="hotels"><a onclick="checkType('hotels')">Hotels</a></li>
+        <li class="fuel"><a onclick="checkType('fuel')">Gas Stations</a></li>
       </ul>
     </li>
     <li>
@@ -115,7 +115,7 @@
 
   <section class="home-section">
     <div class="container">
-      <div class="profile tabShow">
+      <div class="profile tabShow" style="display: none;">
         <div class="form-container">
           <div class="center">
             <h1>Personal Info</h1>
@@ -155,9 +155,8 @@
         </div>
       </div>
 
-      <div class="subscription tabShow">
+      <div class="subscription tabShow" style="display: none;">
         <div class="form-container">
-            
             <form method="post">
               <div class="pricing-table">
                 <div class="pricing-card">
@@ -171,7 +170,7 @@
                   <p>❌the lack of the selected business segment in percentage of our country</p>
                   <p>&nbsp;</p>
                   <p>❌use all the functionality of the site for every country</p>
-                  <a href="#" onclick="tabs(5)" class="order-btn">Order Now</a>
+                  <a href="#" onclick="tabs(5)" id="btn-basic" class="order-btn">Order Now</a>
                 </div>
 
                 <div class="pricing-card">
@@ -185,7 +184,7 @@
                   <p>✅the lack of the selected business segment in percentage of our country</p>
                   <p>&nbsp;</p>
                   <p>❌use all the functionality of the site for every country</p>
-                  <a href="#" onclick="tabs(5)" class="order-btn">Order Now</a>
+                  <a href="#" onclick="tabs(5)" id="btn-standard" class="order-btn">Order Now</a>
                 </div>
 
                 <div class="pricing-card">
@@ -199,13 +198,31 @@
                   <p>✅the lack of the selected business segment in percentage of our country</p>
                   <p>&nbsp;</p>
                   <p>✅use all the functionality of the site for every country</p>
-                  <a href="#" onclick="tabs(5)" class="order-btn">Order Now</a>
+                  <a href="#" onclick="tabs(5)" id="btn-premium" class="order-btn">Order Now</a>
                 </div>
               </div>
+              <script>
+                '{% if is_basic %}'
+                document.getElementById("btn-basic").innerHTML = 'Current';
+                document.getElementById("btn-standard").innerHTML = 'Upgrade';
+                document.getElementById("btn-premium").innerHTML = 'Upgrade';
+                '{% endif %}'
+      
+                '{% if is_standart %}'
+                document.getElementById("btn-basic").innerHTML = 'Ur vip';
+                document.getElementById("btn-standard").innerHTML = 'Current';
+                document.getElementById("btn-premium").innerHTML = 'Upgrade';
+                '{% endif %}'
+      
+                '{% if is_premium %}'
+                document.getElementById("btn-basic").innerHTML = 'Ur vip';
+                document.getElementById("btn-standard").innerHTML = 'Ur vip';
+                document.getElementById("btn-premium").innerHTML = 'Current';
+                '{% endif %}'
+                </script>
               <div class="center" style="background: transparent; top: 90%">
                 
-                <input type="submit" value="Upgrade your plan">
-                <p>&nbsp;</p>
+  
                 <input type="submit" value="Cancel membership">
                 <p>&nbsp;</p>
                 </div>
@@ -218,41 +235,40 @@
 
       <div class="display tabShow">
         {% if is_free %}
-        <div style="z-index: 1; position: absolute; background-color: rgb(215 24 24 / 54%);"><p >UR IN FREE TRIAL</p></div>
-          
+        <div style="z-index: 1; position: absolute; background-color: rgb(215 24 24 / 54%);"><p >UR IN FREE TRIAL</p></div>      
         {% endif %}
         <div style="z-index: 0;">{% include "map.html" %}</div>
       </div>
     </div>
-    <div class="payment tabShow">
+    <div class="payment tabShow" style="display: none;">
       <div class="form-container">
-    <div class="cards-container">
-      <div class="card-new-container">
-          <div class="card-img">
-              <img src="{% static 'images/draw.gif'%}" alt="">
+        <div class="cards-container">
+          <div class="card-new-container">
+              <div class="card-img">
+                  <img src="{% static 'images/draw.gif'%}" alt="">
+              </div>
+              <h2>Step 1</h2>
+              <p>To interact with the map, you must select one of the shape options located in the upper right corner of the page.</p>
           </div>
-          <h2>Step 1</h2>
-          <p>To interact with the map, you must select one of the shape options located in the upper right corner of the page.</p>
-      </div>
-      <div class="card-new-container-mid">
-        <div class="card-img">
-            <img src="{% static 'images/show.gif'%}" alt="">
+          <div class="card-new-container-mid">
+            <div class="card-img">
+                <img src="{% static 'images/show.gif'%}" alt="">
+            </div>
+            <h2>Step 2</h2>
+            <p>Then, a window will appear above your figure showing the required information for the current selected area.</p>
         </div>
-        <h2>Step 2</h2>
-        <p>Then, a window will appear above your figure showing the required information for the current selected area.</p>
-    </div>
-    <div class="card-new-container">
-      <div class="card-img">
-          <img src="{% static 'images/drag.gif'%}" alt="">
+        <div class="card-new-container">
+          <div class="card-img">
+              <img src="{% static 'images/drag.gif'%}" alt="">
+          </div>
+          <h2>Step 3</h2>
+          <p>The shape could be dragged and dropped over another section of the map and show you the info of the new section.</p>
       </div>
-      <h2>Step 3</h2>
-      <p>The shape could be dragged and dropped over another section of the map and show you the info of the new section.</p>
-  </div>
-  </div>
+      </div>
 </div>
 </div>
 
-    <div class="notifications tabShow">
+    <div class="notifications tabShow" style="display: none;">
       <div class="form-container">
         <div class="center">
           <h1>What's new</h1>
@@ -277,7 +293,7 @@
       </div>
     </div>
   </section>
-  <div class="tabShow">
+  <div class="tabShow" style="display: none;">
     {% include "pay.html" %}
   </div>
   <script src="{% static 'js/profileScript.js'%}"></script>
