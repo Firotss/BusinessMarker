@@ -40,16 +40,20 @@ class Permissions(TemplateView):
 class News(TemplateView):
     def check_for_updates(self):
         try:
-            git_log = os.popen("git log --oneline -n 30 --pretty=format:'%cs,%s'").readlines()
-            date, message = git_log[0].split(',')
-            # for item in git_log:
-            #     date, message = item.split(',')
-            #     Updates.objects.create(comment=message, date=date)
-            message = re.sub('[^A-Za-z0-9 ]+', '', message)
-            date = re.sub('[^0-9-]+', '', date)
+            git_log = os.popen("git log --oneline -n 10 --pretty=format:'%cs,%s'").readlines()
+            # date, message = git_log[0].split(',')
+            log_list = []
+            for item in git_log:
+                date, message = item.split(',')
+                message = re.sub('[^A-Za-z0-9 ]+', '', message)
+                date = re.sub('[^0-9-]+', '', date)
+                log_list.append({"comment":message, "date":date})
+                # Updates.objects.create(comment=message, date=date)
+            print(log_list)
+            return log_list
 
-            if not Updates.objects.filter(date=date).exists() or not Updates.objects.filter(comment=message).exists():
-                Updates.objects.create(comment=message, date=date)
+            # if not Updates.objects.filter(date=date).exists() or not Updates.objects.filter(comment=message).exists():
+            #     Updates.objects.create(comment=message, date=date)
 
         except Exception as ex:
             print(ex)
@@ -57,8 +61,9 @@ class News(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        self.check_for_updates()
+        updates = self.check_for_updates()
         # Updates.objects.all().delete()
-        context['news'] = Updates.objects.all()[:10]
+        context['news'] = updates
+        # Updates.objects.all()[:10]
 
         return context
