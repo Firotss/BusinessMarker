@@ -141,6 +141,9 @@
   background: rgb(8, 8, 8);
   color: #FFF;
 }
+.sidebar.open .arrow{
+  color: #FFF;
+}
 .sidebar .bx-search:hover{
   background: #FFF;
   color: rgb(8, 8, 8);
@@ -252,7 +255,6 @@
 .home-section{
   z-index: 0;
   position: relative;
-  background: #fff;
   min-height: 100vh;
   top: 0;
   left: 78px;
@@ -400,9 +402,9 @@ input[type="submit"]:hover{
   box-sizing: border-box;
   flex-direction: row;
   margin: 0 auto;
-  transform: translateY(30%);
-  min-width: 2000px;
-  padding-left: 5%;
+  min-width: 100px;
+  max-width: 100px;
+  transform: translateY(100%);
 }
 h2{
   color: crimson;
@@ -453,4 +455,99 @@ img{
   padding: 20px 0;
   border-bottom: 1px solid silver;
   font-weight: 500;
+}
+
+.slider{
+    max-width: 70%;
+    position: relative;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.slider .card-new-container img {
+    object-fit: cover;
+    width: 100%;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.slider .prev,
+.slider .next {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slideText {
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+.item{
+  min-width: 1000px;
+  min-height: 750px;
+}
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }

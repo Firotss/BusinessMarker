@@ -31,7 +31,7 @@ if TESTING:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True #Промени на False в хост
 
-ALLOWED_HOSTS = ['www.businessmarker.ru','businessmarker.ru', '127.0.0.1']
+ALLOWED_HOSTS = ['www.businessmarker.ru','businessmarker.ru', '127.0.0.1', 'businessmarker.xyz', 'www.businessmarker.xyz']
 ADMINS = [('admin', 'webmaster@businessmarker.xyz')]
 
 # Application definition

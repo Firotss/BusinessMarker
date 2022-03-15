@@ -30,8 +30,7 @@
                 <div class="box">
                     <span>expires</span>
                     <div class="expiration">
-                        <span class="exp-month">mm</span>
-                        <span class="exp-year">yy</span>
+                        <span class="exp-month">mm</span>/<span class="exp-year">yy</span>
                     </div>
                 </div>
             </div>
@@ -51,7 +50,7 @@
     <form action="">
         <div class="inputBox">
             <span>card number</span>
-            <input type="text" maxlength="20" id="input" class="card-number-input">
+            <input type="text" maxlength="19" id="input" class="card-number-input">
         </div>
         <div class="inputBox">
             <span>card holder</span>
@@ -80,15 +79,15 @@
                 <span>expiration yy</span>
                 <select name="" id="" class="year-input">
                     <option value="year" selected disabled>year</option>
-                    <option value="2022">22</option>
-                    <option value="2023">23</option>
-                    <option value="2024">24</option>
-                    <option value="2025">25</option>
-                    <option value="2026">26</option>
-                    <option value="2027">27</option>
-                    <option value="2028">28</option>
-                    <option value="2029">29</option>
-                    <option value="2030">30</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
                 </select>
             </div>
             <div class="inputBox">
@@ -144,21 +143,28 @@ document.querySelector('.cvv-input').oninput = () =>{
 <script type="text/javascript">
     var input = document.getElementById("input");
 
-input.onkeydown = function () {
-    if (input.value.length > 0) {
-
-        if (input.value.length % 4 == 0) {
-            input.value += " ";
+input.onkeyup = function () {
+    
+    if(input.value.length == 19)
+    {
+        valueList = input.value.split(" ")
+        if(valueList.length < 3)
+        {
+            // input.value = input.value.substring(0, input.value.length - 1)
+            input.value+=" "
         }
     }
+    if(input.value.length > 19)
+    {
+        valueLength = input.value.length - 16
+        input.value = input.value.substring(0, input.value.length - valueLength)
+    }
+    if(input.value.length < 19)
+    {
+        input.value = input.value.replace(/\s/g,'').replace(/(.{4})/g,"$1 ");
+    }
+    
 }
 </script>
-
-
-
-
-
-
-
 </body>
 </html>

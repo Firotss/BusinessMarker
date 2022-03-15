@@ -71,11 +71,16 @@
       </a>
       <span class="tooltip">FAQ</span>
     </li>
+    {% if is_free or is_basic %}
+    <ul class="sub-menu" id="restaurant" style="display: none;"></ul>
+    <ul class="sub-menu" id="local" style="display: none;"></ul>
+    {% endif %}
+    {% if is_premium or is_standart or is_admin %}
     <li>
       <a class="tab">
         <i class='bx bx-collection'></i>
         <span class="links_name">Map Category</span>
-        <i class="bx bxs-chevron-down arrow"></i>
+        <i class="bx bxs-chevron-down arrow" style="color: #22212c;"></i>
       </a>
       <span class="tooltip">Map Category</span>
       <ul class="sub-menu" id="restaurant">
@@ -88,7 +93,7 @@
       <a class="tab">
         <i class='bx bx-collection'></i>
         <span class="links_name">Source</span>
-        <i class="bx bxs-chevron-down arrow"></i>
+        <i class="bx bxs-chevron-down arrow" style="color: #22212c;"></i>
       </a>
       <span class="tooltip">Source</span>
       <ul class="sub-menu" id="local">
@@ -96,6 +101,7 @@
         <li class="api"><a onclick="checkType('api')">API</a></li>
       </ul>
     </li>
+    {% endif %}
      <li class="profile">
          <div class="profile-details">
            <img src="{% static 'images/avatar.jpg'%}" alt="profileImg">
@@ -240,31 +246,55 @@
         <div style="z-index: 0;">{% include "map.html" %}</div>
       </div>
     </div>
-    <div class="payment tabShow" style="display: none;">
-      <div class="form-container">
+    <div class="tabShow" style="display: none;">
+      <div class="slider cards-container">
+        <div class="item center card-new-container">
+            <img src="{% static 'images/draw.gif'%}">
+            <h2>Step 1</h2>
+            <p>To interact with the map, you must select one of the shape options located in the upper right corner of the page.</p>
+        </div>
+    
+        <div class="item center card-new-container">
+            <img src="{% static 'images/show.gif'%}">
+            <h2>Step 2</h2>
+            <p>Then, a window will appear above your figure showing the required information for the current selected area.</p>
+        </div>
+    
+        <div class="item center card-new-container">
+            <img src="{% static 'images/drag.gif'%}">
+            <h2>Step 3</h2>
+            <p>The shape could be dragged and dropped over another section of the map and show you the info of the new section.</p>
+        </div>
+    
+        <a class="prev" onclick="minusSlide()">&#10094;</a>
+        <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
+      <!-- <div class="form-container">
         <div class="cards-container">
           <div class="card-new-container">
-              <div class="card-img">
-                  <img src="{% static 'images/draw.gif'%}" alt="">
-              </div>
+              <img src="{% static 'images/draw.gif'%}" alt="">
               <h2>Step 1</h2>
               <p>To interact with the map, you must select one of the shape options located in the upper right corner of the page.</p>
           </div>
           <div class="card-new-container-mid">
-            <div class="card-img">
-                <img src="{% static 'images/show.gif'%}" alt="">
-            </div>
+            <img src="{% static 'images/show.gif'%}" alt="">
             <h2>Step 2</h2>
             <p>Then, a window will appear above your figure showing the required information for the current selected area.</p>
         </div>
         <div class="card-new-container">
-          <div class="card-img">
-              <img src="{% static 'images/drag.gif'%}" alt="">
-          </div>
+          <img src="{% static 'images/drag.gif'%}" alt="">
           <h2>Step 3</h2>
           <p>The shape could be dragged and dropped over another section of the map and show you the info of the new section.</p>
       </div>
+      <a class="prev" onclick="minusSlide()">&#10094;</a>
+    <a class="next" onclick="plusSlide()">&#10095;</a>
       </div>
+
+      <div class="slider-dots">
+        <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+    </div> -->
 </div>
 </div>
 
@@ -292,10 +322,11 @@
         </div>
       </div>
     </div>
+    <div class="tabShow form-container" style="display: none;">
+      {% include "pay.html" %}
+    </div>
   </section>
-  <div class="tabShow" style="display: none;">
-    {% include "pay.html" %}
-  </div>
+  
   <script src="{% static 'js/profileScript.js'%}"></script>
 </body>
 </html>

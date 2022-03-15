@@ -1,10 +1,7 @@
-import profile
 from django.http import HttpResponseRedirect
 from django.views.generic import TemplateView
 import os
 import re
-from profilepage.models import Updates
-from django.core.mail import send_mail
 
 class Permissions(TemplateView):
 
@@ -49,7 +46,7 @@ class News(TemplateView):
                 date = re.sub('[^0-9-]+', '', date)
                 log_list.append({"comment":message, "date":date})
                 # Updates.objects.create(comment=message, date=date)
-            print(log_list)
+
             return log_list
 
             # if not Updates.objects.filter(date=date).exists() or not Updates.objects.filter(comment=message).exists():

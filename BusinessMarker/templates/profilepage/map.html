@@ -13,6 +13,10 @@ href="https://js.arcgis.com/4.22/esri/themes/dark/main.css"
   height: 100vh;
   width: 100wh;
 }
+.results a{
+  color: #d1d1d1;
+  text-decoration: none;
+}
 .esri-view-surface::after{
   display: none;
 }
@@ -76,7 +80,22 @@ require([
               content: "",
               location: event.graphics[0].geometry.centroid
           });
-          '{% if not is_free %}'
+          '{% if is_basic %}'
+          view.popup.content += "<p>Property count: "+response_data.business.length+"(one for "+oneper+"p.)</p>"
+          try{
+            response.business.forEach(element => {
+            if(element.name != null)
+            {
+              view.popup.content+="<li class='results'><a href='"+element.link+"'>"+element.name+"</a></li>"
+            }});
+          }
+          finally
+          {
+            
+          }
+          '{% endif %}'
+          
+          '{% if not is_free and not is_basic %}'
             view.popup.content += "<p>Business count: "+response_data.business.length+"(one for "+oneper+"p.)</p>"
             let status = "Badly"
             if(oneper > 1290)
