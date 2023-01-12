@@ -38,12 +38,12 @@ class LoginView(Permissions):
                 loginForm.add_error(None, 'LOGIN ERROR')
             else:
                 loginForm.add_error(None, 'CAPTCHA ERROR')
-        elif request.POST['action'] == "register":
+        else:
             if registerForm.is_valid():
                 username = request.POST['username']
                 password = request.POST['password']
                 email = request.POST['email']
-                if User.objects.filter(username=username).exists() == False and User.objects.filter(email=email).exists() == False:
+                if User.objects.filter(username=username).exists() == False:
                     i = 10
                     code = ""
                     while i > 0:
@@ -54,16 +54,16 @@ class LoginView(Permissions):
                         Ref_Links.objects.get(username=username).delete()
 
                     Ref_Links.objects.create(username=username, password=password, email=email, code=code)
-                    code = "https://www.businessmarker.xyz/ref/"+username+"-"+code
+                    code = "https://www.businessmarker.ru/ref/"+username+"-"+code
                     send_mail(
                         'Confirm ur email:',
                         code,
-                        'tech-support@businessmarker.xyz',
+                        'tech-support@businessmarker.ru',
                         [email],
                         fail_silently=False)
                     registerForm.add_error(None, 'CONFIRM EMAIL')
-                else:
-                    registerForm.add_error(None, 'REGISTER ERROR')
+            else:
+                registerForm.add_error(None, 'REGISTER ERROR')
                 
         return render(request, "login.html", {'login_form' : loginForm, 'register_form' : registerForm})
 

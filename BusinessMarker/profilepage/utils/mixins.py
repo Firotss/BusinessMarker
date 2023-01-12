@@ -1,7 +1,10 @@
+import profile
 from django.http import HttpResponseRedirect
 from django.views.generic import TemplateView
 import os
 import re
+from profilepage.models import Updates
+from django.core.mail import send_mail
 
 class Permissions(TemplateView):
 

@@ -8,8 +8,8 @@ class Send(TemplateView):
         mail_status = send_mail(
                 request.POST["subject"],
                 description,
-                'tech-support@businessmarker.xyz',
-                ['tech-support@businessmarker.xyz'],
+                'tech-support@businessmarker.ru',
+                ['tech-support@businessmarker.ru'],
                 fail_silently=False,
                 )
                 

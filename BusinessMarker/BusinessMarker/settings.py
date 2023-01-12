@@ -29,7 +29,7 @@ if TESTING:
     SILENCED_SYSTEM_CHECKS = ['captcha.recaptcha_test_key_error']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True #Промени на False в хост
+DEBUG = False #Промени на False в хост
 
 ALLOWED_HOSTS = ['www.businessmarker.ru','businessmarker.ru', '127.0.0.1', 'businessmarker.xyz', 'www.businessmarker.xyz']
 ADMINS = [('admin', 'webmaster@businessmarker.xyz')]
@@ -136,10 +136,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Previous settings ...
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'server144.hosting.reg.ru'
+EMAIL_HOST = 'server189.hosting.reg.ru'
 EMAIL_PORT = 587
-EMAIL_HOST_USER =  'tech-support@businessmarker.xyz'
-EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST_USER =  'tech-support@businessmarker.ru'
+EMAIL_HOST_PASSWORD = 'eipie7sie4Xieph2'
 
 
 
